@@ -1,0 +1,33 @@
+{
+    "Entries":
+    [
+        {
+            "ID"           : "1",
+            "Character"    : "Shiba Inue",
+            "Picture"      : {
+                "LeftID" : "Test1",
+                "RightID" : "Test2"
+                            },
+            "Text"         : "Tutaj miał być text ale go ktoś ukradł",
+            "Next"         : "2"
+        },
+        {
+            "ID"   : "2",
+            "Picture"      : {
+                "LeftID" : "Test3"
+                            },
+            "Text" : "A tu nigdy tekstu nie było",
+            "Next" : "3"
+        },
+        {
+            "ID"   : "3",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Character" :"Shiba Inue",
+            "Text" : "A tu tekst się kończy",
+            "Next" : "OVER"
+        }
+    ]
+}

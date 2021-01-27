@@ -27,6 +27,70 @@
                             },
             "Character" :"Shiba Inue",
             "Text" : "A tu tekst się kończy",
+            "Next" : "5"
+        },
+        {
+            "ID"   : "5",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Options"      : [
+                {
+                    "Name" : "Ziemniaczek",
+                    "Next" : "6"
+                },
+                {
+                    "Name" : "Cebula",
+                    "Next" : "7"
+                },
+                {
+                    "Name" : "Much WoW",
+                    "Next" : "8"
+                },
+                {
+                    "Name" : "O.O",
+                    "Next" : "9"
+                }
+            ],
+            "Text" : "Czas Wybierać",
+            "Next" : "SKIP"
+        },
+        {
+            "ID"           : "6",
+            "Character"    : "Shiba Inue",
+            "Picture"      : {
+                "LeftID" : "Test1",
+                "RightID" : "Test2"
+                            },
+            "Text"         : "A może frytki do tego ????",
+            "Next"         : "OVER"
+        },
+        {
+            "ID"   : "7",
+            "Picture"      : {
+                "LeftID" : "Test3"
+                            },
+            "Text" : "Shiba inue Nie jest z Ciebie Zadowolony",
+            "Next" : "OVER"
+        },
+        {
+            "ID"   : "8",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Character" :"Shiba Inue",
+            "Text" : "Wow, WOW, WoW, wOw, WOWOWOWOW, WOw, wOW WoW oWo W",
+            "Next" : "OVER"
+        },        {
+            "ID"   : "9",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Character" :"Shiba Inue",
+            "Text" : "O > O ",
             "Next" : "OVER"
         }
     ]

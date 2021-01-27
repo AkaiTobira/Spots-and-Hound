@@ -10,6 +10,11 @@ public class PictureInfo{
     public string RightID;
 }
 
+[System.Serializable]
+public class OptionInfo{
+    public string Name;
+    public string Next;
+}
 
 [System.Serializable]
 public class DialogueEntry{
@@ -18,6 +23,7 @@ public class DialogueEntry{
     public string Next;
     public string Character;
     public PictureInfo Picture;
+    public OptionInfo[] Options;
 }
 
 public class DialogLoader : MonoBehaviour

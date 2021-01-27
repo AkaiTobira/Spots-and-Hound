@@ -9,17 +9,33 @@ public class ChoiceHolder : MonoBehaviour
     [SerializeField] List<GameObject> _options;
     [SerializeField] List<TextMeshProUGUI> _optionsText;
 
-    public void OnOptionSelect( int i ){
+    OptionInfo[] _optionsResponses;
 
+    void Start() {
+        DisableOptions();
     }
 
-    public void SetOptions(){
+    public void OnOptionSelect( int i ){
+        Debug.Log( _optionsResponses[i].Next );
+        _responseHandler.AddNextTextOption( _optionsResponses[i].Next );
+        DisableOptions();
+    }
+
+    public void SetOptions( OptionInfo[] options ){
+        _optionsResponses = options;
+
+        for( int i = 0; i < _options.Count; i++){
+            if( i < options.Length ){
+                _optionsText[i].text = options[i].Name;
+            }
+            _options[i].SetActive(i < options.Length);
+        }
 
     }
 
     public void DisableOptions(){
         foreach( GameObject gameObject in _options){
-            
+            gameObject.SetActive(false);
         }
     }
 

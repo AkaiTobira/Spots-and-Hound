@@ -25,6 +25,11 @@ public class DialogueSystem : MonoBehaviour, IBlockable
             return;
         }
 
+        if( _textMarkers[0] == "SKIP" ){
+            _textMarkers.RemoveAt(0);
+            return;
+        }
+
         if( _textMarkers[0] == "OVER") {
             _textMarkers.RemoveAt(0);
             return;
@@ -40,21 +45,25 @@ public class DialogueSystem : MonoBehaviour, IBlockable
     //    LoadDialog( _loader.GetDialogueInfo("2") );
     }
 
+    public void AddNextTextOption( string id){
+        _textMarkers.Add(id);
+        OnUnlock();
+    }
+
     void LoadDialog( DialogueEntry dialoge ){
         _currentText.text          = dialoge.Text;
 
         SetupCharacterName( dialoge.Character );
         SetupCharacterPicture( dialoge.Picture );
-
-
-        //_currentCharacterName.text = dialoge.Character;
+        SetupOptions( dialoge.Options );
 
         _textMarkers.Add( dialoge.Next );
-
-
-        //Debug.Log( dialoge.)
-
         _inputListener.RequestBlock(BlockerType.Dialogs);
+    }
+
+    private void SetupOptions( OptionInfo[] options ){
+        if( options == null ) return;
+        _choices.SetOptions( options );
     }
 
     private void SetupCharacterPicture( PictureInfo picture ){

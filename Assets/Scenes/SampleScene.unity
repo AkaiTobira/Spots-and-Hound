@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _characterList:
-  - _name: Dunno
+  - _name: Office
     _Obj: {fileID: 827073979}
   - _name: Dunno1
     _Obj: {fileID: 1019147029}
@@ -611,7 +611,7 @@ GameObject:
   - component: {fileID: 827073982}
   - component: {fileID: 827073981}
   m_Layer: 5
-  m_Name: Dunno
+  m_Name: Office
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -626,7 +626,7 @@ RectTransform:
   m_GameObject: {fileID: 827073979}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.6125, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 123744907}
   m_RootOrder: 0
@@ -649,13 +649,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5188679, g: 0.25698647, b: 0.25698647, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 8c5fb2b63b93c0e48905b541fbbd1450, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -743,7 +743,7 @@ PrefabInstance:
     - target: {fileID: 5753534278986713749, guid: 9a2cd5fbff5d9e34e9c0a8a1ef1b9b99,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -362
+      value: -443
       objectReference: {fileID: 0}
     - target: {fileID: 5753534278986713749, guid: 9a2cd5fbff5d9e34e9c0a8a1ef1b9b99,
         type: 3}
@@ -815,7 +815,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1019147030
 RectTransform:
   m_ObjectHideFlags: 0
@@ -899,15 +899,15 @@ RectTransform:
   m_GameObject: {fileID: 1111653752}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.0625, z: 1}
   m_Children: []
   m_Father: {fileID: 360224956}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 10.9, y: 75}
-  m_SizeDelta: {x: 899.1111, y: 200.14774}
+  m_AnchoredPosition: {x: 17.5, y: 68}
+  m_SizeDelta: {x: 1192.7754, y: 200.14774}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1111653754
 MonoBehaviour:
@@ -1119,7 +1119,7 @@ PrefabInstance:
     - target: {fileID: 5753534278986713749, guid: 9a2cd5fbff5d9e34e9c0a8a1ef1b9b99,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 361
+      value: 513
       objectReference: {fileID: 0}
     - target: {fileID: 5753534278986713749, guid: 9a2cd5fbff5d9e34e9c0a8a1ef1b9b99,
         type: 3}
@@ -1169,7 +1169,7 @@ PrefabInstance:
     - target: {fileID: 5753534278986713749, guid: 9a2cd5fbff5d9e34e9c0a8a1ef1b9b99,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: -20
+      value: -25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2cd5fbff5d9e34e9c0a8a1ef1b9b99, type: 3}
@@ -1472,8 +1472,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -26.3, y: -0.000005722}
-  m_SizeDelta: {x: 757.775, y: 100}
+  m_AnchoredPosition: {x: -8.1, y: -24.8}
+  m_SizeDelta: {x: 916.156, y: 123.09711}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1452707934
 MonoBehaviour:
@@ -1974,6 +1974,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5735898940616862577, guid: e52732cabd4b5a543b73a5d91f5a34e0,
+        type: 3}
+      propertyPath: m_CellSize.x
+      value: 220
+      objectReference: {fileID: 0}
     - target: {fileID: 5735898940616862578, guid: e52732cabd4b5a543b73a5d91f5a34e0,
         type: 3}
       propertyPath: _responseHandler
@@ -2111,7 +2116,7 @@ PrefabInstance:
     - target: {fileID: 8144213078572168373, guid: 2462c6a68488c9248a1e58925847590b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -64.731
+      value: -177
       objectReference: {fileID: 0}
     - target: {fileID: 8144213078572168373, guid: 2462c6a68488c9248a1e58925847590b,
         type: 3}

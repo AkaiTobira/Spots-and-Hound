@@ -8,7 +8,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Dog1"
                             },
-            "Location"     : "Dunno",
+            "Location"     : "Office",
             "Text"         : "<b><i>Tutaj miał być text\n ale go ktoś ukradł</i></b>",
             "Camera":{
                 "Duration" : 1.4,
@@ -37,6 +37,7 @@
         },
         {
             "ID"   : "5",
+            "Location"     : "Office",
             "Picture"      : {
                 "LeftID" : "Cat2",
                 "RightID" : "Snake1"

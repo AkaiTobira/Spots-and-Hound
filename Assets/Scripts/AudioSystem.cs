@@ -14,9 +14,6 @@ public class AudioTrack{
     public AudioClip _clip;
     [HideInInspector] public float Volume;
     [HideInInspector] public float TargetVolume;
-
-    public bool isLooped;
-    public float MaxVolume;
 }
 
 public class AudioSystem : MonoBehaviour

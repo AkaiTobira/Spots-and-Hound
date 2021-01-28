@@ -11,9 +11,20 @@ public class PictureInfo{
 }
 
 [System.Serializable]
+public class CameraInfo{
+    public float Duration;
+    public float Magnitude;
+}
+
+[System.Serializable]
 public class OptionInfo{
     public string Name;
     public string Next;
+}
+[System.Serializable]
+public class MusicInfo{
+    public string Action;
+    public string Name;
 }
 
 [System.Serializable]
@@ -23,7 +34,10 @@ public class DialogueEntry{
     public string Next;
     public string Character;
     public string Location;
+    public string Shake;
+    public MusicInfo Music;
     public PictureInfo Picture;
+    public CameraInfo Camera;
     public OptionInfo[] Options;
 }
 

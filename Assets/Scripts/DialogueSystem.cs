@@ -19,6 +19,8 @@ public class DialogueSystem : MonoBehaviour, IBlockable
     [SerializeField] private List<DisplayCharacterController> _displayCharacterControllers;
     [SerializeField] private ChoiceHolder _choices;
 
+    [SerializeField] private CameraShake _shake;
+
 
     public void OnUnlock(){
 
@@ -61,10 +63,17 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         SetupCharacterPicture( dialoge.Picture );
         SetupOptions( dialoge.Options );
         SetupLocation( dialoge.Location);
+        SetupCamera( dialoge.Camera );
 
+        //_shake.TriggerShake(0.3f, 0.5f);
 
         _textMarkers.Add( dialoge.Next );
         _inputListener.RequestBlock(BlockerType.Dialogs);
+    }
+
+    private void SetupCamera( CameraInfo camera){
+        if( camera == null ) return;
+        _shake.TriggerShake( camera.Duration, camera.Magnitude);
     }
 
     private void SetupLocation( string location){

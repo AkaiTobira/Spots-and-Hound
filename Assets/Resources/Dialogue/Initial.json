@@ -10,6 +10,10 @@
                             },
             "Location"     : "Dunno",
             "Text"         : "<b><i>Tutaj miał być text\n ale go ktoś ukradł</i></b>",
+            "Camera":{
+                "Duration" : 1.4,
+                "Magnitude" : 8
+            },
             "Next"         : "2"
         },
         {

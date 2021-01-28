@@ -8,7 +8,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Dog1"
                             },
-            "Location"     : "Dunno",
+            "Location"     : "Office",
             "Text"         : "<b><i>Tutaj miał być text\n ale go ktoś ukradł</i></b>",
             "Camera":{
                 "Duration" : 1.4,
@@ -32,14 +32,15 @@
                             },
             "Character" :"Henry",
             "Location"     : "Dunno1",
-            "Text" : "A tu tekst się <size=50>kończy</size>",
+            "Text" : "A tu tekst się <size=72>kończy</size>",
             "Next" : "5"
         },
         {
             "ID"   : "5",
+            "Location"     : "Office",
             "Picture"      : {
                 "LeftID" : "Cat2",
-                "RightID" : "None"
+                "RightID" : "Snake1"
                             },
             "Options"      : [
                 {

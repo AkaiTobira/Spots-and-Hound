@@ -32,14 +32,14 @@
                             },
             "Character" :"Henry",
             "Location"     : "Dunno1",
-            "Text" : "A tu tekst się <size=50>kończy</size>",
+            "Text" : "A tu tekst się <size=72>kończy</size>",
             "Next" : "5"
         },
         {
             "ID"   : "5",
             "Picture"      : {
                 "LeftID" : "Cat2",
-                "RightID" : "None"
+                "RightID" : "Snake1"
                             },
             "Options"      : [
                 {

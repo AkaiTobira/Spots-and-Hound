@@ -1,17 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System;
 
 public class ChoiceButton : MonoBehaviour
 {
-    [SerializeField] public Action<int> OnClick;
-    void Start()
-    {
-        
-    }
+    [SerializeField] private Button _button;
 
-    // Update is called once per frame
+  //  [SerializeField] pri
+
     void Update()
     {
         

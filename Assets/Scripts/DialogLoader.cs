@@ -23,7 +23,8 @@ public class OptionInfo{
 }
 [System.Serializable]
 public class MusicInfo{
-    public string Action;
+    public string Type;
+    public float Volume;
     public string Name;
 }
 

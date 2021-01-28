@@ -64,11 +64,24 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         SetupOptions( dialoge.Options );
         SetupLocation( dialoge.Location);
         SetupCamera( dialoge.Camera );
+        SetupSound( dialoge.Music);
 
         //_shake.TriggerShake(0.3f, 0.5f);
 
         _textMarkers.Add( dialoge.Next );
         _inputListener.RequestBlock(BlockerType.Dialogs);
+    }
+
+    private void SetupSound( MusicInfo music){
+        if( music == null ) return;
+
+        if( music.Type == "Oneshot"){
+            AudioSystem.Instance.PlayEffect( music.Name, music.Volume );
+        }
+        if( music.Type == "Background"){
+            AudioSystem.Instance.PlayMusic( music.Name, music.Volume );
+        }
+
     }
 
     private void SetupCamera( CameraInfo camera){

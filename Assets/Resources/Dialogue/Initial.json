@@ -9,7 +9,7 @@
                 "RightID" : "Dog1"
                             },
             "Location"     : "Dunno",
-            "Text"         : "<b><i>Tutaj miał być text ale go ktoś ukradł</i></b>",
+            "Text"         : "<b><i>Tutaj miał być text\n ale go ktoś ukradł</i></b>",
             "Next"         : "2"
         },
         {
@@ -34,7 +34,7 @@
         {
             "ID"   : "5",
             "Picture"      : {
-                "LeftID" : "None",
+                "LeftID" : "Cat2",
                 "RightID" : "None"
                             },
             "Options"      : [

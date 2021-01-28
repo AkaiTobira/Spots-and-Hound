@@ -3,30 +3,32 @@
     [
         {
             "ID"           : "1",
-            "Character"    : "Shiba Inue",
+            "Character"    : "Gary",
             "Picture"      : {
-                "LeftID" : "Test1",
-                "RightID" : "Test2"
+                "LeftID" : "Dog1",
+                "RightID" : "Dog1"
                             },
-            "Text"         : "Tutaj miał być text ale go ktoś ukradł",
+            "Location"     : "Dunno",
+            "Text"         : "<b><i>Tutaj miał być text ale go ktoś ukradł</i></b>",
             "Next"         : "2"
         },
         {
             "ID"   : "2",
             "Picture"      : {
-                "LeftID" : "Test3"
+                "LeftID" : "Cat1"
                             },
-            "Text" : "A tu nigdy tekstu nie było",
+            "Text" : "A tu nigdy <color=green>green</color=green> nie było",
             "Next" : "3"
         },
         {
             "ID"   : "3",
             "Picture"      : {
                 "LeftID" : "None",
-                "RightID" : "None"
+                "RightID" : "Cat1"
                             },
-            "Character" :"Shiba Inue",
-            "Text" : "A tu tekst się kończy",
+            "Character" :"Henry",
+            "Location"     : "Dunno1",
+            "Text" : "A tu tekst się <size=50>kończy</size>",
             "Next" : "5"
         },
         {
@@ -58,21 +60,21 @@
         },
         {
             "ID"           : "6",
-            "Character"    : "Shiba Inue",
+            "Character"    : "Lucius",
             "Picture"      : {
-                "LeftID" : "Test1",
-                "RightID" : "Test2"
+                "LeftID" : "Cat1",
+                "RightID" : "Cat1"
                             },
             "Text"         : "A może frytki do tego ????",
-            "Next"         : "OVER"
+            "Next"         : "1"
         },
         {
             "ID"   : "7",
             "Picture"      : {
-                "LeftID" : "Test3"
+                "LeftID" : "Cat1"
                             },
             "Text" : "Shiba inue Nie jest z Ciebie Zadowolony",
-            "Next" : "OVER"
+            "Next" : "1"
         },
         {
             "ID"   : "8",
@@ -80,18 +82,19 @@
                 "LeftID" : "None",
                 "RightID" : "None"
                             },
-            "Character" :"Shiba Inue",
+            "Character" :"Gary",
             "Text" : "Wow, WOW, WoW, wOw, WOWOWOWOW, WOw, wOW WoW oWo W",
-            "Next" : "OVER"
+            "Next" : "1"
         },        {
             "ID"   : "9",
             "Picture"      : {
                 "LeftID" : "None",
                 "RightID" : "None"
                             },
-            "Character" :"Shiba Inue",
+            "Character" :"Henry",
             "Text" : "O > O ",
-            "Next" : "OVER"
+            "Next" : "1"
         }
     ]
 }
+

@@ -14,7 +14,8 @@ public class DialogueSystem : MonoBehaviour, IBlockable
     [SerializeField] private TextMeshProUGUI _currentText;
     [SerializeField] private InputListener _inputListener;
 
-
+    [SerializeField] private DisplayCharacterController _characterNamePics;
+    [SerializeField] private DisplayCharacterController _locationPics;
     [SerializeField] private List<DisplayCharacterController> _displayCharacterControllers;
     [SerializeField] private ChoiceHolder _choices;
 
@@ -27,6 +28,7 @@ public class DialogueSystem : MonoBehaviour, IBlockable
 
         if( _textMarkers[0] == "SKIP" ){
             _textMarkers.RemoveAt(0);
+            OnUnlock();
             return;
         }
 
@@ -51,14 +53,25 @@ public class DialogueSystem : MonoBehaviour, IBlockable
     }
 
     void LoadDialog( DialogueEntry dialoge ){
+
+        
         _currentText.text          = dialoge.Text;
 
-        SetupCharacterName( dialoge.Character );
+        SetupCharacterNamePic( dialoge.Character );
         SetupCharacterPicture( dialoge.Picture );
         SetupOptions( dialoge.Options );
+        SetupLocation( dialoge.Location);
+
 
         _textMarkers.Add( dialoge.Next );
         _inputListener.RequestBlock(BlockerType.Dialogs);
+    }
+
+    private void SetupLocation( string location){
+        bool locationNameValid = string.IsNullOrEmpty(location);
+        if( !locationNameValid ){
+            _locationPics.ShowCharacter(location);
+        }
     }
 
     private void SetupOptions( OptionInfo[] options ){
@@ -78,12 +91,22 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         }
     }
 
-    private void SetupCharacterName( string name ){
+    private void SetupCharacterNamePic( string character ){
         
-        bool characterNameValid = string.IsNullOrEmpty(name) || name == "None";
+        bool characterNameValid = string.IsNullOrEmpty(character);
+
+        if( !characterNameValid ){
+            _characterNamePics.ShowCharacter(character);
+        }
+
+    }
+
+    private void SetupCharacterName( string character ){
+        
+        bool characterNameValid = string.IsNullOrEmpty(character) || character == "None";
 
         _currentCharacterNameContainer.gameObject.SetActive(!characterNameValid);
-        _currentCharacterName.text = name;
+        _currentCharacterName.text = character;
     }
 
 }

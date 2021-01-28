@@ -19,6 +19,10 @@ public class DisplayCharacterController : MonoBehaviour
 {
     [SerializeField] private List<DisplayPosition> _characterList;
 
+    void Awake() {
+        HideCharacter();
+    }
+
     public void ShowCharacter( string characterID ){
 
         if( characterID == "None"){

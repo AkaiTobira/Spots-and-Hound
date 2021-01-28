@@ -39,13 +39,13 @@ public class InputListener : MonoBehaviour {
     float _timer = 0;
 
     void Update() {
-        UpdateBlock();
+       // UpdateBlock();
 
-        _timer += Time.deltaTime;
+        //_timer += Time.deltaTime;
 
-        if( _timer < _inputBlockTime ) {
-            return;
-        }
+        //if( _timer < _inputBlockTime ) {
+        //    return;
+        //}
         
         if( PlayerInput.isMouseKeyPressed() ){
             UpdateUnblock();
@@ -76,12 +76,12 @@ public class InputListener : MonoBehaviour {
 
     public void UpdateUnblock(){
 
-        if( _currentBlocker == BlockerType.Dialogs ){
-            _lockRequests.Remove(_currentBlocker);
+       // if( _currentBlocker == BlockerType.Dialogs ){
+        //    _lockRequests.Remove(_currentBlocker);
             _dialogueSystem.OnUnlock();
-            _recentlyUnlocked = true;
-            _currentBlocker = BlockerType.None;
-        }
+        //    _recentlyUnlocked = true;
+        //    _currentBlocker = BlockerType.None;
+        //}
 
 
     }

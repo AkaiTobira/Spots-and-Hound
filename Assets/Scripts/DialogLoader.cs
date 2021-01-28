@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-
+using TMPro;
 
 [System.Serializable]
 public class PictureInfo{
@@ -22,6 +22,7 @@ public class DialogueEntry{
     public string Text;
     public string Next;
     public string Character;
+    public string Location;
     public PictureInfo Picture;
     public OptionInfo[] Options;
 }
@@ -34,22 +35,15 @@ public class DialogLoader : MonoBehaviour
     }
 
     [SerializeField] private List<string> _path;
+    [SerializeField] private TextMeshProUGUI _debug;
 
     private Dictionary<string, DialogueEntry> _dialogueCatalog = new Dictionary<string, DialogueEntry>();
 
     void Awake() {
 
-        string targetPath = "/";
-        foreach( string folder in _path){
-            targetPath += folder + "/";
-        }
-
-        DirectoryInfo dir = new DirectoryInfo(Application.dataPath + targetPath);
-        FileInfo[] info = dir.GetFiles("*.json");
-
-        foreach (FileInfo f in info)
+        foreach (string f in _path)
         {
-            string jsonFile = Resources.Load<TextAsset>( "Dialogue/" + f.Name.Replace(".json","")).ToString();
+            string jsonFile = Resources.Load<TextAsset>(f).ToString();
             FileStructure newBiesValues = JsonUtility.FromJson<FileStructure>(jsonFile);
 
             for( int i = 0; i < newBiesValues.Entries.Length; i++){
@@ -61,6 +55,8 @@ public class DialogLoader : MonoBehaviour
 
                 _dialogueCatalog[entry.ID] = entry;
             }
+
+            Debug.Log("File loaded :" + f);
         }
     }
 
@@ -68,6 +64,7 @@ public class DialogLoader : MonoBehaviour
 
         if( _dialogueCatalog.TryGetValue(infoID, out DialogueEntry newInfo))
         {
+            Debug.Log("Returning dialog id=" + infoID );
             return newInfo;
         }
 

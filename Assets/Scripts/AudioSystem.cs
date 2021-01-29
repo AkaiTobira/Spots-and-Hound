@@ -114,7 +114,6 @@ public class AudioSystem : MonoBehaviour
                     }
                 }else{
                     if( MusicSource.volume > 0){
-                        Debug.Log( MusicSource.volume);
                         MusicSource.volume = Mathf.Max( 0, MusicSource.volume - (1f* Time.deltaTime) );
                     }else{
                         MusicSource.clip   = _musicToPlay2[0]._clip;

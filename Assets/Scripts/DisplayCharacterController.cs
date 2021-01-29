@@ -40,7 +40,7 @@ public class DisplayCharacterController : MonoBehaviour
         }
 
         if( keyIsCorrect == false){
-            Debug.LogError("Didn't found character picture in=" + gameObject.name + " check this!! incorect is=" + characterID );
+            Debug.LogError("Didn't picture in=" + gameObject.name + ". Incorect is=" + characterID );
         }
     }
 

@@ -199,7 +199,7 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         }
 
         if( music.Oneshot != null ){
-            AudioSystem.Instance.PlayMusic( music.Oneshot.Name, music.Oneshot.Volume );
+            AudioSystem.Instance.PlayEffect( music.Oneshot.Name, music.Oneshot.Volume );
         }
 
     }

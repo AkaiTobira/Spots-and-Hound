@@ -15,9 +15,15 @@
                 "Magnitude" : 8
             },
             "Music":{
-                "Type"   : "Background",
-                "Volume" : 1,
-                "Name"   : "Monster"
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "Monster"
+                },
+                "Oneshot" :{
+                    "Volume" : 1,
+                    "Name"   : "Something"
+                }
+
             },
             "Next"         : "2"
         },
@@ -38,9 +44,6 @@
             "Character" :"Henry",
             "Location"     : "Museum",
             "Music":{
-                "Type"   : "Background",
-                "Volume" : 0.2,
-                "Name"   : "Monster"
             },
             "Text" : "A tu tekst się <0size=72>kończy</0size>",
             "Next" : "5"
@@ -53,9 +56,10 @@
                 "RightID" : "Snake1"
                             },
             "Music":{
-                "Type"   : "Background",
-                "Volume" : 1,
-                "Name"   : "Monster"
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "Monster"
+                }
             },
 
             "Options"      : [
@@ -87,9 +91,10 @@
                 "RightID" : "Cat1"
                             },
             "Music":{
-                "Type"   : "Background",
-                "Volume" : 1,
-                "Name"   : "Vicerblancka"
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "Vicerblancka"
+                }
             },
             "Text"         : "A może frytki do tego ????",
             "Next"         : "1"
@@ -100,9 +105,10 @@
                 "LeftID" : "Cat1"
                             },
             "Music":{
-                "Type"   : "Background",
-                "Volume" : 1,
-                "Name"   : "Vicerblancka"
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "Vicerblancka"
+                }
             },
             "Text" : "Shiba inue Nie jest z Ciebie Zadowolony",
             "Next" : "1"
@@ -115,9 +121,10 @@
                             },
             "Character" :"Gary",
             "Music":{
-                "Type"   : "Background",
-                "Volume" : 1,
-                "Name"   : "Vicerblancka"
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "Vicerblancka"
+                }
             },
             "Text" : "Wow, WOW, WoW, wOw, WOWOWOWOW, WOw, wOW WoW oWo W",
             "Next" : "1"
@@ -129,9 +136,10 @@
                 "RightID" : "None"
                             },
             "Music":{
-                "Type"   : "Background",
-                "Volume" : 1,
-                "Name"   : "Vicerblancka"
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "Vicerblancka"
+                }
             },
             "Character" :"Henry",
             "Text" : "O > O ",

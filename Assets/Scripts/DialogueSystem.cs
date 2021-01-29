@@ -22,7 +22,15 @@ public class DialogueSystem : MonoBehaviour, IBlockable
     [SerializeField] private CameraShake _shake;
 
 
+    private bool ForceSkip = false;
+
     public void OnUnlock(){
+
+        if( ForceSkip == false){
+            ForceSkip = true;
+            Debug.Log( "On unlock change ");
+            return;
+        }
 
         if( _textMarkers.Count == 0 ){
             return;
@@ -56,9 +64,9 @@ public class DialogueSystem : MonoBehaviour, IBlockable
 
     void LoadDialog( DialogueEntry dialoge ){
 
-        
-        _currentText.text          = dialoge.Text;
+        ForceSkip = false;
 
+        SetupText( dialoge.Text );
         SetupCharacterNamePic( dialoge.Character );
         SetupCharacterPicture( dialoge.Picture );
         SetupOptions( dialoge.Options );
@@ -72,6 +80,150 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         _inputListener.RequestBlock(BlockerType.Dialogs);
     }
 
+    struct Marker{
+        public string Inside;
+        public int Begin_begin;
+        public int Begin_end;
+
+        public string EndMark;
+        public int End_begin;
+        public int End_end;
+    }
+
+    private void SetupText( string text ){
+        List<Marker> markers = new List<Marker>();
+
+        for( int i = 0; i < text.Length; i++){
+            Marker m = new Marker();
+            if( ParseMarker( out m, text, i)){
+                markers.Add(m);
+            }
+        }
+
+        StartCoroutine(TypeLetter(markers, text, 0));
+    }
+
+    private IEnumerator TypeLetter( List<Marker> markers, string text, int index ){
+        yield return new WaitForSeconds(0.1f);
+
+        if( index >= text.Length + 1 ) {
+            ForceSkip = true;
+            yield break;
+        }
+
+        if( ForceSkip ){
+            string newText = text;
+
+            foreach( Marker m in markers){
+                newText = newText.Remove( m.Begin_begin, m.Begin_end - m.Begin_begin + 1 );
+                newText = newText.Insert( m.Begin_begin, m.Inside);
+                newText = newText.Remove( m.End_begin, m.End_end - m.End_begin + 1 );
+                newText = newText.Insert( m.End_begin, m.EndMark);
+            }
+
+            _currentText.text = newText.Replace("`", "");
+            yield break;
+        }
+
+        bool indexChange = true;
+        while( indexChange ){
+            indexChange = false;
+            if( index != text.Length && text[index] == '<' ){
+                foreach( Marker m in markers){
+                    if( index == m.Begin_begin){
+                        index += m.Begin_end - m.Begin_begin + 1;
+                        indexChange = true;
+                    }
+
+                    if( index == m.End_begin){
+                        index += m.End_end - m.End_begin + 1;
+                        indexChange = true;
+                    }
+                }
+            }
+        }
+
+        string newText1 = text;
+        foreach( Marker m in markers){
+
+            if( m.Begin_end < index ){
+                newText1 = newText1.Remove( m.Begin_begin, m.Begin_end - m.Begin_begin + 1 );
+                newText1 = newText1.Insert( m.Begin_begin, m.Inside);
+            }
+            if( m.End_end < index ){
+                newText1 = newText1.Remove( m.End_begin, m.End_end - m.End_begin + 1 );
+                newText1 = newText1.Insert( m.End_begin, m.EndMark);
+            }
+        }
+
+        _currentText.text = newText1.Substring(0, index).Replace("`", "");
+
+
+
+        StartCoroutine( TypeLetter(markers, text, index+1));
+    }
+
+    private string GetBeginMarker( int i){
+        if( i < 10 ) return "<0" + i.ToString();
+        else return "<" + i.ToString();
+    }
+
+    private string GetEndMarker( int i){
+        if( i < 10 ) return "</0" + i.ToString();
+        else return "</" + i.ToString();
+    }
+
+    private bool ParseMarker( out Marker m, string text, int i){
+        m = new Marker();
+        m.Begin_begin = text.IndexOf(GetBeginMarker(i));
+        if( m.Begin_begin == -1){
+            return false;
+        }
+        for( int j = m.Begin_begin; j < text.Length; j++){
+            if( j == m.Begin_begin+1){
+                m.Inside += "`";
+                continue;
+            }
+            if( j == m.Begin_begin+2){
+                m.Inside += "`";
+                continue;
+            }
+            m.Inside += text[j];
+            if( text[j] == '>'){
+                m.Begin_end = j;
+                break;
+            }
+        }
+        m.End_begin = text.IndexOf(GetEndMarker(i));
+        for( int j = m.End_begin; j < text.Length; j++){
+            if( j == m.End_begin+2) {
+                m.EndMark += "`";
+                continue;
+            }
+            if( j == m.End_begin+3) {
+                m.EndMark += "`";
+                continue;
+            }
+
+            if( j == -1 ){
+                Debug.LogError( " EndMarker is not valid should be=" + m.Inside.Replace("<", "</") );
+                return false;
+            }
+
+            m.EndMark += text[j];
+            if( text[j] == '>'){
+                m.End_end = j;
+                break;
+            }
+        }
+
+        Debug.Log(m.Inside + " " + m.EndMark);
+
+
+        return true;
+    }
+
+
     private void SetupSound( MusicInfo music){
         if( music == null ) return;
 
@@ -81,7 +233,6 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         if( music.Type == "Background"){
             AudioSystem.Instance.PlayMusic( music.Name, music.Volume );
         }
-
     }
 
     private void SetupCamera( CameraInfo camera){

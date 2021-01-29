@@ -195,6 +195,8 @@ MonoBehaviour:
     _Obj: {fileID: 827073979}
   - _name: Museum
     _Obj: {fileID: 1019147029}
+  - _name: Newspaper
+    _Obj: {fileID: 1701843732}
 --- !u!1 &140221751
 GameObject:
   m_ObjectHideFlags: 0

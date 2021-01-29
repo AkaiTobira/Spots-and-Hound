@@ -43,6 +43,8 @@ public class AudioSystem : MonoBehaviour
     private List<AudioTrack> _musicToPlay = new List<AudioTrack>();
 	public void PlayEffect(string clipName, float volume)
 	{
+        if( string.IsNullOrEmpty(clipName) ) return;
+
         bool clipSelected = false;
         foreach( AudioTrack at in _clips){
 
@@ -66,6 +68,8 @@ public class AudioSystem : MonoBehaviour
 
 	public void PlayMusic(string clipName, float volume)
 	{
+        if( string.IsNullOrEmpty(clipName) ) return;
+
         bool clipSelected = false;
         foreach( AudioTrack at in _musics){
             if( at._name == clipName){

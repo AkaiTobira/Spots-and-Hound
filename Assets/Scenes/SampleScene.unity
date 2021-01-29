@@ -574,8 +574,8 @@ MonoBehaviour:
   LowPitchRange: 0.95
   HighPitchRange: 1.05
   _clips:
-  - _name: 
-    _clip: {fileID: 0}
+  - _name: Something
+    _clip: {fileID: 8300000, guid: d4104fa25fbe51e44b02b15298c9a873, type: 3}
     Volume: 0
     TargetVolume: 0
   - _name: 

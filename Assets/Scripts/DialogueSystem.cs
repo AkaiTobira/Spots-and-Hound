@@ -112,17 +112,7 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         }
 
         if( ForceSkip ){
-            string newText = text;
-
-            foreach( Marker m in markers){
-                newText = newText.Remove( m.Begin_begin, m.Begin_end - m.Begin_begin + 1 );
-                newText = newText.Insert( m.Begin_begin, m.Inside);
-                newText = newText.Remove( m.End_begin, m.End_end - m.End_begin + 1 );
-                newText = newText.Insert( m.End_begin, m.EndMark);
-            }
-
-            _currentText.text = newText.Replace("`", "");
-            yield break;
+            index = text.Length;
         }
 
         bool indexChange = true;
@@ -158,33 +148,17 @@ public class DialogueSystem : MonoBehaviour, IBlockable
 
         _currentText.text = newText1.Substring(0, index).Replace("`", "");
 
-
-
         StartCoroutine( TypeLetter(markers, text, index+1));
-    }
-
-    private string GetBeginMarker( int i){
-        if( i < 10 ) return "<0" + i.ToString();
-        else return "<" + i.ToString();
-    }
-
-    private string GetEndMarker( int i){
-        if( i < 10 ) return "</0" + i.ToString();
-        else return "</" + i.ToString();
     }
 
     private bool ParseMarker( out Marker m, string text, int i){
         m = new Marker();
-        m.Begin_begin = text.IndexOf(GetBeginMarker(i));
+        m.Begin_begin = text.IndexOf("<" + i.ToString());
         if( m.Begin_begin == -1){
             return false;
         }
         for( int j = m.Begin_begin; j < text.Length; j++){
             if( j == m.Begin_begin+1){
-                m.Inside += "`";
-                continue;
-            }
-            if( j == m.Begin_begin+2){
                 m.Inside += "`";
                 continue;
             }
@@ -194,13 +168,9 @@ public class DialogueSystem : MonoBehaviour, IBlockable
                 break;
             }
         }
-        m.End_begin = text.IndexOf(GetEndMarker(i));
+        m.End_begin = text.IndexOf("</" + i.ToString());
         for( int j = m.End_begin; j < text.Length; j++){
             if( j == m.End_begin+2) {
-                m.EndMark += "`";
-                continue;
-            }
-            if( j == m.End_begin+3) {
                 m.EndMark += "`";
                 continue;
             }
@@ -217,9 +187,6 @@ public class DialogueSystem : MonoBehaviour, IBlockable
             }
         }
 
-        Debug.Log(m.Inside + " " + m.EndMark);
-
-
         return true;
     }
 
@@ -227,12 +194,14 @@ public class DialogueSystem : MonoBehaviour, IBlockable
     private void SetupSound( MusicInfo music){
         if( music == null ) return;
 
-        if( music.Type == "Oneshot"){
-            AudioSystem.Instance.PlayEffect( music.Name, music.Volume );
+        if( music.Background != null ){
+            AudioSystem.Instance.PlayMusic( music.Background.Name, music.Background.Volume );
         }
-        if( music.Type == "Background"){
-            AudioSystem.Instance.PlayMusic( music.Name, music.Volume );
+
+        if( music.Oneshot != null ){
+            AudioSystem.Instance.PlayEffect( music.Oneshot.Name, music.Oneshot.Volume );
         }
+
     }
 
     private void SetupCamera( CameraInfo camera){

@@ -21,11 +21,23 @@ public class OptionInfo{
     public string Name;
     public string Next;
 }
+
 [System.Serializable]
-public class MusicInfo{
-    public string Type;
+public class OneshotInfo{
     public float Volume;
     public string Name;
+}
+
+[System.Serializable]
+public class BackgroundInfo{
+    public float Volume;
+    public string Name;
+}
+
+[System.Serializable]
+public class MusicInfo{
+    public OneshotInfo Oneshot;
+    public BackgroundInfo Background;
 }
 
 [System.Serializable]

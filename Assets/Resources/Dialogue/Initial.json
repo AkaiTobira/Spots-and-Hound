@@ -121,7 +121,8 @@
             },
             "Text" : "Wow, WOW, WoW, wOw, WOWOWOWOW, WOw, wOW WoW oWo W",
             "Next" : "1"
-        },        {
+        },        
+        {
             "ID"   : "9",
             "Picture"      : {
                 "LeftID" : "None",

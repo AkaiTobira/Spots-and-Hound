@@ -9,7 +9,7 @@
                 "RightID" : "Dog1"
                             },
             "Location"     : "Office",
-            "Text"         : "<01b><02i>Tutaj miał być text\n ale go ktoś ukradł</02i></01b>",
+            "Text"         : "<1b><2i>Tutaj miał być text\n ale go ktoś ukradł</2i></1b>",
             "Camera":{
                 "Duration" : 1.4,
                 "Magnitude" : 8
@@ -26,7 +26,7 @@
             "Picture"      : {
                 "LeftID" : "Cat1"
                             },
-            "Text" : "A tu nigdy <00color=green>green</00color=green> nie było",
+            "Text" : "A tu nigdy <0color=green>green</0color=green> nie było",
             "Next" : "3"
         },
         {
@@ -36,13 +36,13 @@
                 "RightID" : "Cat1"
                             },
             "Character" :"Henry",
-            "Location"     : "Dunno1",
+            "Location"     : "Museum",
             "Music":{
                 "Type"   : "Background",
                 "Volume" : 0.2,
                 "Name"   : "Monster"
             },
-            "Text" : "A tu tekst się <00size=72>kończy</00size>",
+            "Text" : "A tu tekst się <0size=72>kończy</0size>",
             "Next" : "5"
         },
         {

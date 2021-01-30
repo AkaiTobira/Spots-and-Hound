@@ -14,7 +14,7 @@ public class CardController : DisplayCharacterController, IPointerDownHandler, I
     }
 
     private IEnumerator delayedStart(){
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForEndOfFrame();
         HideCard();
     } 
 
@@ -31,6 +31,7 @@ public class CardController : DisplayCharacterController, IPointerDownHandler, I
     }
 
     public void OnPointerDown( PointerEventData pointer) {
+        if( BlockingSettings.MemoryInputBlock ) return;
         if( _cardRevers.activeSelf ){
             for( int i = 0; i < transform.childCount; i++){
                 if( transform.GetChild(i).gameObject.activeSelf ){
@@ -40,9 +41,11 @@ public class CardController : DisplayCharacterController, IPointerDownHandler, I
         }
     }
     public void OnPointerEnter( PointerEventData pointer) {
+        if( BlockingSettings.MemoryInputBlock ) return;
         _cardRevers.transform.localScale = new Vector3( 1.2f, 1.2f, 1);
     }
     public void OnPointerExit( PointerEventData pointer) {
+        if( BlockingSettings.MemoryInputBlock ) return;
         _cardRevers.transform.localScale = new Vector3( 1f, 1f, 1);
     }
 }

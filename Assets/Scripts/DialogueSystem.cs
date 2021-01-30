@@ -87,12 +87,29 @@ public class DialogueSystem : MonoBehaviour, IBlockable
 
 
         if( !string.IsNullOrEmpty(memoryInfo.Name) ){
-            Debug.Log( memoryInfo.Name ); 
             _memory.Show( memoryInfo.Name );
         }
 
+        if( !string.IsNullOrEmpty(memoryInfo.ShowInterface) ){
+            
+            if( memoryInfo.ShowInterface == "Yes"){
+                _choices.gameObject.SetActive(true);
+                gameObject.SetActive(true);
+            }else if( memoryInfo.ShowInterface == "No" ){
+                _choices.gameObject.SetActive(false);
+                gameObject.SetActive(false);
+            }
 
-   //     _memory.Show("");
+        }
+
+
+        if( !string.IsNullOrEmpty(memoryInfo.UnlockMemory) ){
+            if( memoryInfo.UnlockMemory == "Yes"){
+                BlockingSettings.MemoryInputBlock = false;
+            }else if( memoryInfo.UnlockMemory == "No" ){
+                BlockingSettings.MemoryInputBlock = true;
+            }
+        }
     }
 
     struct Marker{

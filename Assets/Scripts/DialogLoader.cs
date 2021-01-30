@@ -42,7 +42,8 @@ public class MusicInfo{
 
 [System.Serializable]
 public class MemoryInfo{
-    public string InterfaceOption;
+    public string ShowInterface;
+    public string UnlockMemory;
     public string Name;
 }
 

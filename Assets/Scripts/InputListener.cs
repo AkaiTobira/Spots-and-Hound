@@ -47,7 +47,7 @@ public class InputListener : MonoBehaviour {
         //    return;
         //}
         
-        if( PlayerInput.isMouseKeyPressed() ){
+        if( PlayerInput.isMouseKeyPressed() && BlockingSettings.MemoryInputBlock ){
             UpdateUnblock();
         }
 

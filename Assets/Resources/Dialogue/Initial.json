@@ -111,7 +111,7 @@
                 }
             },
             "Memory" :{
-                "InterfaceOption" : "Hide",
+                "ShowInterface" : "Yes",
                 "Name"    : "None"
             },
             "Text" : "Shiba inue Nie jest z Ciebie Zadowolony",
@@ -184,7 +184,7 @@
                             },
             "Text" : "Chcesz zobaczyć małe <0color=black>kotki</0color=black> ?",
             "Memory" :{
-                "InterfaceOption" : "Hide",
+                "UnlockMemory" : "No",
                 "Name"    : "Keys"
             },
             "Next" : "25"
@@ -197,6 +197,10 @@
                             },
             "Character" :"None",
             "Location"     : "Basement",
+            "Memory" :{
+                "ShowInterface" : "No",
+                "UnlockMemory"  : "Yes"
+            },
             "Music":{
             },
             "Text" : "<0size=72>CENSORED</0size>",

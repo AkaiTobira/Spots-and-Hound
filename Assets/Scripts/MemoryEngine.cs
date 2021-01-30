@@ -11,6 +11,11 @@ public class MemoryEngine : MonoBehaviour
     private string _alreadySelectedName;
     
 
+    void OnEnable() {
+        _selectedController = null;
+        _alreadySelectedName = "";
+        Locked = false;
+    }
 
     public void Selected( CardController controller, string selected){
         if( Locked ) return;
@@ -29,7 +34,7 @@ public class MemoryEngine : MonoBehaviour
     }
 
     private IEnumerator DelayRemove(CardController controller){
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
         _selectedController.RemoveCard();
         controller.RemoveCard();
         _selectedController = null;
@@ -37,7 +42,7 @@ public class MemoryEngine : MonoBehaviour
     }
 
     private IEnumerator DelayHide(CardController controller){
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
         _selectedController.HideCard();
         controller.HideCard();
         _selectedController = null;

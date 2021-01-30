@@ -20,6 +20,7 @@ public class DialogueSystem : MonoBehaviour, IBlockable
     [SerializeField] private ChoiceHolder _choices;
 
     [SerializeField] private CameraShake _shake;
+    [SerializeField] private DisplayCharacterController _memory;
 
 
     private bool ForceSkip = false;
@@ -73,11 +74,25 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         SetupLocation( dialoge.Location);
         SetupCamera( dialoge.Camera );
         SetupSound( dialoge.Music);
+        SetupMemory( dialoge.Memory );
 
         //_shake.TriggerShake(0.3f, 0.5f);
 
         _textMarkers.Add( dialoge.Next );
         _inputListener.RequestBlock(BlockerType.Dialogs);
+    }
+
+    private void SetupMemory( MemoryInfo memoryInfo){
+        if( memoryInfo == null) return;
+
+
+        if( !string.IsNullOrEmpty(memoryInfo.Name) ){
+            Debug.Log( memoryInfo.Name ); 
+            _memory.Show( memoryInfo.Name );
+        }
+
+
+   //     _memory.Show("");
     }
 
     struct Marker{
@@ -212,7 +227,7 @@ public class DialogueSystem : MonoBehaviour, IBlockable
     private void SetupLocation( string location){
         bool locationNameValid = string.IsNullOrEmpty(location);
         if( !locationNameValid ){
-            _locationPics.ShowCharacter(location);
+            _locationPics.Show(location);
         }
     }
 
@@ -225,11 +240,11 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         if( picture == null) return;
 
         if( picture.LeftID != null){
-            _displayCharacterControllers[0].ShowCharacter(picture.LeftID);
+            _displayCharacterControllers[0].Show(picture.LeftID);
         }
 
         if( picture.RightID != null){
-            _displayCharacterControllers[1].ShowCharacter(picture.RightID);
+            _displayCharacterControllers[1].Show(picture.RightID);
         }
     }
 
@@ -238,7 +253,7 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         bool characterNameValid = string.IsNullOrEmpty(character);
 
         if( !characterNameValid ){
-            _characterNamePics.ShowCharacter(character);
+            _characterNamePics.Show(character);
         }
 
     }

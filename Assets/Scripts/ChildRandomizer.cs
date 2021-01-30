@@ -8,11 +8,11 @@ public class ChildRandomizer : MonoBehaviour
     [SerializeField] private int _valids = 4;
     void Start()
     {
-        transform.GetChild(0).GetComponent<DisplayCharacterController>().ShowCharacter("0");
+        transform.GetChild(0).GetComponent<DisplayCharacterController>().Show("0");
         for( int i = 0; i< _valids; i++){
             int childIndex = i * 2 + 1;
-            transform.GetChild(childIndex).GetComponent<DisplayCharacterController>().ShowCharacter( (i+1).ToString() + "A" );
-            transform.GetChild(childIndex+1).GetComponent<DisplayCharacterController>().ShowCharacter( (i+1).ToString() + "B" );
+            transform.GetChild(childIndex).GetComponent<DisplayCharacterController>().Show( (i+1).ToString() + "A" );
+            transform.GetChild(childIndex+1).GetComponent<DisplayCharacterController>().Show( (i+1).ToString() + "B" );
         }
 
         for( int i = 0; i < 500; i++){
@@ -21,6 +21,11 @@ public class ChildRandomizer : MonoBehaviour
         }
 
         StartCoroutine( DisableGrid() );
+    }
+
+    void OnEnable() {
+        GetComponent<GridLayoutGroup>().enabled = true;
+        Start();
     }
 
     IEnumerator DisableGrid(){

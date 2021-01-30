@@ -18,18 +18,20 @@ public class DisplayCharacterController : MonoBehaviour
     [SerializeField] protected List<DisplayPosition> _characterList;
 
     void Awake() {
-        HideCharacter();
+        HideAll();
     }
 
-    public void ShowCharacter( string characterID ){
+    public void Show( string characterID ){
 
         if( characterID == "None"){
-            HideCharacter();
+            HideAll();
             return;
         }
 
         bool keyIsCorrect = false;
 
+
+        HideAll();
         foreach( DisplayPosition pos in _characterList ){
             pos._Obj.SetActive( pos._name == characterID );
             if( pos._name == characterID ){
@@ -42,7 +44,7 @@ public class DisplayCharacterController : MonoBehaviour
         }
     }
 
-    protected void HideCharacter(){
+    protected void HideAll(){
         foreach( DisplayPosition pos in _characterList ){
             pos._Obj.SetActive( false );
         }

@@ -22,6 +22,8 @@ public class DialogueSystem : MonoBehaviour, IBlockable
     [SerializeField] private CameraShake _shake;
     [SerializeField] private DisplayCharacterController _memory;
 
+    [SerializeField] private HPSystem _hpSystem;
+
 
     private bool ForceSkip = false;
 
@@ -75,11 +77,18 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         SetupCamera( dialoge.Camera );
         SetupSound( dialoge.Music);
         SetupMemory( dialoge.Memory );
+        SetupHpChange( dialoge.MoreSettings );
 
         //_shake.TriggerShake(0.3f, 0.5f);
 
         _textMarkers.Add( dialoge.Next );
         _inputListener.RequestBlock(BlockerType.Dialogs);
+    }
+
+    private void SetupHpChange( AdditionalSetting setting){
+        if( setting == null ) return;
+
+        _hpSystem.ChangeHp( setting.HpChange );
     }
 
     private void SetupMemory( MemoryInfo memoryInfo){

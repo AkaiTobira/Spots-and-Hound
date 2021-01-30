@@ -13,11 +13,9 @@ public class DisplayPosition{
     public GameObject _Obj;
 }
 
-
-
 public class DisplayCharacterController : MonoBehaviour
 {
-    [SerializeField] private List<DisplayPosition> _characterList;
+    [SerializeField] protected List<DisplayPosition> _characterList;
 
     void Awake() {
         HideCharacter();
@@ -44,7 +42,7 @@ public class DisplayCharacterController : MonoBehaviour
         }
     }
 
-    private void HideCharacter(){
+    protected void HideCharacter(){
         foreach( DisplayPosition pos in _characterList ){
             pos._Obj.SetActive( false );
         }

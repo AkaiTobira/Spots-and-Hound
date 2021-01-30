@@ -25,51 +25,53 @@ public class DialogueSystem : MonoBehaviour, IBlockable
     [SerializeField] private HPSystem _hpSystem;
 
 
-    private bool ForceSkip = false;
+    public bool ForceSkip = false;
+    private bool ForceEnd = false;
 
-    public void OnUnlock(){
+    private bool GameOverInProgress = false;
 
-        if( ForceSkip == false){
+
+    private string _currentSquenceIndex;
+    private string _nextSequenceIndex;
+
+    private bool isOptionSelect = false;
+
+
+    public void Skip(){
+        if( ForceSkip ){
+            if( isOptionSelect ) return;
+            ProcessNextDialogue();
+        }else{
             ForceSkip = true;
-            Debug.Log( "On unlock change ");
-            return;
         }
+    }
 
-        if( _textMarkers.Count == 0 ){
-            return;
-        }
+    public void OnUnlock(){}
 
-        if( _textMarkers[0] == "SKIP" ){
-            _textMarkers.RemoveAt(0);
-            OnUnlock();
-            return;
-        }
+    public void ProcessNextDialogue(){
+        if( string.IsNullOrEmpty(_nextSequenceIndex) ) return;
+        if( _nextSequenceIndex == "SKIP" ) return;
+        if( _nextSequenceIndex == "OVER" ) return;
 
-        if( _textMarkers[0] == "OVER") {
-            _textMarkers.RemoveAt(0);
-            return;
-        }
-        LoadDialog(_loader.GetDialogueInfo(_textMarkers[0]));
-        _textMarkers.RemoveAt(0);
+        LoadDialog(_loader.GetDialogueInfo(_nextSequenceIndex));
     }
 
     private List<string> _textMarkers = new List<string>();
 
     void Start() {
         LoadDialog( _loader.GetDialogueInfo("1") );
-    //    LoadDialog( _loader.GetDialogueInfo("2") );
     }
 
-    public void AddNextTextOption( string id){
-        _textMarkers.Add(id);
-        OnUnlock();
+    public void ForceNextOption( string id){
+        _nextSequenceIndex = id;
+        isOptionSelect     = false;
     }
 
     void LoadDialog( DialogueEntry dialoge ){
 
         ForceSkip = false;
 
-        SetupText( dialoge.Text );
+        SetupText( dialoge.Text, dialoge.ID );
         SetupCharacterNamePic( dialoge.Character );
         SetupCharacterPicture( dialoge.Picture );
         SetupOptions( dialoge.Options );
@@ -79,10 +81,16 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         SetupMemory( dialoge.Memory );
         SetupHpChange( dialoge.MoreSettings );
 
-        //_shake.TriggerShake(0.3f, 0.5f);
-
-        _textMarkers.Add( dialoge.Next );
+        //_textMarkers.Add( dialoge.Next );
+        _currentSquenceIndex = dialoge.ID;
+        _nextSequenceIndex   = dialoge.Next;
         _inputListener.RequestBlock(BlockerType.Dialogs);
+    }
+
+    public void GameOver(){
+        _nextSequenceIndex = "GAMEOVER";
+        ForceSkip = false;
+        ProcessNextDialogue();
     }
 
     private void SetupHpChange( AdditionalSetting setting){
@@ -131,7 +139,14 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         public int End_end;
     }
 
-    private void SetupText( string text ){
+    private void SetupText( string text, string dialogueID ){
+        if(string.IsNullOrEmpty(text)) return;
+
+        if( text == "None"){
+            _currentText.text = "";
+            return;
+        }
+
         List<Marker> markers = new List<Marker>();
 
         for( int i = 0; i < text.Length; i++){
@@ -140,12 +155,13 @@ public class DialogueSystem : MonoBehaviour, IBlockable
                 markers.Add(m);
             }
         }
-
-        StartCoroutine(TypeLetter(markers, text, 0));
+        if( gameObject.activeSelf == false) gameObject.SetActive(true);
+        StartCoroutine(TypeLetter(markers, text, 0, dialogueID));
     }
 
-    private IEnumerator TypeLetter( List<Marker> markers, string text, int index ){
+    private IEnumerator TypeLetter( List<Marker> markers, string text, int index, string dialogueID ){
         yield return new WaitForSeconds(0.1f);
+        if( dialogueID != _currentSquenceIndex ) yield break;
 
         if( index >= text.Length + 1 ) {
             ForceSkip = true;
@@ -189,7 +205,7 @@ public class DialogueSystem : MonoBehaviour, IBlockable
 
         _currentText.text = newText1.Substring(0, index).Replace("`", "");
 
-        StartCoroutine( TypeLetter(markers, text, index+1));
+        StartCoroutine( TypeLetter(markers, text, index+1, dialogueID));
     }
 
     private bool ParseMarker( out Marker m, string text, int i){
@@ -259,6 +275,7 @@ public class DialogueSystem : MonoBehaviour, IBlockable
 
     private void SetupOptions( OptionInfo[] options ){
         if( options == null ) return;
+        isOptionSelect = true;
         _choices.SetOptions( options );
     }
 

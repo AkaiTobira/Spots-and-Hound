@@ -44,8 +44,8 @@ public class MemoryEngine : MonoBehaviour
 
     private IEnumerator OnFinish(){
         yield return new WaitForSeconds(1f);
-        _dialogueSystem.AddNextTextOption( _nextDialogue );
-        _dialogueSystem.OnUnlock();
+        _dialogueSystem.ForceNextOption( _nextDialogue );
+        _dialogueSystem.ProcessNextDialogue();
     }
 
     private IEnumerator DelayRemove(CardController controller){

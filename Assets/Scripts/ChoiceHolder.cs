@@ -16,8 +16,9 @@ public class ChoiceHolder : MonoBehaviour
     }
 
     public void OnOptionSelect( int i ){
-        Debug.Log( _optionsResponses[i].Next );
-        _responseHandler.AddNextTextOption( _optionsResponses[i].Next );
+        if( !_responseHandler.ForceSkip ) return;
+        _responseHandler.ForceNextOption( _optionsResponses[i].Next );
+        _responseHandler.ProcessNextDialogue();
         DisableOptions();
     }
 
@@ -30,7 +31,6 @@ public class ChoiceHolder : MonoBehaviour
             }
             _options[i].SetActive(i < options.Length);
         }
-
     }
 
     public void DisableOptions(){
@@ -38,6 +38,4 @@ public class ChoiceHolder : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
-
-
 }

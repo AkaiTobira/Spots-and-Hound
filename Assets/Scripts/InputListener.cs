@@ -75,15 +75,7 @@ public class InputListener : MonoBehaviour {
     }
 
     public void UpdateUnblock(){
-
-       // if( _currentBlocker == BlockerType.Dialogs ){
-        //    _lockRequests.Remove(_currentBlocker);
-            _dialogueSystem.OnUnlock();
-        //    _recentlyUnlocked = true;
-        //    _currentBlocker = BlockerType.None;
-        //}
-
-
+        _dialogueSystem.Skip();
     }
 
 

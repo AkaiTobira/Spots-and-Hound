@@ -148,7 +148,7 @@ public class DialogueSystem : MonoBehaviour, IBlockable
                 markers.Add(m);
             }
         }
-
+        if( gameObject.activeSelf == false) gameObject.SetActive(true);
         StartCoroutine(TypeLetter(markers, text, 0, dialogueID));
     }
 

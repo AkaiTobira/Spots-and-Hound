@@ -40,6 +40,13 @@ public class MusicInfo{
     public BackgroundInfo Background;
 }
 
+
+[System.Serializable]
+public class AdditionalSetting{
+    public int HpChange;
+}
+
+
 [System.Serializable]
 public class MemoryInfo{
     public string ShowInterface;
@@ -61,6 +68,7 @@ public class DialogueEntry{
     public MemoryInfo Memory;
     public CameraInfo Camera;
     public OptionInfo[] Options;
+    public AdditionalSetting MoreSettings;
 }
 
 public class DialogLoader : MonoBehaviour

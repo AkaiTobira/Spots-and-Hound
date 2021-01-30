@@ -696,6 +696,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d65773a7ec60d04ba8f4d17383eb7c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _dialogueSystem: {fileID: 1807681089}
+  _nextDialogue: 1
 --- !u!114 &395066232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1101,6 +1103,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d65773a7ec60d04ba8f4d17383eb7c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _dialogueSystem: {fileID: 1807681089}
+  _nextDialogue: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3872,7 +3876,7 @@ MonoBehaviour:
   _characterList:
   - _name: Keys
     _Obj: {fileID: 508102673}
-  - _name: Animal
+  - _name: Animals
     _Obj: {fileID: 395066229}
 --- !u!1001 &1648440043
 PrefabInstance:

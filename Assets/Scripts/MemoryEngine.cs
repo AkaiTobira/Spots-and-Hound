@@ -10,16 +10,25 @@ public class MemoryEngine : MonoBehaviour
     private CardController _selectedController;
     private string _alreadySelectedName;
     
+    private int _cleared = 0;
+
+    [SerializeField] private DialogueSystem _dialogueSystem;
+    [SerializeField] private string _nextDialogue; 
 
     void OnEnable() {
         _selectedController = null;
         _alreadySelectedName = "";
         Locked = false;
+        _cleared = 0;
     }
 
     public void Selected( CardController controller, string selected){
         if( Locked ) return;
         controller.ShowCard();
+        if( _cleared == transform.childCount-1){
+            StartCoroutine( OnFinish() );
+        }
+
         if( _selectedController == null ){
             _selectedController = controller;
             _alreadySelectedName = selected;
@@ -33,12 +42,19 @@ public class MemoryEngine : MonoBehaviour
         }
     }
 
+    private IEnumerator OnFinish(){
+        yield return new WaitForSeconds(1f);
+        _dialogueSystem.AddNextTextOption( _nextDialogue );
+        _dialogueSystem.OnUnlock();
+    }
+
     private IEnumerator DelayRemove(CardController controller){
         yield return new WaitForSeconds(1f);
         _selectedController.RemoveCard();
         controller.RemoveCard();
         _selectedController = null;
         Locked = false;
+        _cleared += 2;
     }
 
     private IEnumerator DelayHide(CardController controller){

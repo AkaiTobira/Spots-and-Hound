@@ -135,6 +135,7 @@
         {
             "ID"   : "10",
             "Location"     : "Office",
+            "Text" : "None",
             "Music":{
                 "Background" :{
                     "Volume" : 1,

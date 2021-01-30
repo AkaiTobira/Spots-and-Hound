@@ -141,6 +141,12 @@ public class DialogueSystem : MonoBehaviour, IBlockable
 
     private void SetupText( string text, string dialogueID ){
         if(string.IsNullOrEmpty(text)) return;
+
+        if( text == "None"){
+            _currentText.text = "";
+            return;
+        }
+
         List<Marker> markers = new List<Marker>();
 
         for( int i = 0; i < text.Length; i++){

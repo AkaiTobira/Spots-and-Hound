@@ -41,6 +41,13 @@ public class MusicInfo{
 }
 
 [System.Serializable]
+public class MemoryInfo{
+    public string InterfaceOption;
+    public string Name;
+}
+
+
+[System.Serializable]
 public class DialogueEntry{
     public string ID;
     public string Text;
@@ -50,6 +57,7 @@ public class DialogueEntry{
     public string Shake;
     public MusicInfo Music;
     public PictureInfo Picture;
+    public MemoryInfo Memory;
     public CameraInfo Camera;
     public OptionInfo[] Options;
 }

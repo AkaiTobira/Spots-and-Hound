@@ -9,24 +9,22 @@ public class CardController : DisplayCharacterController, IPointerDownHandler, I
     [SerializeField] private GameObject _cardRevers;
     [SerializeField] private MemoryEngine _memory;
 
-    public void Start() {
-        
+    public void OnEnable() {
         StartCoroutine(delayedStart());
-
     }
 
+    private IEnumerator delayedStart(){
+        yield return new WaitForSeconds(0.1f);
+        HideCard();
+    } 
+
     public void RemoveCard(){
-        HideCharacter();
+        HideAll();
     }
 
     public void HideCard(){
         _cardRevers.SetActive(true);
     }
-
-    private IEnumerator delayedStart(){
-        yield return new WaitForSeconds(1.5f);
-        HideCard();
-    } 
 
     public void ShowCard(){
         _cardRevers.SetActive(false);

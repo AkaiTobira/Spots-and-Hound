@@ -3,13 +3,99 @@
     [
         {
             "ID"           : "1",
-            "Character"    : "Gary",
-            "Picture"      : {
-                "LeftID" : "Dog1",
-                "RightID" : "Dog1"
-                            },
-            "Location"     : "Office",
-            "Text"         : "<1b><2i>Tutaj miał być text\n ale go ktoś ukradł</2i></1b>",
+            "Character"    : "None",
+            "Location"     : "Black",
+            "Text"         : "<0i>Ever since I was a kid, I've dreamt of being a Great Detective...</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "2"
+        },
+        {
+            "ID"           : "2",
+            "Character"    : "None",
+            "Location"     : "Black",
+            "Text"         : "<0i>Solving crimes, finding lost things and people, helping others... that was my dream!</0i>",
+            "MoreSettings":{
+                "HpChange" : 0
+            
+            },
+            "Next"         : "3"
+        },        
+        {
+            "ID"           : "3",
+            "Character"    : "None",
+            "Location"     : "Black",
+            "Text"         : "<0i>Despite all the discouragements from my family and colleagues...</0i>",
+            "Camera":{
+                "Duration" : 0,
+                "Magnitude" : 0
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+
+            },
+            "Next"         : "4"
+        },        {
+            "ID"           : "4",
+            "Character"    : "None",
+            "Location"     : "Black",
+            "Text"         : "<0i>Until yesterday, I was still working at my family's law firm, slowly succumbing to mundane office life.</0i>",
+            "Camera":{
+                "Duration" : 0,
+                "Magnitude" : 0
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+
+            },
+            "Next"         : "5"
+        },        {
+            "ID"           : "5",
+            "Character"    : "None",
+            "Location"     : "Black",
+            "Text"         : "<0i>Deep inside, however, I was waiting for a good reason to leave it all behind and run away.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+
+            },
+            "Next"         : "6"
+        },        {
+            "ID"           : "6",
+            "Character"    : "None",
+            "Location"     : "Black",
+            "Text"         : "<0i>So when one day I've noticed a strange job offer in the newspaper, it caught my attention right away.</0i>",
+            "Camera":{
+                "Duration" : 0,
+                "Magnitude" : 0
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+
+            },
+            "Next"         : "7"
+        },        {
+            "ID"           : "7",
+            "Location"     : "Black",
+            "Text"         : "<0i>I knew this address, I knew it by heart:\nit was the most prestigious Detective Agency across whole Europe!</0i>",
             "Camera":{
                 "Duration" : 1.4,
                 "Magnitude" : 8
@@ -17,124 +103,105 @@
             "Music":{
                 "Background" :{
                     "Volume" : 1,
-                    "Name"   : "Monster"
+                    "Name"   : "ambient_start"
                 },
                 "Oneshot" :{
                     "Volume" : 1,
-                    "Name"   : "Something"
+                    "Name"   : "mystery"
                 }
 
             },
-            "Next"         : "2"
-        },
-        {
-            "ID"   : "2",
-            "Picture"      : {
-                "LeftID" : "Cat1"
-                            },
-            "Text" : "A tu nigdy <0color=green>green</0color=green> nie było",
-            "Next" : "3"
-        },
-        {
-            "ID"   : "3",
-            "Picture"      : {
-                "LeftID" : "None",
-                "RightID" : "Cat1"
-                            },
-            "Character" :"Henry",
-            "Location"     : "Museum",
-            "Music":{
-            },
-            "Text" : "A tu tekst się <0size=72>kończy</0size>",
-            "Next" : "5"
-        },
-        {
-            "ID"   : "5",
-            "Location"     : "Office",
-            "Picture"      : {
-                "LeftID" : "Cat2",
-                "RightID" : "Snake1"
-                            },
-            "Music":{
-                "Background" :{
-                    "Volume" : 1,
-                    "Name"   : "Monster"
-                }
-            },
-
-            "Options"      : [
-                {
-                    "Name" : "Ziemniaczek",
-                    "Next" : "6"
-                },
-                {
-                    "Name" : "Cebula",
-                    "Next" : "7"
-                },
-                {
-                    "Name" : "Much WoW",
-                    "Next" : "8"
-                },
-                {
-                    "Name" : "O.O",
-                    "Next" : "9"
-                }
-            ],
-            "Text" : "Czas Wybierać",
-            "Next" : "SKIP"
-        },
-        {
-            "ID"           : "6",
-            "Character"    : "Lucius",
-            "Picture"      : {
-                "LeftID" : "Cat1",
-                "RightID" : "Cat1"
-                            },
-            "Music":{
-                "Background" :{
-                    "Volume" : 1,
-                    "Name"   : "Vicerblancka"
-                }
-            },
-            "Text"         : "A może frytki do tego ????",
-            "Next"         : "1"
-        },
-        {
-            "ID"   : "7",
-            "Picture"      : {
-                "LeftID" : "Cat1"
-                            },
-            "Music":{
-                "Background" :{
-                    "Volume" : 1,
-                    "Name"   : "Vicerblancka"
-                }
-            },
-            "Memory" :{
-                "ShowInterface" : "Yes",
-                "Name"    : "None"
-            },
-            "Text" : "Shiba inue Nie jest z Ciebie Zadowolony",
-            "Next" : "1"
+            "Next"         : "8"
         },
         {
             "ID"   : "8",
-            "Picture"      : {
-                "LeftID" : "None",
-                "RightID" : "None"
-                            },
-            "Character" :"Gary",
+            "Location"     : "Black",             
+            "Text" : "<0i>Surprisingly, I've managed to book the job interview and the very same day I was heading to meet the most brilliant minds of our times!</0i>",
+            "Next" : "9"
+        },
+        {
+            "ID"   : "9",
+            "Location"     : "Black",
+            "Music":{
+            },
+            "Text" : "<0i>Here we go!</0i>",
+            "Oneshot" :{
+                    "Volume" : 1,
+                    "Name"   : "knocking"
+                },
+            
+            "Next" : "10"
+        },
+        {
+            "ID"   : "10",
+            "Location"     : "Office",
             "Music":{
                 "Background" :{
                     "Volume" : 1,
-                    "Name"   : "Vicerblancka"
+                    "Name"   : "ambient_start"
+                },
+                "Oneshot" :{
+                        "Volume" : 1,
+                        "Name"   : "open_door"
+                    }
+            
+            }
+        },
+        {
+            "ID"           : "11",
+
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
+                },    
+                "Oneshot" :{
+                        "Volume" : 1,
+                        "Name"   : "door_creak"
+                    }
+                    
+                
+            },
+            "Text"         : "<0i>I'm too stressed and excited to breathe.\nI'm almost passing out as I walk through the door.</0i>",
+            "Next"         : "12"
+        },
+        {
+            "ID"   : "12",
+            "Picture"      : {
+                "LeftID" : "None"
+                            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
+                },
+                    "Oneshot" :{
+                        "Volume" : 1,
+                        "Name"   : "bells"
+                    }
+                
+            },
+            "Text" : "<0i>As I'm slowly trying to regain my composure, a trenched-coated Shiba Inu appears right in front of me.</0i>",
+            "Next" : "13"
+        },
+        {
+            "ID"   : "13",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "None"
+                            },
+            "Character" :"?",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
                 }
             },
-            "Text" : "Wow, WOW, WoW, wOw, WOWOWOWOW, WOw, wOW WoW oWo W",
-            "Next" : "23"
+            "Text" : "Right on time... first good impression!",
+            "Next" : "14"
         },        
         {
-            "ID"   : "9",
+            "ID"   : "14",
             "Picture"      : {
                 "LeftID" : "None",
                 "RightID" : "None"
@@ -147,7 +214,7 @@
             },
             "Character" :"Henry",
             "Text" : "O > O ",
-            "Next" : "1"
+            "Next" : "11"
         },
 
         {
@@ -204,7 +271,7 @@
             "Music":{
             },
             "Text" : "<0size=72>CENSORED</0size>",
-            "Next" : "1"
+            "Next" : "23"
         }
 
 

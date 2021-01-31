@@ -1132,7 +1132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _path:
-  - Dialogue/Initial
+  - Dialogue/Initial_office
   - Dialogue/Initial_BIBLIOTEKA
   - Dialogue/Initial_stairs
   _debug: {fileID: 0}

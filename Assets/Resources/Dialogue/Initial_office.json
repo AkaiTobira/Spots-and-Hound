@@ -321,7 +321,7 @@
             "Next"         : "20"
         },
         {
-            "ID"           : "21",
+            "ID"           : "20",
             "Character"    : "None",
             "Picture"      : {
                 "LeftID" : "Cat1",
@@ -737,10 +737,10 @@
             "Character" :"Gary",
             "Text" : "They were planning an interesting exhibition on Ancient Egypt...\nCould it be...?",
             "Location"     : "Newspaper",
-            "Next" : "35"
+            "Next" : "37"
         },
         {
-            "ID"   : "36",
+            "ID"   : "37",
             "Picture"      : {
                 "LeftID" : "Dog1",
                 "RightID" : "Cat2"

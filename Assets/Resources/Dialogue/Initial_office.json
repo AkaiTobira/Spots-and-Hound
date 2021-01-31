@@ -658,6 +658,11 @@
             "Next" : "31b2"
         },
         {
+            "ID" : "GAMEOVER",
+            "Text" : "GameOVER, Once more?",
+            "Next" : "1"
+        },
+        {
             "ID"   : "31b2",
             "Picture"      : {
                 "LeftID" : "None",

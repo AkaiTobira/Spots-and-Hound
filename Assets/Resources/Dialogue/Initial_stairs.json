@@ -1214,7 +1214,7 @@
             "ID"           : "KEYSGAME",
             "Memory" :{
                 "UnlockMemory" : "Yes",
-                "HideInterface" : "True",
+                "ShowInterface" : "No",
                 "Name"    : "Keys"
             },
 
@@ -1234,7 +1234,12 @@
         {
             "ID"           : "E37",
             "Character"    : "None",
-            "Memory" : { "HideInterface" : "No"},
+            "Memory" : { 
+                "ShowInterface" : "True",
+                "UnlockMemory"  : "Noe",
+                "Name" : "None"
+
+            },
             "Picture"      : {
                 "LeftID" : "None",
                 "RightID" : "None"
@@ -1671,29 +1676,6 @@
             },
             "Next"         : "E52"
         }
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
 
     ]
 }

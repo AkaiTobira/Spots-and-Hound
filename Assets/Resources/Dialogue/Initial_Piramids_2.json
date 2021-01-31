@@ -1,0 +1,392 @@
+{
+    "Entries":
+    [
+        {
+            "ID"           : "R23",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Piramids",
+            "Text"         : "<0i>My heart starts to beat faster, as I look around. The hall is huge, full of richly decorated sculptures, all sorts of treasures and most amazing cultural achievements.</0i>",
+            "Camera":{
+                "Duration" : 0,
+                "Magnitude" : 0
+            },
+          
+            "Next"         : "R24"
+        },
+        {
+            "ID"   : "R24",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None"
+                            },
+		"Location"     : "Piramids",
+            "Text" : "<0i>Before we can even grasp the scope of the wonders we are seeing, we can hear a voice coming from the shadows.</0i>",
+            "Next" : "R25"
+        },
+        {
+            "ID"   : "R25",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Character" :"?",
+           "Location"     : "Piramids",
+        
+            "Text" : "I must be more careful next time and cover my tracks more thoroughly...",
+            "Next" : "R26"
+        },
+ {
+            "ID"   : "R26",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+                           
+            "Character" :"Gary",
+           "Location"     : "Piramids",
+            
+            "Text" : "Who are You? Reveal yourself!",
+            "Next" : "R27"
+        },
+{
+            "ID"   : "R27",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+            "Character" :"Henry",
+           "Location"     : "Piramids",
+        
+            "Text" : "This smells like trouble!",
+            "Next" : "R28"
+        },
+{
+            "ID"   : "R28",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+            "Character" :"None",
+           "Location"     : "Piramids",
+            
+            "Text" : "<0i>The figure moves over to the light and soon we can clearly see...</0i>",
+            "Next" : "R29"
+        },
+{
+            "ID"   : "R29",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Cat2"
+                            },  
+            "Character" :"Gary",
+           "Location"     : "Piramids",
+            "Text" : "BROTHER!",
+            "Next" : "R30"
+        },
+        {
+            "ID"   : "R30",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Cat2"
+                            },  
+            "Character" :"Lucius",
+           "Location"     : "Piramids",
+            "Text" : "....",
+            "Next" : "R31"
+        },
+        {
+            "ID"   : "R31",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Cat2"
+                            },  
+            "Character" :"Lucius",
+           "Location"     : "Piramids",
+            "Text" : "....",
+            "Next" : "R32"
+        },
+        {
+            "ID"   : "R32",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Cat2"
+                            },  
+            "Character" :"Lucius",
+           "Location"     : "Piramids",
+            "Text" : ".... and You are?",
+            "Next" : "R33"
+        },
+
+        {
+            "ID"   : "R33",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Cat2"
+                            },  
+            "Character" :"None",
+           "Location"     : "Piramids",
+            "Text" : "<0i>Could this be?! He has LOST his memory?!</0i>",
+            "Next" : "R34"
+        },
+        {
+            "ID"   : "R34",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Cat2"
+                            },  
+            "Character" :"None",
+           "Location"     : "Piramids",
+            "Text" : "<0i>Mr Spots looks absolutely devastated as he moves towards newly found brother.</0i>",
+            "Next" : "R35"
+        }, 
+        {
+            "ID"   : "R35",
+            "Picture"      : {
+                "LeftID" : "Cat2",
+                "RightID" : "Cat1"
+                            },  
+            "Character" :"Lucius",
+           "Location"     : "Piramids",
+            "Text" : "STAY BACK! Don't get any closer.",
+            "Next" : "R36"
+        },
+        {
+            "ID"   : "R36",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Cat2"
+                            },  
+            "Character" :"Gary",
+            "Options"      : [
+                {
+                    "Name" : "Attack him ",
+                    "Next" : "R36.A"
+                },
+                {
+                    "Name" : "Reason with him",
+                    "Next" : "R36.B"
+                }
+            ],
+           "Location"     : "Piramids",
+            "Text" : "Why are You doing this? Don't You remember me?",
+            "Next" : "SKIP"
+        },
+        {
+            "ID"   : "R36.A",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat2"
+                            },  
+                        
+                        "MoreSettings":{
+                            "HpChange" : -1
+                        },
+
+            "Character" :"Henry",
+           "Location"     : "Piramids",
+            "Text" : "NO, STOP!",
+            "Next" : "R36.A.1"
+        },
+        {
+            "ID"   : "R36.A.1",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat2"
+                            },  
+            "Character" :"None",
+           "Location"     : "Piramids",
+            "Text" : "<0i>But it's too late. I'm already near Lucius and try to tackle him. But he's way faster and WAY stronger than I would ever expected!</0i>",
+            "Next" : "R36.A.2"
+        },
+     
+        {
+            "ID"   : "R36.A.2",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat2"
+                            },  
+            "Character" :"None",
+           "Location"     : "Piramids",
+            "Text" : "<0i>I fall to the ground with the loud thud. Before I lose conciousness, I can see Lucius at the far side of the hall. He almost looks like he feels sorry... but then he dissapears behind the corner.</0i>",
+            "Next" : "R36.A.3"
+        },
+        {
+            "ID"   : "R36.A.3",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat2"
+                            },  
+            "Character" :"None",
+           "Location"     : "Piramids",
+            "Text" : "<0i>When I open my eyes again, we are already outside the pyramid. Both detectives are looking at me with care and sense of pride, although I can tell they're both pretty mad... for their own reasons.</0i>",
+            "Next" : "R36.A.4"
+        },
+        {
+            "ID"   : "R36.A.4",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat2"
+                            },  
+            "Character" :"Henry",
+           "Location"     : "Piramids",
+            "Text" : "That was really careless of You, kid! ",
+            "Next" : "R36.A.5"
+        },
+        {
+            "ID"   : "R36.A.5",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat2"
+                            },  
+            "Character" :"Henry",
+           "Location"     : "Piramids",
+            "Text" : "But I appreciate the instinct",
+            "Next" : "R37"
+        },
+        {
+            "ID"   : "R36.B",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat2"
+                            },  
+            "Character" :"None",
+           "Location"     : "Piramids",
+            "Text" : "<0i>I'm trying to reason with him and explain him the situation.\nFor a brief moment there's confusion and doubt on this face, but it quickly fades away as he grins.</0i>",
+            "Next" : "R36.B.1"
+        },  {
+            "ID"   : "R36.B.1",
+            "Picture"      : {
+                "LeftID" : "Cat2",
+                "RightID" : "Dog1"
+                            },  
+            "Character" :"Lucius",
+           "Location"     : "Piramids",
+            "Text" : "I see. They've told me about likes of You and the lies You'll try to mess with me. Not gonna happen.",
+            "Next" : "R36.B.2"
+        },
+        {
+            "ID"   : "R36.B.2",
+            "Picture"      : {
+                "LeftID" : "Cat2",
+                "RightID" : "Dog1"
+                            },  
+            "Character" :"None",
+           "Location"     : "Piramids",
+            "Text" : "<0i>He picks small object out of his pocket and throw it on the ground. It explodes in a thick grey smoke. I lose Lucius out of sight for one second, but once the mist clears out, he's not there.</0i>",
+            "Next" : "R36.B.3"
+        },
+        {
+            "ID"   : "R36.B.3",
+            "Picture"      : {
+                "LeftID" : "Cat2",
+                "RightID" : "Dog1"
+                            },  
+            "Character" :"None",
+           "Location"     : "Piramids",
+            "Text" : "<0i>I turn away to see Mr Spots concerned gaze.</0i>",
+            "Next" : "R36.B.4"
+        },
+        {
+            "ID"   : "R36.B.4",
+            "Picture"      : {
+                "LeftID" : "Cat2",
+                "RightID" : "Dog1"
+                            },  
+            "Character" :"None",
+           "Location"     : "Piramids",
+            "Text" : "<0i>We leave the pyramid without a word. I'm still trembling after all I've witnessed, so I sit down on a warm sand and raise my head to the sun.</0i>",
+            "Next" : "R37"
+        },
+        {
+            "ID"   : "R37",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },  
+            "Character" :"None",
+           "Location"     : "Piramids",
+            "Text" : "<0i>Mr Spots sits down next to me.</0i>",
+            "Next" : "R38"
+        },
+        {
+            "ID"   : "R38",
+            "Picture"      : {
+                "LeftID" : "Cat2",
+                "RightID" : "Cat1"
+                            },  
+            "Character" :"Gary",
+           "Location"     : "Piramids",
+            "Text" : "I gotta say, we are really impressed with what You've shown today.",
+            "Next" : "R39"
+        },
+
+        {
+            "ID"   : "R39",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },  
+            "Character" :"Henry",
+           "Location"     : "Piramids",
+            "Text" : "You're a natural, kid.",
+            "Next" : "R40"
+        },
+        {
+            "ID"   : "R40",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },  
+            "Character" :"None",
+           "Location"     : "Piramids",
+            "Text" : "<0i>I can't believe what I'm hearing.I look at both of them in complete awe, unable to say anything. In one day I was able to turn my life around in the most unexptected way, all thanks to pursuing my passion. I feel like maybe I did not waste that time after all; I needed this time to grow.</0i>",
+            "Next" : "R41"
+        },
+        {
+            "ID"   : "R41",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },  
+            "Character" :"None",
+           "Location"     : "Piramids",
+            "Text" : "<0i>But I'm notocing the sadness in Mr. Spots eyes. The moment I've finally feel like I have found myselt, he lost his brother once again.</0i>",
+            "Next" : "R42"
+        },
+
+        {
+            "ID"   : "R42",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },  
+            "Character" :"None",
+           "Location"     : "Piramids",
+            "Text" : "<0i>But now he knows he's there. And once You're start looking for something, it's never really lost.</0i>",
+            "Next" : "R43"
+        },
+        {
+            "ID"   : "R43",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },  
+            "Character" :"None",
+           "Location"     : "Piramids",
+            "Text" : "<0i>Thats the end of the game. Thank you for playing.</0i>",
+            "Next" : "R38"
+        }
+
+
+
+
+
+
+
+    ]
+}
+

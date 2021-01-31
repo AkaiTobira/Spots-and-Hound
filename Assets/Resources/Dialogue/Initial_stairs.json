@@ -8,7 +8,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "This is the place. Our suspect should be in this apartment building.",
             "Music":{
                 "Background" :{
@@ -30,7 +30,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>We look around the cozy-looking interior. \nI can see the doors to our suspect's apartment.</0i>",
             "Music":{
                 "Background" :{
@@ -52,7 +52,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>Before doing anything, I turn to Mr. Spots and ask him about his brother. </0i>",
             "Music":{
                 "Background" :{
@@ -74,7 +74,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>For a moment he loses his usual cool.</0i>",
             "Music":{
                 "Background" :{
@@ -96,7 +96,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "I appreciate Your curiosity. It's very welcomed in this profession.",
             "Music":{
                 "Background" :{
@@ -118,7 +118,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "(angry)(shake)But timing too.",
             "Music":{
                 "Background" :{
@@ -140,7 +140,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>As he goes along the hallway, I feel the heavy paw on my arm.</0i>",
             "Music":{
                 "Background" :{
@@ -162,7 +162,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "Don't take it personally, kid. \nHe never talks about it.",
             "Music":{
                 "Background" :{
@@ -184,7 +184,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "His brother was lost at sea almost a decade ago, that's all You need to know.",
             "Music":{
                 "Background" :{
@@ -206,7 +206,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>I catch up with Mr. Spots at our suspect doors and I knock few times, encouraged by his enabling gaze.</0i>",
             "Music":{
                 "Background" :{
@@ -227,7 +227,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Options"      : [
                 {
                     "Name" : "Force-open the door",
@@ -262,7 +262,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>I take few steps back and launch myself at the door, to no avail.</0i>",
             "Music":{
                 "Background" :{
@@ -302,7 +302,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>I knock on the nearest doors on my left, but no one replies.\nAs I'm about to knock on a door on the right, they open slightly.</0i>",
             "Music":{
                 "Background" :{
@@ -322,7 +322,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>I can't see who's on the other side and I can barely hear the whisper coming from far back.</0i>",
             "Music":{
                 "Background" :{
@@ -338,12 +338,12 @@
 
         {
             "ID"           : "E12B.3",
-            "Character"    : "??????",
+            "Character"    : "?",
             "Picture"      : {
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "Yes... what is it?",
             "Music":{
                 "Background" :{
@@ -364,7 +364,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>I ask about our suspect, but before I can even finish the sentence, the door closes shut.</0i>",
             "Music":{
                 "Background" :{
@@ -380,12 +380,12 @@
 
         {
             "ID"           : "E12B.5",
-            "Character"    : "??????",
+            "Character"    : "?",
             "Picture"      : {
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "It's not my business! I don't care what he does in his apartment and this damn basement!",
             "Music":{
                 "Background" :{
@@ -406,7 +406,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>I knock again and someone replies in a way that suggests the conversation is over.</0i>",
             "Music":{
                 "Background" :{
@@ -427,7 +427,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "That seems like a good idea.",
             "Music":{
                 "Background" :{
@@ -448,7 +448,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>There's a board near the entrance, containing all the information about the building, upcoming repairs, and even some highly enthusiastic encouragements to pay the rent on time.</0i>",
             "Music":{
                 "Background" :{
@@ -469,7 +469,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>There's also a neatly-written card saying „SAJ BUZZ – Landlord” and a number of the apartment he resides in.</0i>",
             "Music":{
                 "Background" :{
@@ -490,7 +490,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>We find the place and I gently knock on the doors. Soon they open and we see a cheerful-looking fox, smiling at us playfully.</0i>",
             "Music":{
                 "Background" :{
@@ -511,7 +511,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "Oh dear! Did not expected any visitors today. \nWelcome to my wonderful tenement!",
             "Music":{
                 "Background" :{
@@ -532,7 +532,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Options"      : [
                 {
                     "Name" : "Ask about the suspect",
@@ -563,7 +563,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>I ask him about the secret of his attitude<0i>",
             "Music":{
                 "Background" :{
@@ -584,7 +584,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "Oh it's quite simple. For many years I worked very hard, trying to get my business up and running.",
             "Music":{
                 "Background" :{
@@ -605,7 +605,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "Many times I've felt like this is futile and I'm gonna be left with nothing.",
             "Music":{
                 "Background" :{
@@ -626,7 +626,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "But I've kept working, I've kept pursuing my dreams.",
             "Music":{
                 "Background" :{
@@ -647,7 +647,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "And I've made some risky decisions. These were tough times.",
             "Music":{
                 "Background" :{
@@ -668,7 +668,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "But it paid off!",
             "Music":{
                 "Background" :{
@@ -689,7 +689,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "Now I'm not only a successful businessman, but also a landlord in the building owned by me, living the best life and enjoying what I do for a living!",
             "Music":{
                 "Background" :{
@@ -710,7 +710,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "You just can't stop smiling when You know You're living the dream!",
             "Music":{
                 "Background" :{
@@ -731,7 +731,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>I keep thinking about all the years I've wasted on law school and endless hours in our family law firm.</0i>",
             "Music":{
                 "Background" :{
@@ -752,7 +752,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>It seemed like something that was expected of me and safe. But it just made me feel more and more trapped in a passionless life.</0i>",
             "Music":{
                 "Background" :{
@@ -773,7 +773,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>Funny, it's being one day and being here, talking with all these new amazing animals, made me feel unusually enthused.</0i>",
             "Music":{
                 "Background" :{
@@ -794,7 +794,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>I feel like I've awakened from a very long slumber doing something I'm enjoying wholeheartedly.</0i>",
             "Music":{
                 "Background" :{
@@ -815,7 +815,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "<0i>I ask him about the mysterious man that lives in the building.</0i>",
             "Music":{
                 "Background" :{
@@ -836,7 +836,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "Oh, that man... He is very mysterious.",
             "Music":{
                 "Background" :{
@@ -857,7 +857,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "He calls himself Chester, but I've always had a weird feeling it's not his real name... he barely even reacted to it!",
             "Music":{
                 "Background" :{
@@ -878,7 +878,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "But he pays rent on time... or at least did, until recently.",
             "Music":{
                 "Background" :{
@@ -899,7 +899,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Options"      : [
                 {
                     "Name" : "Can we see his apartment?",
@@ -930,7 +930,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "I think it was last week. He was leaving the basement.",
             "Music":{
                 "Background" :{
@@ -941,7 +941,7 @@
             "MoreSettings":{
                 "HpChange" : 0
             },
-            "Next"         : "E24"
+            "Next"         : "E32"
         },
 
         {
@@ -951,7 +951,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Fox1"
                             },
-            "Location"     : "Stairs",
+            "Location"     : "Stairs_Close",
             "Text"         : "Of course, this way.",
             "Music":{
                 "Background" :{
@@ -965,299 +965,709 @@
             "Next"         : "E26"
         },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         {
-            "ID"           : "2",
+            "ID"           : "E26",
             "Character"    : "None",
-            "Picture"      : {
-                "LeftID" : "None",
-                "RightID" : "None"
-                            },
-            "Location"     : "Black",
-            "Text"         : "<0i>Solving crimes, finding lost things and people, helping others... that was my dream!</0i>",
-            "MoreSettings":{
-                "HpChange" : 0
-            
-            },
-            "Next"         : "3"
-        },        
-        {
-            "ID"           : "3",
-            "Character"    : "None",
-            "Picture"      : {
-                "LeftID" : "None",
-                "RightID" : "None"
-                            },
-            "Location"     : "Black",
-            "Text"         : "<0i>Despite all the discouragements from my family and colleagues...</0i>",
-            "Camera":{
-                "Duration" : 0,
-                "Magnitude" : 0
-            },
-            "Music":{
-                "Background" :{
-                    "Volume" : 1,
-                    "Name"   : "ambient_start"
-                }
-
-            },
-            "Next"         : "4"
-        },        {
-            "ID"           : "4",
-            "Character"    : "None",
-            "Location"     : "Black",
-            "Text"         : "<0i>Until yesterday, I was still working at my family's law firm, slowly succumbing to mundane office life.</0i>",
-            "Camera":{
-                "Duration" : 0,
-                "Magnitude" : 0
-            },
-            "Music":{
-                "Background" :{
-                    "Volume" : 1,
-                    "Name"   : "ambient_start"
-                }
-
-            },
-            "Next"         : "5"
-        },        {
-            "ID"           : "5",
-            "Character"    : "None",
-            "Location"     : "Black",
-            "Text"         : "<0i>Deep inside, however, I was waiting for a good reason to leave it all behind and run away.</0i>",
-            "Music":{
-                "Background" :{
-                    "Volume" : 1,
-                    "Name"   : "ambient_start"
-                }
-
-            },
-            "Next"         : "6"
-        },        {
-            "ID"           : "6",
-            "Character"    : "None",
-            "Location"     : "Black",
-            "Text"         : "<0i>So when one day I've noticed a strange job offer in the newspaper, it caught my attention right away.</0i>",
-            "Camera":{
-                "Duration" : 0,
-                "Magnitude" : 0
-            },
-            "Music":{
-                "Background" :{
-                    "Volume" : 1,
-                    "Name"   : "ambient_start"
-                }
-
-            },
-            "Next"         : "7"
-        },        {
-            "ID"           : "7",
-            "Location"     : "Black",
-            "Text"         : "<0i>I knew this address, I knew it by heart:\nit was the most prestigious Detective Agency across whole Europe!</0i>",
-            "Camera":{
-                "Duration" : 1.4,
-                "Magnitude" : 8
-            },
-            "Music":{
-                "Background" :{
-                    "Volume" : 1,
-                    "Name"   : "ambient_start"
-                },
-                "Oneshot" :{
-                    "Volume" : 1,
-                    "Name"   : "mystery"
-                }
-
-            },
-            "Next"         : "8"
-        },
-        {
-            "ID"   : "8",
-            "Location"     : "Black",             
-            "Text" : "<0i>Surprisingly, I've managed to book the job interview and the very same day I was heading to meet the most brilliant minds of our times!</0i>",
-            "Next" : "9"
-        },
-        {
-            "ID"   : "9",
-            "Location"     : "Black",
-            "Music":{
-            },
-            "Text" : "<0i>Here we go!</0i>",
-            "Oneshot" :{
-                    "Volume" : 1,
-                    "Name"   : "knocking"
-                },
-            
-            "Next" : "10"
-        },
-        {
-            "ID"   : "10",
-            "Location"     : "Office",
-            "Text" : "None",
-            "Music":{
-                "Background" :{
-                    "Volume" : 1,
-                    "Name"   : "ambient_start"
-                },
-                "Oneshot" :{
-                        "Volume" : 1,
-                        "Name"   : "open_door"
-                    }
-            
-            }
-        },
-        {
-            "ID"           : "11",
-
-            "Music":{
-                "Background" :{
-                    "Volume" : 1,
-                    "Name"   : "main"
-                },    
-                "Oneshot" :{
-                        "Volume" : 1,
-                        "Name"   : "door_creak"
-                    }
-                    
-                
-            },
-            "Text"         : "<0i>I'm too stressed and excited to breathe.\nI'm almost passing out as I walk through the door.</0i>",
-            "Next"         : "12"
-        },
-        {
-            "ID"   : "12",
-            "Picture"      : {
-                "LeftID" : "None"
-                            },
-            "Music":{
-                "Background" :{
-                    "Volume" : 1,
-                    "Name"   : "main"
-                },
-                    "Oneshot" :{
-                        "Volume" : 1,
-                        "Name"   : "bells"
-                    }
-                
-            },
-            "Text" : "<0i>As I'm slowly trying to regain my composure, a trenched-coated Shiba Inu appears right in front of me.</0i>",
-            "Next" : "13"
-        },
-        {
-            "ID"   : "13",
             "Picture"      : {
                 "LeftID" : "Dog1",
-                "RightID" : "None"
+                "RightID" : "Fox1"
                             },
-            "Character" :"?",
+            "Location"     : "Stairs_Open",
+            "Text"         : "<0i>Saj leads us to the apartment, but as we enter it becomes quite obvious there's nothing here.</0i>",
             "Music":{
                 "Background" :{
                     "Volume" : 1,
-                    "Name"   : "main"
+                    "Name"   : "ambient_start"
                 }
             },
-            "Text" : "Right on time... first good impression!",
-            "Next" : "14"
-        },        
-        {
-            "ID"   : "14",
-            "Picture"      : {
-                "LeftID" : "None",
-                "RightID" : "None"
-                            },
-            "Music":{
-                "Background" :{
-                    "Volume" : 1,
-                    "Name"   : "Vicerblancka"
-                }
+            "MoreSettings":{
+                "HpChange" : 0
             },
-            "Character" :"Henry",
-            "Text" : "O > O ",
-            "Next" : "11"
+            "Next"         : "E27"
         },
 
         {
-            "ID"           : "23",
-            "Character"    : "?",
+            "ID"           : "E27",
+            "Character"    : "None",
             "Picture"      : {
-                "LeftID" : "None",
-                "RightID" : "Snake1"
+                "LeftID" : "Dog1",
+                "RightID" : "Fox1"
                             },
-            "Location"     : "Piramids",
-            "Text"         : "<1b><2i>Co to znowu ?</2i></1b>",
-            "Camera":{
-                "Duration" : 0.2,
-                "Magnitude" : 8
-            },
-            "Music":{
-                "Background" :{
-                    "Volume" : 1,
-                    "Name"   : "Monster"
+            "Location"     : "Stairs_Open",
+            "Options"      : [
+                {
+                    "Name" : "look around anyway",
+                    "Next" : "E28"
                 },
-                "Oneshot" :{
-                    "Volume" : 1,
-                    "Name"   : "Something"
+                {
+                    "Name" : "When was the last time You've seen him?",
+                    "Next" : "E25.1"
                 }
-
+            ],
+            "Text"         : "<0i>Empty walls and dusty floor – and that's about it.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
             },
-            "Next"         : "24"
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "SKIP"
         },
+
         {
-            "ID"   : "24",
+            "ID"           : "E28",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Fox1"
+                            },
+            "Location"     : "Stairs_Open",
+            
+            "Text"         : "<0i>I look around the apartment. It's small but cozy. Someone lived here in very modest conditions, there's no sign of any furniture...</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E27"
+        },
+
+        {
+            "ID"           : "E29",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Fox1"
+                            },
+            "Location"     : "Stairs_Open",
+            "Text"         : "<0i>Saj thinks for a moment.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E30"
+        },
+
+        {
+            "ID"           : "E30",
+            "Character"    : "Saj",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Fox1"
+                            },
+            "Location"     : "Stairs_Open",
+            "Text"         : "I believe it was last week. He was coming from the basement and seemed very occupied.",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E31"
+        },
+
+        {
+            "ID"           : "E31",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Fox1"
+                            },
+            "Location"     : "Stairs_Close",
+            "Text"         : "<0i>We leave the apartment and Saj closes the door.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E32"
+        },
+
+        {
+            "ID"           : "E32",
             "Character"    : "Gary",
             "Picture"      : {
-                "LeftID" : "Cat1"
+                "LeftID" : "Cat1",
+                "RightID" : "Fox1"
                             },
-            "Text" : "Chcesz zobaczyć małe <0color=black>kotki</0color=black> ?",
-            "Memory" :{
-                "UnlockMemory" : "No",
-                "Name"    : "Keys"
+            "Location"     : "Stairs_Close",
+            "Text"         : "Does each tenant have their basement? Can we see one that belongs to our suspect?",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
             },
-            "Next" : "25"
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E33"
         },
+
         {
-            "ID"   : "25",
+            "ID"           : "E33",
+            "Character"    : "Saj",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Fox1"
+                            },
+            "Location"     : "Stairs_Close",
+            "Text"         : "I'm not sure. I should have some spare keys, but... please, wait a moment.",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E34"
+        },
+
+        {
+            "ID"           : "E34",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Fox1"
+                            },
+            "Location"     : "Stairs_Close",
+            "Text"         : "<0i>He comes back with the box of keys, some of them broken.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E35"
+        },
+
+        {
+            "ID"           : "E35",
+            "Character"    : "Saj",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Fox1"
+                            },
+            "Location"     : "Stairs_Close",
+            "Text"         : "I tend to keep them, just in case. The key to his basement should be there.",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E36"
+        },
+
+        {
+            "ID"           : "E36",
+            "Character"    : "Saj",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Fox1"
+                            },
+            "Location"     : "Stairs_Close",
+            "Text"         : "I am pretty sure it's one of the broken ones, but it's missing the upper half.",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E37"
+        },
+
+        {
+            "ID"           : "E37",
+            "Character"    : "None",
             "Picture"      : {
                 "LeftID" : "None",
                 "RightID" : "None"
                             },
-            "Character" :"None",
             "Location"     : "Basement",
-            "Memory" :{
-                "ShowInterface" : "No",
-                "UnlockMemory"  : "Yes"
-            },
+            "Text"         : "<0i>We take the broken key and go down to the basement. I open the doors and I take a step with unease...</0i>",
             "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
             },
-            "Text" : "<0size=72>CENSORED</0size>",
-            "Next" : "23"
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E38"
+        },
+
+        {
+            "ID"           : "E38",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Basement",
+            "Options"      : [
+                {
+                    "Name" : "go downstairs",
+                    "Next" : "E40"
+                },
+                {
+                    "Name" : "Go back up",
+                    "Next" : "E39"
+                }
+            ],
+            "Text"         : "<0i>… The basement is dark and cold, the light doesn't work.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "SKIP"
+        },
+
+        {
+            "ID"           : "E39",
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Stairs_Close",
+            "Text"         : "You are supposed to be a detective, a bad time for cold feet!",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : -1
+            },
+            "Next"         : "E38"
+        },
+
+        {
+            "ID"           : "E40",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Basement",
+            "Text"         : "<0i>As I walk down, I notice some pieces of paper scattered on the floor.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E40"
+        },
+       
+        {
+            "ID"           : "E40",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Basement",
+            "Text"         : "<0i>As I walk down, I notice some pieces of paper scattered on the floor.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E41"
+        },
+
+        {
+            "ID"           : "E41",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Basement",
+            "Text"         : "<0i>I take a closer look. \nThese are the notes from the museum! Someone left them here in a hurry.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E42"
+        },
+
+        {
+            "ID"           : "E42",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Basement",
+            "Text"         : "<0i>Most of them are badly damaged, the frail trail of burned paper still in the air.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E43"
+        },
+
+        {
+            "ID"           : "E43",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Basement",
+            "Options"      : [
+                {
+                    "Name" : "Investigate more.",
+                    "Next" : "E44.1"
+                },
+                {
+                    "Name" : "Show the notes to detectives",
+                    "Next" : "E45"
+                }
+            ],
+            "Text"         : "<0i>I gather all the notes I can see.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "SKIP"
+        },
+
+        {
+            "ID"           : "E44.1",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Basement",
+            "Text"         : "<0i>As I look further, all I can see are some boxes full of books, most of them badly damaged by the weather, but someone was too fond of them to throw'em away.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E44.2"
+        },
+
+        {
+            "ID"           : "E44.2",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Basement",
+            "Text"         : "<0i>I can see why; they're amazing! I can even recall some titles about history and archeology.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E44.3"
+        },
+
+        {
+            "ID"           : "E44.3",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Basement",
+            "Text"         : "<0i>There's also a desk in the corner with a little kerosene lamp, but there's nothing but torn and burnt paper and spilled ink.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E44.4"
+        },
+
+        {
+            "ID"           : "E44.4",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Basement",
+            "Text"         : "<0i>As I look closer, however, I can see a pile of books underneath. These are the missing books from the library!</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E44.5"
+        },
+
+        {
+            "ID"           : "E44.5",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Basement",
+            "Text"         : "<0i>I collect them intending to return them to Miss Nake.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E45"
+        },
+
+        {
+            "ID"           : "E45",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Stairs_Close",
+            "Text"         : "<0i>Mr. Spots carefully reads whatever remained of the notes. Poor Dr. Bearson and hours of work wasted!</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E46"
+        },
+
+        {
+            "ID"           : "E46",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Stairs_Close",
+            "Text"         : "<0i>Hmmm... I see... Henry, take a look at this.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E47"
+        },
+        
+        {
+            "ID"           : "E47",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Stairs_Close",
+            "Text"         : "Hmmm... I see... Henry, take a look at this.",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E48"
+        },
+
+        {
+            "ID"           : "E48",
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Stairs_Close",
+            "Text"         : "Hmmm, that's interesting indeed. Supposedly, the Jewel according to the legend was some sort of the key and was used to seal Meerkate's tomb...",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E49"
+        },
+        
+        {
+            "ID"           : "E49",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Stairs_Close",
+            "Text"         : "I believe our culprit wants to open the secret chamber and get all the gold.\nWe cannot let it happen.",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E50"
+        },
+        
+        {
+            "ID"           : "E50",
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Stairs_Close",
+            "Text"         : "We won't. We need to get to Meerkate's Tomb as soon as possible! We can use my contacts in the military...",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E51"
+        },
+        
+        {
+            "ID"           : "E51",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Stairs_Close",
+            "Text"         : "<0i>Wait... is this really happening?!</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "E52"
         }
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
 
 
     ]

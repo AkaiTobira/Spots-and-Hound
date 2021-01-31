@@ -376,7 +376,7 @@
                 "RightID" : "Dog1"
                             },  
             "Character" :"None",
-           "Location"     : "Piramids",
+           "Location"     : "GameEnd",
             "Text" : "<0i>Thats the end of the game. Thank you for playing.</0i>",
             "Next" : "R38"
         }

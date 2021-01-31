@@ -191,6 +191,10 @@
                 "Background" :{
                     "Volume" : 1,
                     "Name"   : "main"
+                },
+                "Oneshot":{
+                    "Volume" : 1,
+                    "Name" : "dog1_H1"
                 }
             },
             "Text" : "Right on time... good first impression!",
@@ -222,6 +226,10 @@
                 "Background" :{
                     "Volume" : 1,
                     "Name"   : "main"
+                },
+                "Oneshot":{
+                    "Volume" : 1,
+                    "Name"   : "dog1_H2"
                 }
             },
             "Character" :"?",
@@ -245,9 +253,7 @@
                 "Background" :{
                     "Volume" : 1,
                     "Name"   : "main"
-
                 }
-
             },
             "Next"         : "17"
         },
@@ -291,9 +297,7 @@
                 "Background" :{
                     "Volume" : 1,
                     "Name"   : "main"
-
                 }
-
             },
             "Next"         : "19"
         },
@@ -314,7 +318,10 @@
                 "Background" :{
                     "Volume" : 1,
                     "Name"   : "main"
-
+                },
+                "Oneshot" : {
+                    "Volume" : 1,
+                    "Name" : "cat1_N1"
                 }
 
             },

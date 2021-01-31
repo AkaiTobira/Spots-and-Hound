@@ -508,7 +508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _dialogueSystem: {fileID: 1807681089}
-  _nextDialogue: 1
+  _nextDialogue: Aferminigame.1
 --- !u!114 &395066232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -727,6 +727,7 @@ MonoBehaviour:
   - Dialogue/Initial_office
   - Dialogue/Initial_BIBLIOTEKA
   - Dialogue/Initial_stairs
+  - Dialogue/Initial_MUZEUM
   _debug: {fileID: 1365459722}
   isLoaded: 0
 --- !u!4 &480539361
@@ -970,7 +971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _dialogueSystem: {fileID: 1807681089}
-  _nextDialogue: 1
+  _nextDialogue: E37
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

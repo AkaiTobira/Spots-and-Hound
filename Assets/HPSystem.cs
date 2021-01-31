@@ -35,6 +35,15 @@ public class HPSystem : MonoBehaviour
     IEnumerator GameOverSequence(){
         yield return new WaitForSeconds( 1 );
         _dialogueSystem.GameOver();
+
+        StartCoroutine(CREEP());
+
+    }
+
+
+    IEnumerator CREEP(){
+        yield return new WaitForSeconds( 0.5f );
+        
         _hp = 5;
         CanGameOver = true;
     }

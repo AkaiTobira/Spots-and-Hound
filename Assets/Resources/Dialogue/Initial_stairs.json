@@ -385,6 +385,10 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Cat1"
                             },
+                            "Camera":{
+                                "Duration" : 1,
+                                "Magnitude" : 3
+                            },
             "Location"     : "Stairs_Close",
             "Text"         : "It's not my business! I don't care what he does in his apartment and this damn basement!",
             "Music":{

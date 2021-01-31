@@ -487,8 +487,7 @@
                 }
             ],
             "Next" : "SKIP",
-            "Text" : "Czas Wybierać"
-            
+            "Text" : "There is a secret message in the ad. Can You tell what it is?"
         },
         {
             "ID"   : "27a",

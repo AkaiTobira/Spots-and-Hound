@@ -119,7 +119,7 @@
                 "RightID" : "Cat1"
                             },
             "Location"     : "Stairs_Close",
-            "Text"         : "(angry)(shake)But timing too.",
+            "Text"         : "But timing too.",
             "Music":{
                 "Background" :{
                     "Volume" : 1,

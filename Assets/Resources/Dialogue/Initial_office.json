@@ -1,0 +1,755 @@
+{
+    "Entries":
+    [
+        {
+            "ID"           : "1",
+            "Character"    : "None",
+            "Location"     : "Black",
+            "Text"         : "<0i>Ever since I was a kid, I've dreamt of being a Great Detective...</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 0,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "2"
+        },
+        {
+            "ID"           : "2",
+            "Character"    : "None",
+            "Location"     : "Black",
+            "Text"         : "<0i>Solving crimes, finding lost things and people, helping others... that was my dream!</0i>",
+            "MoreSettings":{
+                "HpChange" : 0
+            
+            },
+            "Next"         : "3"
+        },        
+        {
+            "ID"           : "3",
+            "Character"    : "None",
+            "Location"     : "Black",
+            "Text"         : "<0i>(Despite all the discouragements from my family and colleagues)</0i>",
+            "Camera":{
+                "Duration" : 0,
+                "Magnitude" : 0
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+
+            },
+            "Next"         : "4"
+        },        {
+            "ID"           : "4",
+            "Character"    : "None",
+            "Location"     : "Black",
+            "Text"         : "<0i>Until yesterday, I was still working at my family's law firm, slowly succumbing to mundane office life.</0i>",
+            "Camera":{
+                "Duration" : 0,
+                "Magnitude" : 0
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+
+            },
+            "Next"         : "5"
+        },        {
+            "ID"           : "5",
+            "Character"    : "None",
+            "Location"     : "Black",
+            "Text"         : "<0i>Deep inside, however, I was waiting for a good reason to leave it all behind and run away.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+
+            },
+            "Next"         : "6"
+        },        {
+            "ID"           : "6",
+            "Character"    : "None",
+            "Location"     : "Black",
+            "Text"         : "<0i>So when one day I've noticed a strange job offer in the newspaper, it caught my attention right away.</0i>",
+            "Camera":{
+                "Duration" : 0,
+                "Magnitude" : 0
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+
+            },
+            "Next"         : "7"
+        },        {
+            "ID"           : "7",
+            "Location"     : "Black",
+            "Text"         : "<0i>I knew this address, I knew it by heart!\nIt was the most prestigious Detective Agency across whole Europe!</0i>",
+            "Camera":{
+                "Duration" : 1.4,
+                "Magnitude" : 8
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                },
+                "Oneshot" :{
+                    "Volume" : 1,
+                    "Name"   : "mystery"
+                }
+
+            },
+            "Next"         : "8"
+        },
+        {
+            "ID"   : "8",
+            "Location"     : "Black",             
+            "Text" : "<0i>Surprisingly, I've managed to book the job interview and the very same day I was heading to meet the most brilliant minds of our times!</0i>",
+            "Next" : "9"
+        },
+        {
+            
+            "ID"   : "9",
+            "Location"     : "Black",
+            "Music":{
+            
+                "Oneshot" :{
+                        "Volume" : 1,
+                        "Name"   : "open_door"
+                    },
+            "Text" : "<0i>Here we go!</0i>"
+
+        },
+            "Next" : "10"
+        },
+        {
+            "ID"   : "10",
+            "Location"     : "Office",
+            "Text"         : "<0i>I'm too stressed and excited to breathe.</0i>",
+            "Music":{
+                "Oneshot" :{
+                        "Volume" : 1,
+                        "Name"   : "bells"
+                    }
+            
+            },
+        
+            "Next"         : "11"
+        },
+        {
+            "ID"           : "11",
+
+            "Location"     : "Office",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
+
+                    
+
+                    }   
+            },
+            "Text"         : "<0i>I'm almost passing out as I walk through the door.</0i>",
+            "Next"         : "12"
+        },
+        {
+            "ID"   : "12",
+            "Picture"      : {
+                "LeftID" : "None"
+                            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
+
+                    }
+                
+            },
+            "Text" : "<0i>As I'm slowly trying to regain my composure, a trenched-coated Shiba Inu appears right in front of me.</0i>",
+            "Next" : "13"
+        },
+        {
+            "ID"   : "13",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "None"
+                            },
+            "Character" :"?",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
+                }
+            },
+            "Text" : "Right on time... good first impression!",
+            "Next" : "14"
+        },        
+        {
+            "ID"   : "14",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
+                }
+            },
+            "Character" :"?",
+            "Text" : "<0i>He gives me stern look from underneath the stylish hat.</0i>",
+            "Next" : "15"
+        },
+        {
+            "ID"   : "15",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
+                }
+            },
+            "Character" :"?",
+            "Text" : "<0i>But I can see he is distressed.\nAnd looks messy.\nAnd smells like a hot dog.</0i>",
+            "Next" : "16"
+        },
+        {
+            "ID"           : "16",
+            "Character"    : "?",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "None"
+                            },
+            "Location"     : "Office",
+            "Text"         : "Not sure if I like that",
+            "Camera":{
+                "Duration" : 2,
+                "Magnitude" : 5
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
+
+                }
+
+            },
+            "Next"         : "17"
+        },
+        {
+            "ID"           : "17",
+            "Character"    : "?",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "None"
+                            },
+            "Location"     : "Office",
+            "Text"         : "<0i>(I was in a rush so I've bought the hot dog from the stand!\nThat won't happen again, healthy breakfast at home and diet from now on, just don't throw me out!)</0i>",
+            "Camera":{
+                "Duration" : 5,
+                "Magnitude" : 2
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
+
+                }
+
+            },
+            "Next"         : "18"
+        },
+        {
+            "ID"           : "18",
+            "Character"    : "?",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "None"
+                            },
+            "Location"     : "Office",
+            "Text"         : "<0i>Another figure appears.\nIt's... a cat!</0i>",
+            "Camera":{
+                "Duration" : 0,
+                "Magnitude" : 0
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
+
+                }
+
+            },
+            "Next"         : "19"
+        },
+        {
+            "ID"           : "19",
+            "Character"    : "?",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Office",
+            "Text"         : "Well, I guess he is just nervous which is a very natural reaction,\nespecially for humans",
+            "Camera":{
+                "Duration" : 0,
+                "Magnitude" : 0
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
+
+                }
+
+            },
+            "Next"         : "20"
+        },
+        {
+            "ID"           : "20",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Office",
+            "Text"         : "<0i>I get to my senses and introduce myself, telling I'm here about the ad.\nThe cat nods and gives me a confident smile.</0i>",
+            "Camera":{
+                "Duration" : 0,
+                "Magnitude" : 0
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
+
+                }
+
+            },
+            "Next"         : "21"
+        },
+        {
+            "ID"           : "21",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1_H"
+                            },
+            "Location"     : "Office",
+            "Text"         : "It's a pleasure. My name is Gary Spots, Private Investigator.\nAnd this is my dear friend and co-founder of this Agency – Henry Hound!",
+            "Camera":{
+                "Duration" : 0,
+                "Magnitude" : 0
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
+
+                }
+
+            },
+            "Next"         : "22"
+        },
+        {
+            "ID"           : "22",
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Office",
+            "Text"         : "Howdy, kid.\n<0i>I think I can see a hint of a smile? Or maybe that's just my imagination...</0i>",
+            "Camera":{
+                "Duration" : 0,
+                "Magnitude" : 0
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
+
+                }
+
+            },
+            "Next"         : "23"
+        },
+        {
+            "ID"           : "23",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Office",
+            "Text"         : "But let's get down to business, shall we?\nHave You brought the ad with You?",
+            "Camera":{
+                "Duration" : 0,
+                "Magnitude" : 0
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
+
+                }
+
+            },
+            "Next"         : "24"
+        },
+        {
+            "ID"           : "24",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Focus",
+            "Text"         : "<0i>Reluctantly, I take out a torn piece of yesterday's newspaper from my pocket.</0i>",
+            "Camera":{
+                "Duration" : 0,
+                "Magnitude" : 0
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
+
+                }
+
+            },
+            "Next"         : "25"
+        },
+        {
+            "ID"           : "25",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "None"
+                            },
+            "Location"     : "Focus",
+            "Text"         : "Newspapers these days – look at the quality of the print!",
+            "Camera":{
+                "Duration" : 0,
+                "Magnitude" : 0
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
+
+                }
+
+            },
+            "Next"         : "26"
+        },
+        {
+            "ID"           : "26",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Focus",
+            "Camera":{
+                "Duration" : 0,
+                "Magnitude" : 0
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "main"
+                }
+            },
+            "Options"      : [
+                {
+                    "Name" : "Scandalous!",
+                    "Next" : "27a"
+                },
+                {
+                    "Name" : "This ad was odd...",
+                    "Next" : "27b"
+                }
+            ],
+            "Next" : "SKIP",
+            "Text" : "There is a secret message in the ad. Can You tell what it is?"
+        },
+        {
+            "ID"   : "27a",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"            },
+            "Text" : "<0i>My anger aimed at the low quality of journalism din't seem to impress Mr Spots.</0i>\nYes, quite. However...",
+            "MoreSettings":{
+                "HpChange" : -1
+            },
+            "Next" : "30"
+        },
+        {
+            "ID"   : "27b",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Character" :"Gary",
+            "Location"     : "Office",
+            "Options"      : [
+                {
+                    "Name" : "Just feels weird.",
+                    "Next" : "28a"
+                },
+                {
+                    "Name" : "Hidden meaning",
+                    "Next" : "28b3"
+                }
+            ],
+            "Next" : "SKIP",
+            "Text" : "What do You mean?"
+        },
+        {
+            "ID"   : "28a",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Character" :"Henry",
+            "Location"     : "Office",
+            "Text" : "Good instinct.",
+            "Next" : "30"
+        },
+        {
+            "ID"   : "28b1",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "Dog1"
+                            },
+            "Character" :"Henry",
+            "Location"     : "Office",
+            "Text" : "That is... absolutely....",
+            "Next" : "28b2"
+        },
+        {
+            "ID"   : "28b2",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "Dog1"
+                            },
+            "Character" :"Henry",
+            "Location"     : "Office",
+            "Text" : "... IMPRESSIVE!",
+            "Next" : "28b4"
+        },
+        {
+            "ID"   : "28b4",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Character" :"Gary",
+            "Location"     : "Office",
+            "Text" : "You're right.",
+            "Next" : "30"
+        },
+        {
+            "ID"   : "28b3",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Character" :"None",
+            "Location"     : "Office",
+            "Text" : "<0i>I tell them that I suspect there is more to it then lost letters,\nlike a hidden code.</0i>",
+            "Next" : "28b1"
+        },
+        {
+            "ID"   : "30",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Character" :"Gary",
+            "Location"     : "Focus",
+            "Options"      : [
+                {
+                    "Name" : "LOST",
+                    "Next" : "31a"
+                },
+                {
+                    "Name" : "FOUND",
+                    "Next" : "31b"
+                },
+                {
+                    "Name" : "HOUND",
+                    "Next" : "31a"
+                },
+                {
+                    "Name" : "SPOTS",
+                    "Next" : "31a"
+                }
+            ],
+            "Next" : "SKIP",
+            "Text" : "There is a secret message in the ad. Can You tell what it is?"
+        },
+        {
+            "ID"   : "31a",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Character" :"Gary",
+            "Text" : "I'm affraid that wasn't it.",
+            "Location"     : "Office",
+            "Next" : "31a2"
+        },
+        {
+            "ID"   : "31a2",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+            "Character" :"Henry",
+            "Text" : "Lucky guesses are not always lucky!",
+            "Location"     : "Office",
+            "Next" : "32"
+        },
+        {
+            "ID"   : "31b",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Character" :"Gary",
+            "Text" : "Well done! You're doing pretty good first impression so far, I must say.",
+            "Location"     : "Office",
+            "Next" : "31b1"
+        },
+        {
+            "ID"   : "31b1",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+            "Character" :"Henry",
+            "Text" : "Speak for Yourself!",
+            "Location"     : "Office",
+            "Next" : "31b2"
+        },
+        {
+            "ID"   : "31b2",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Character" :"None",
+            "Text" : "<0i>Oh no...</0i>",
+            "Location"     : "Office",
+            "Next" : "32"
+        },
+        {
+            "ID"   : "32",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Character" :"Gary",
+            "Text" : "And now, since we have our initial test behind us, let's talk more about Your training.",
+            "Location"     : "Office",
+            "Next" : "32a"
+        },
+        {
+            "ID"   : "32a",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Character" :"Gary",
+            "Text" : "We've decided to open our doors to any potential intern,\nbut always keeping a close eye on their actions and words.",
+            "Location"     : "Office",
+            "Next" : "33"
+        },
+        {
+            "ID"   : "33",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+            "Character" :"Henry",
+            "Text" : "So keep in mind that You are evaluated ever since You've walked that door!",
+            "Location"     : "Office",
+            "Next" : "33a"
+        },
+        {
+            "ID"   : "33a",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Character" :"None",
+            "Text" : "<0i>GULP!</0i>",
+            "Location"     : "Office",
+            "Next" : "34"
+        },
+        {
+            "ID"   : "34",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1_H"
+                            },
+            "Character" :"Gary",
+            "Text" : "Now it's time to see more of Your skills in practice.\nWe've just got the message from Art and History Museum. They need our immediate assistance.",
+            "Location"     : "Office",
+            "Next" : "35"
+        },
+        {
+            "ID"   : "35",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1_H"
+                            },
+            "Character" :"Gary",
+            "Text" : "<0i>He nods at the paper on his desk.</0i>",
+            "Location"     : "Newspaper",
+            "Next" : "36"
+        },
+        {
+            "ID"   : "36",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1_H"
+                            },
+            "Character" :"Gary",
+            "Text" : "They were planning an interesting exhibition on Ancient Egypt...\nCould it be...?",
+            "Location"     : "Newspaper",
+            "Next" : "37"
+        },
+        {
+            "ID"   : "37",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat2"
+                            },
+            "Character" :"Henry",
+            "Text" : "Enough of the chit-chat, we have job at hand! Crime scene to investigate!",
+            "Location"     : "Newspaper",
+            "Next" : "M1"
+        }
+        
+    ]
+}
+

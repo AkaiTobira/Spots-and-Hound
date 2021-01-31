@@ -19,4 +19,9 @@ public static class PlayerInput
         return Input.GetKeyDown(KeyCode.X) || Input.GetButtonDown("Fire1") || AndoidTouchDetected;
     }
 
+    public static bool isExitKeyPressed(){
+        return Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Backspace);
+    }
+
+
 }

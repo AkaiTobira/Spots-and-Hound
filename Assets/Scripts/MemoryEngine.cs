@@ -25,6 +25,7 @@ public class MemoryEngine : MonoBehaviour
     public void Selected( CardController controller, string selected){
         if( Locked ) return;
         controller.ShowCard();
+        AudioSystem.Instance.PlayEffect( "card_hide", 0.5f, true );
         if( _cleared == transform.childCount-1){
             StartCoroutine( OnFinish() );
         }
@@ -43,6 +44,7 @@ public class MemoryEngine : MonoBehaviour
     }
 
     private IEnumerator OnFinish(){
+        AudioSystem.Instance.PlayEffect( "shock", 0.5f, true );
         yield return new WaitForSeconds(1f);
         _dialogueSystem.ForceNextOption( _nextDialogue );
         _dialogueSystem.ProcessNextDialogue();
@@ -55,6 +57,7 @@ public class MemoryEngine : MonoBehaviour
         _selectedController = null;
         Locked = false;
         _cleared += 2;
+        AudioSystem.Instance.PlayEffect( "card_clear", 0.5f, true );
     }
 
     private IEnumerator DelayHide(CardController controller){
@@ -63,6 +66,8 @@ public class MemoryEngine : MonoBehaviour
         controller.HideCard();
         _selectedController = null;
         Locked = false;
+
+        //AudioSystem.Instance.PlayEffect( "card_hide", 0.5f, true );
     }
 
 

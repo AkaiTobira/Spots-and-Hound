@@ -42,6 +42,8 @@ public class AudioSystem : MonoBehaviour
 	}
 
     private List<AudioTrack> _musicToPlay = new List<AudioTrack>();
+
+    [SerializeField] private List<AudioSource> _effectsPLayers = new List<AudioSource>();
 	public void PlayEffect(string clipName, float volume, bool randomPitch=false)
 	{
         if( string.IsNullOrEmpty(clipName) ) return;
@@ -52,17 +54,17 @@ public class AudioSystem : MonoBehaviour
             if( at._name == clipName){
                 clipSelected = true;
 
-                if( EffectsSource.isPlaying ){
-                    at.TargetVolume = volume;
-                    _musicToPlay.Add( at );
-                }else{
+                for( int i = 0; i < _effectsPLayers.Count; i++){
+                    if( _effectsPLayers[i].isPlaying ) continue;
+                    
                     if( randomPitch ){
                         float pitch = Random.Range(LowPitchRange, HighPitchRange);
-		                EffectsSource.pitch = pitch;
+		                _effectsPLayers[i].pitch = pitch;
                     }
-                	EffectsSource.clip   = at._clip;
-                    EffectsSource.volume = volume;
-                    EffectsSource.Play();
+                	_effectsPLayers[i].clip   = at._clip;
+                    _effectsPLayers[i].volume = volume;
+                    _effectsPLayers[i].Play();
+                    return;
                 }
             }
         }

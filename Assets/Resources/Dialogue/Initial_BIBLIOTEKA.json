@@ -206,6 +206,10 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Snake1"
                             },
+            "Memory" :{
+                "UnlockMemory" : "No",
+                "Name"    : "Keys"
+            },
 		"Location"     : "Library",
             "Text"         : "This might be tricky. A few days ago, while I was on my break, some prankster decided to mess with the archives! I didn't have time for sorting it out, but since You need them anyway maybe You could take a look?",
            "Next"           :"Aferminigame.1"

@@ -1298,11 +1298,11 @@
             "MoreSettings":{
                 "HpChange" : 0
             },
-            "Next"         : "E40"
+            "Next"         : "E53"
         },
        
         {
-            "ID"           : "E40",
+            "ID"           : "E53",
             "Character"    : "None",
             "Picture"      : {
                 "LeftID" : "None",

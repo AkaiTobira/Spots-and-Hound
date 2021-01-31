@@ -14,6 +14,7 @@ public class AudioTrack{
     public AudioClip _clip;
     [HideInInspector] public float Volume;
     [HideInInspector] public float TargetVolume;
+    [HideInInspector] public float Pitch;
 }
 
 public class AudioSystem : MonoBehaviour
@@ -41,7 +42,7 @@ public class AudioSystem : MonoBehaviour
 	}
 
     private List<AudioTrack> _musicToPlay = new List<AudioTrack>();
-	public void PlayEffect(string clipName, float volume)
+	public void PlayEffect(string clipName, float volume, bool randomPitch=false)
 	{
         if( string.IsNullOrEmpty(clipName) ) return;
 
@@ -55,7 +56,11 @@ public class AudioSystem : MonoBehaviour
                     at.TargetVolume = volume;
                     _musicToPlay.Add( at );
                 }else{
-                    EffectsSource.clip   = at._clip;
+                    if( randomPitch ){
+                        float pitch = Random.Range(LowPitchRange, HighPitchRange);
+		                EffectsSource.pitch = pitch;
+                    }
+                	EffectsSource.clip   = at._clip;
                     EffectsSource.volume = volume;
                     EffectsSource.Play();
                 }

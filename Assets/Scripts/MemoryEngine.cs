@@ -55,6 +55,7 @@ public class MemoryEngine : MonoBehaviour
         _selectedController = null;
         Locked = false;
         _cleared += 2;
+
     }
 
     private IEnumerator DelayHide(CardController controller){
@@ -63,6 +64,8 @@ public class MemoryEngine : MonoBehaviour
         controller.HideCard();
         _selectedController = null;
         Locked = false;
+
+        AudioSystem.Instance.PlayEffect( "card_hide", 0.5f, true );
     }
 
 

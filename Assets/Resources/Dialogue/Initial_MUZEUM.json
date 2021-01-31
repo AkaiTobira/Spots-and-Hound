@@ -32,7 +32,10 @@
                             },
             "Character" :"?",
            "Location"     : "Museum",
-        
+           "Camera":{
+            "Duration" : 1,
+            "Magnitude" : 4
+        },
             "Text" : "I'm so glad You're here! This situation is un-BEARable!",
             "Next" : "M4"
         },

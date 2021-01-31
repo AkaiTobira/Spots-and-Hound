@@ -48,6 +48,8 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         if( _nextSequenceIndex == "OVER" ) return;
 
         LoadDialog(DialogLoader.Dialogs.GetDialogueInfo(_nextSequenceIndex));
+
+        Debug.Log( _nextSequenceIndex );
     }
 
     private List<string> _textMarkers = new List<string>();
@@ -69,11 +71,11 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         SetupText( dialoge.Text, dialoge.ID );
         SetupCharacterNamePic( dialoge.Character );
         SetupCharacterPicture( dialoge.Picture );
+        SetupMemory( dialoge.Memory );
         SetupOptions( dialoge.Options );
         SetupLocation( dialoge.Location);
         SetupCamera( dialoge.Camera );
         SetupSound( dialoge.Music);
-        SetupMemory( dialoge.Memory );
         SetupHpChange( dialoge.MoreSettings );
 
         //_textMarkers.Add( dialoge.Next );
@@ -96,7 +98,6 @@ public class DialogueSystem : MonoBehaviour, IBlockable
     private void SetupMemory( MemoryInfo memoryInfo){
         if( memoryInfo == null) return;
 
-
         if( !string.IsNullOrEmpty(memoryInfo.Name) ){
             _memory.Show( memoryInfo.Name );
         }
@@ -110,7 +111,6 @@ public class DialogueSystem : MonoBehaviour, IBlockable
                 _choices.gameObject.SetActive(false);
                 gameObject.SetActive(false);
             }
-
         }
 
 
@@ -268,6 +268,7 @@ public class DialogueSystem : MonoBehaviour, IBlockable
     }
 
     private void SetupOptions( OptionInfo[] options ){
+        Debug.Log( (options == null) + " " + _currentSquenceIndex + " " + _nextSequenceIndex  );
         if( options == null ) return;
         isOptionSelect = true;
         _choices.SetOptions( options );

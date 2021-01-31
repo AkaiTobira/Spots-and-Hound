@@ -1204,12 +1204,33 @@
             "MoreSettings":{
                 "HpChange" : 0
             },
-            "Next"         : "E37"
+            "Next"         : "KEYSGAME"
         },
+        {
+            "ID"           : "KEYSGAME",
+            "Memory" :{
+                "UnlockMemory" : "Yes",
+                "HideInterface" : "True",
+                "Name"    : "Keys"
+            },
 
+
+            "Text"         : "None",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "OVER"
+        },
         {
             "ID"           : "E37",
             "Character"    : "None",
+            "Memory" : { "HideInterface" : "No"},
             "Picture"      : {
                 "LeftID" : "None",
                 "RightID" : "None"

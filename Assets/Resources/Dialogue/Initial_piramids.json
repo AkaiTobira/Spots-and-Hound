@@ -458,6 +458,10 @@
                 "RightID" : "None"
                             },
             "Location"     : "Black",
+            "Camera":{
+                "Duration" : 2,
+                "Magnitude" : 5
+            },
             "Text"         : "What were You thinking?!",
             "Music":{
                 "Background" :{

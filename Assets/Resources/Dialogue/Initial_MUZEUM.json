@@ -1,0 +1,583 @@
+{
+    "Entries":
+    [
+	
+
+        {
+            "ID"           : "1",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Museum",
+            "Text"         : "<0i>We enter the museum in a hurry. I keep looking at all the amazing sculptures, vessels, and artifacts while trying to catch up with my potential – and fast walking – employers at the same time.</0i>",
+            "Next"         : "M2"
+        },
+        {
+            "ID"   : "M2",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None"
+                            },
+		"Location"     : "Museum",
+            "Text" : "<0i>Suddenly, we are stopped by a visibly distressed Brown bear!</0i>",
+            "Next" : "M3"
+        },
+        {
+            "ID"   : "M3",
+            "Picture"      : {
+                "LeftID" : "Bear1",
+                "RightID" : "None"
+                            },
+            "Character" :"?",
+           "Location"     : "Museum",
+        
+            "Text" : "I'm so glad You're here! This situation is un-BEARable!",
+            "Next" : "M4"
+        },
+ {
+            "ID"   : "M4",
+                           
+            "Character" :"Gary",
+           "Location"     : "Museum",
+           "Picture"      : {
+            "LeftID" : "Cat1",
+            "RightID" : "Bear1"
+                        },
+            "Text" : "Hello Bert",
+            "Next" : "M5"
+        },
+{
+            "ID"   : "M5",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Bear1"
+                            },
+            "Character" :"None",
+           "Location"     : "Museum",
+        
+            "Text" : "<0i>He nods at me.</0i>",
+            "Next" : "M6"
+        },
+{
+            "ID"   : "M6",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Bear1"
+                            },
+            "Character" :"Gary",
+           "Location"     : "Museum",
+            
+            "Text" : "Our new intern.",
+            "Next" : "M7"
+        },
+{
+            "ID"   : "M7",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Bear1"
+                            },
+            "Character" :"Bergson",
+           "Location"     : "Museum",
+            "Text" : "Um... Dr. Bert Bearson, I'm the curator of the Museum.",
+            "Next" : "M8"
+        },
+{
+            "ID"   : "M8",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Bear1"
+                            },
+            "Character" :"Gary",
+           "Location"     : "Museum",
+            "Text" : "So what exactly happened here?",
+            "Next" : "M9"
+        },
+{
+            "ID"   : "M9",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Bear1"
+                            },
+            "Character" :"Bergson",
+           "Location"     : "Museum",
+            "Text" : "Just take a look. It's self-explanatory.",
+            "Next" : "M10"
+        },
+{
+ 
+            "ID"           : "M10",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Bear1"
+                            },
+		"Location"     : "Museum",
+            
+         
+            "Text"         : "<0i>Behind us, a beautiful exhibition on Ancient Egypt... vandalised!</0i>",
+            "Next"         : "M11"
+        },
+{
+            "ID"           : "M11",
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Bear1"
+                            },
+		"Location"     : "Museum",
+           
+           
+            "Text"         : "That's just in-animal!",
+            "Next"         : "M12"
+        },
+        {
+            "ID"           : "M12",
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Bear1"
+                            },
+		"Location"     : "Museum",
+           
+           
+            "Text"         : "Who could've done this and why?",
+            "Next"         : "M13"
+        },
+
+{
+    
+            "ID"           : "M13",
+            "Character"    : "Bergson",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Bear1"
+                            },
+		"Location"     : "Museum",
+           
+            "Text"         : "Wish I'd knew! I'm getting nowhere with the police... No footprints, no leads, no ideas. They know NOTHING.",
+		"Next"    : "M14"
+        },
+{
+            "ID"           : "M14",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Bear1"
+                            },
+		"Location"     : "Museum",
+            
+          
+            "Text"         : "<0i>Anything suspicious?</0i>",
+            "Next"         : "M15"
+        },
+{
+            "ID"           : "M15",
+            "Character"    : "Bergson",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Bear1"
+                            },
+		"Location"     : "Museum",
+            
+          
+            "Text"         : "Just a few days ago, all the notes about the items has been stolen! At first, we thought they were just misplaced, but now I can see it's more than that.",
+            "Next"         : "M16"
+        },
+	
+{
+            "ID"           : "M16",
+            "Character"    : "Bergson",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Bear1"
+                            },
+		"Location"     : "Museum",
+            "Text"         : "I feel so lost! It's being few months of careful preparations, research, and after-hours work. Then “misplacement” of all the materials about the items a few days back, and now THIS!",
+           "Next"           :"M17"
+        },
+
+
+
+{
+            "ID"           : "M17",
+            "Location"     : "Museum",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Bear1"
+                            },
+            "Text"         : "<0i>He sighs deeply</0i>",
+            "Next"         : "M18"
+        },
+{
+            "ID"           : "M18",
+            "Location"     : "Museum",
+            "Character"    : "Bergson",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Bear1"
+                            },
+           
+            "Text"         : "Richard already worries I'm overworked and stressed, can You imagine what he's gonna say now?!",
+            "Next"         : "M19"
+        },
+        {
+            "ID"           : "M19",
+            "Location"     : "Museum",
+            "Character"    : "Bergson",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Bear1"
+                            },
+           
+            "Text"         : "That just gives me more anxieties!",
+            "Next"         : "M20"
+        },
+        {
+            "ID"           : "M20",
+            "Location"     : "Museum",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Bear1"
+                            },
+           
+            "Text"         : "You and your husband can sleep easy, we've got this.",
+            "Next"         : "M21"
+        },
+        {
+            "ID"           : "M21",
+            "Location"     : "Museum",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Bear1"
+                            },
+           
+            "Text"         : "I already see what was lost, do You?",
+            "Next"         : "M22"
+        },
+
+
+{
+            "ID"           : "M22",
+            "Location"     : "Museum",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Bear1"
+                            },
+
+"Options"      : [
+                {
+                    "Name" : "the mummy  ",
+                    "Next" : "M23"
+                },
+                {
+                    "Name" : "the jewel",
+                    "Next" : "M24"
+                },
+                {
+                    "Name" : "ceremonial cup ",
+                    "Next" : "M23"
+                },
+                {
+                    "Name" : "nothing",
+                    "Next" : "M23"
+                }
+
+            ],
+            "Text"         : "<0i>His ears go up and although he's still talking to dr Bearson, I know the question was meant for me.</0i>",
+            "Next"         : "SKIP"
+        },
+
+{
+ 
+            "ID"           : "M23",
+            "Location"     : "Museum",
+            "Character"    : "Henry",
+            "MoreSettings" :{  "HpChange" : -1},
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "None"
+                            },
+		
+    
+		"Text"         : "Woof, You're not paying attention, do You?",
+		"Next"         : "M22"
+            },
+{
+ 
+            "ID"           : "M24",
+            "Location"     : "Museum",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "None"
+                            },
+
+		"Text"         : "The article about the upcoming exhibition mentioned a jewel as a big centerpiece of the event...",
+		"Next"         : "M25"
+          
+
+        },
+        {
+ 
+            "ID"           : "M25",
+           
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "None"
+                            },
+		"Location"     : "Museum",
+
+		"Text"         : "… and that already brought someone's attention. And it seems this “someone” stole the notes. But why?",
+		"Next"         : "M26"
+            },
+            {
+ 
+                "ID"           : "M26",
+               
+                "Character"    : "Bergson",
+                "Picture"      : {
+                    "LeftID" : "Bear1",
+                    "RightID" : "None"
+                                },
+            "Location"     : "Museum",
+    
+            "Text"         : "When I think about it, it seems like a very thorough job.",
+            "Next"         : "M27"
+                },
+                 {
+ 
+                    "ID"           : "M27",
+                   
+                    "Character"    : "Bergson",
+                    "Picture"      : {
+                        "LeftID" : "Bear1",
+                        "RightID" : "None"
+                                    },
+                "Location"     : "Museum",
+        
+                "Text"         : "These notes were specifically focused on the Jewel of Queen Meerkate and were world-scale unique! And our specialist in the field... is literally IN the field, working on a recent discovery in India... so pretty much unreachable.",
+                "Next"         : "M28"
+                    },
+                    {
+ 
+                        "ID"           : "M28",
+                       
+                        "Character"    : "Henry",
+                        "Picture"      : {
+                            "LeftID" : "Dog1",
+                            "RightID" : "None"
+                                        },
+                    "Location"     : "Museum",
+            
+                    "Text"         : "So it looks like someone wanted to make sure no one knows how important the jewel was.",
+                    "Next"         : "M29"
+                        },
+                        {
+ 
+                            "ID"           : "M29",
+                           
+                            "Character"    : "Bergson",
+                            "Picture"      : {
+                                "LeftID" : "Bear1",
+                                "RightID" : "None"
+                                            },
+                        "Location"     : "Museum",
+                
+                        "Text"         : "Seems like it...",
+                        "Next"         : "M30"
+                            },
+                            {
+ 
+                                "ID"           : "M30",
+                               
+                                "Character"    : "Henry",
+                                "Picture"      : {
+                                    "LeftID" : "Dog1",
+                                    "RightID" : "None"
+                                                },
+                            "Location"     : "Museum",
+                    
+                            "Text"         : "So, with all the information so far, what You think we should do?",
+                            "Next"         : "M31"
+                                },
+{
+    
+ 
+            "ID"           : "M31",
+           
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "None"
+                            },
+		"Location"     : "Museum",
+
+"Options"      : [
+    {
+        "Name" : "Ask the police for help",
+        "Next" : "M31.A"
+    },
+    {
+        "Name" : "Find some information about jewel ",
+        "Next" : "M31.B"
+    },
+    {
+        "Name" : "Look for clues",
+        "Next" : "M31.C"
+    }
+            ],
+		"Text"         : "So, with all the information so far, what You think we should do?",
+		"Next"         : "SKIP"
+            },
+
+
+
+
+{
+            "ID"           : "M31.A",
+            "Character"    : "Gary",
+            "MoreSettings" :{  "HpChange" : -1},
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+		"Location"     : "Museum",
+
+            "Text"         : "Dr. Bearson mentioned they've got nothing...",
+            "Next"         : "M31.A.1"
+        },
+{
+            "ID"           : "M31.A.1",
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+		"Location"     : "Museum",
+
+            "Text"         : "Yeah, You need to be more attentive.",
+            "Next"         : "M31"
+        },
+        {
+            "ID"           : "M31.C",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+		"Location"     : "Museum",
+
+            "Text"         : "Not sure if the police could miss something, but let's take a look.",
+            "Next"         : "M31.C.1"
+        },
+        {
+            "ID"           : "M31.C.1",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+		"Location"     : "Museum",
+
+            "Text"         : "<0i>Turns out the police did their job well. Apart from the broken glass case, there's nothing. Not a single paw print, not a speck of dust!</0i>",
+            "Next"         : "M31"
+        },
+{
+            "ID"           : "M31.B",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+                            "Options"      : [
+                                {
+                                    "Name" : "Library",
+                                    "Next" : "M32.A"
+                                },
+                                {
+                                    "Name" : "Jeweler ",
+                                    "Next" : "M32.B"
+                                }
+                                        ],
+		"Location"     : "Museum",
+ 
+            "Text"         : "Good call, apprentice! Finding more context would be extremely helpful now. Where should we go?",
+            "Next"         : "SKIP"
+        },
+{
+            "ID"           : "M32.A",
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+		"Location"     : "Museum",
+
+            "Text"         : "It's worth a try.",
+            "Next"         : "M32.A.1"
+        },
+        {
+            "ID"           : "M32.A.1",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+		"Location"     : "Museum",
+
+            "Text"         : "I agree. At this point, we have no clues and leads so a visit to the library is our only hope to get some information.",
+            "Next"         : "L1"
+        },
+{
+            "ID"           : "M32.B",
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+		"Location"     : "Museum",
+ 
+            "Text"         : "There's no point!",
+            "Next"         : "M32.B.1"
+        },
+        {
+            "ID"           : "M32.B.1",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+		"Location"     : "Museum",
+ 
+            "Text"         : "This is not “just” a robbery, someone knows more about the jewel than how much it's worth. And I don't think there's anyone in the city that specialises in ancient jewelry.",
+            "Next"         : "M32.B.3"
+        },
+        {
+            "ID"           : "M32.B.3",
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+        "Location"     : "Museum",
+        "Options"      : [
+            {
+                "Name" : "Library",
+                "Next" : "M32.A"
+            }
+                    ],
+ 
+            "Text"         : "It would be a waste of our time.",
+            "Next"         : "SKIP"
+        }
+
+    ]
+}
+

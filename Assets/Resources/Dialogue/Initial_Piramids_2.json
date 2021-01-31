@@ -8,7 +8,7 @@
                 "LeftID" : "None",
                 "RightID" : "None"
                             },
-            "Location"     : "Piramids",
+            "Location"     : "Tomb",
             "Text"         : "<0i>My heart starts to beat faster, as I look around. The hall is huge, full of richly decorated sculptures, all sorts of treasures and most amazing cultural achievements.</0i>",
             "Camera":{
                 "Duration" : 0,
@@ -23,7 +23,7 @@
             "Picture"      : {
                 "LeftID" : "None"
                             },
-		"Location"     : "Piramids",
+		"Location"     : "Tomb",
             "Text" : "<0i>Before we can even grasp the scope of the wonders we are seeing, we can hear a voice coming from the shadows.</0i>",
             "Next" : "R25"
         },
@@ -34,7 +34,7 @@
                 "RightID" : "Dog1"
                             },
             "Character" :"?",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
         
             "Text" : "I must be more careful next time and cover my tracks more thoroughly...",
             "Next" : "R26"
@@ -47,7 +47,7 @@
                             },
                            
             "Character" :"Gary",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             
             "Text" : "Who are You? Reveal yourself!",
             "Next" : "R27"
@@ -59,7 +59,7 @@
                 "RightID" : "Cat1"
                             },
             "Character" :"Henry",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
         
             "Text" : "This smells like trouble!",
             "Next" : "R28"
@@ -71,7 +71,7 @@
                 "RightID" : "Cat1"
                             },
             "Character" :"None",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             
             "Text" : "<0i>The figure moves over to the light and soon we can clearly see...</0i>",
             "Next" : "R29"
@@ -83,7 +83,7 @@
                 "RightID" : "Cat2"
                             },  
             "Character" :"Gary",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             "Text" : "BROTHER!",
             "Next" : "R30"
         },
@@ -94,7 +94,7 @@
                 "RightID" : "Cat2"
                             },  
             "Character" :"Lucius",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             "Text" : "....",
             "Next" : "R31"
         },
@@ -105,7 +105,7 @@
                 "RightID" : "Cat2"
                             },  
             "Character" :"Lucius",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             "Text" : "....",
             "Next" : "R32"
         },
@@ -116,7 +116,7 @@
                 "RightID" : "Cat2"
                             },  
             "Character" :"Lucius",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             "Text" : ".... and You are?",
             "Next" : "R33"
         },
@@ -128,7 +128,7 @@
                 "RightID" : "Cat2"
                             },  
             "Character" :"None",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             "Text" : "<0i>Could this be?! He has LOST his memory?!</0i>",
             "Next" : "R34"
         },
@@ -139,7 +139,7 @@
                 "RightID" : "Cat2"
                             },  
             "Character" :"None",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             "Text" : "<0i>Mr Spots looks absolutely devastated as he moves towards newly found brother.</0i>",
             "Next" : "R35"
         }, 
@@ -150,7 +150,7 @@
                 "RightID" : "Cat1"
                             },  
             "Character" :"Lucius",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             "Text" : "STAY BACK! Don't get any closer.",
             "Next" : "R36"
         },
@@ -171,7 +171,7 @@
                     "Next" : "R36.B"
                 }
             ],
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             "Text" : "Why are You doing this? Don't You remember me?",
             "Next" : "SKIP"
         },
@@ -187,7 +187,7 @@
                         },
 
             "Character" :"Henry",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             "Text" : "NO, STOP!",
             "Next" : "R36.A.1"
         },
@@ -198,7 +198,7 @@
                 "RightID" : "Cat2"
                             },  
             "Character" :"None",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             "Text" : "<0i>But it's too late. I'm already near Lucius and try to tackle him. But he's way faster and WAY stronger than I would ever expected!</0i>",
             "Next" : "R36.A.2"
         },
@@ -210,7 +210,7 @@
                 "RightID" : "Cat2"
                             },  
             "Character" :"None",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             "Text" : "<0i>I fall to the ground with the loud thud. Before I lose conciousness, I can see Lucius at the far side of the hall. He almost looks like he feels sorry... but then he dissapears behind the corner.</0i>",
             "Next" : "R36.A.3"
         },
@@ -221,7 +221,7 @@
                 "RightID" : "Cat2"
                             },  
             "Character" :"None",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             "Text" : "<0i>When I open my eyes again, we are already outside the pyramid. Both detectives are looking at me with care and sense of pride, although I can tell they're both pretty mad... for their own reasons.</0i>",
             "Next" : "R36.A.4"
         },
@@ -232,7 +232,7 @@
                 "RightID" : "Cat2"
                             },  
             "Character" :"Henry",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             "Text" : "That was really careless of You, kid! ",
             "Next" : "R36.A.5"
         },
@@ -243,7 +243,7 @@
                 "RightID" : "Cat2"
                             },  
             "Character" :"Henry",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             "Text" : "But I appreciate the instinct",
             "Next" : "R37"
         },
@@ -254,7 +254,7 @@
                 "RightID" : "Cat2"
                             },  
             "Character" :"None",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             "Text" : "<0i>I'm trying to reason with him and explain him the situation.\nFor a brief moment there's confusion and doubt on this face, but it quickly fades away as he grins.</0i>",
             "Next" : "R36.B.1"
         },  {
@@ -264,7 +264,7 @@
                 "RightID" : "Dog1"
                             },  
             "Character" :"Lucius",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             "Text" : "I see. They've told me about likes of You and the lies You'll try to mess with me. Not gonna happen.",
             "Next" : "R36.B.2"
         },
@@ -275,7 +275,7 @@
                 "RightID" : "Dog1"
                             },  
             "Character" :"None",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             "Text" : "<0i>He picks small object out of his pocket and throw it on the ground. It explodes in a thick grey smoke. I lose Lucius out of sight for one second, but once the mist clears out, he's not there.</0i>",
             "Next" : "R36.B.3"
         },
@@ -286,7 +286,7 @@
                 "RightID" : "Dog1"
                             },  
             "Character" :"None",
-           "Location"     : "Piramids",
+           "Location"     : "Tomb",
             "Text" : "<0i>I turn away to see Mr Spots concerned gaze.</0i>",
             "Next" : "R36.B.4"
         },

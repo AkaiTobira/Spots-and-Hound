@@ -36,6 +36,7 @@ public class HPSystem : MonoBehaviour
         yield return new WaitForSeconds( 1 );
         _dialogueSystem.GameOver();
         _hp = 5;
+        CanGameOver = true;
     }
 
 }

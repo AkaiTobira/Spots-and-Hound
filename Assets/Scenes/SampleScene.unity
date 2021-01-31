@@ -3637,7 +3637,7 @@ MonoBehaviour:
   - {fileID: 1411680795}
   - {fileID: 293618627}
   - {fileID: 1221822178}
-  _dialogueSystem: {fileID: 0}
+  _dialogueSystem: {fileID: 1807681089}
   _MaxHp: 5
 --- !u!1001 &1499297982
 PrefabInstance:

@@ -35,6 +35,7 @@ public class HPSystem : MonoBehaviour
     IEnumerator GameOverSequence(){
         yield return new WaitForSeconds( 1 );
         _dialogueSystem.GameOver();
+        _hp = 5;
     }
 
 }

@@ -412,7 +412,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &270598747
 GameObject:
@@ -562,7 +562,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 350455291}
-  - component: {fileID: 350455292}
   - component: {fileID: 350455293}
   m_Layer: 0
   m_Name: GameMaster
@@ -583,24 +582,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &350455292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 350455290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11b590f8118b73546857e7d6b29936be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _path:
-  - Dialogue/Initial
-  _debug: {fileID: 1365459722}
-  isLoaded: 0
 --- !u!114 &350455293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -890,6 +873,54 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 447286946}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &480539359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 480539361}
+  - component: {fileID: 480539360}
+  m_Layer: 0
+  m_Name: DictionaryDialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &480539360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480539359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11b590f8118b73546857e7d6b29936be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _path:
+  - Dialogue/Initial
+  - Dialogue/Initial_BIBLIOTEKA
+  _debug: {fileID: 1365459722}
+  isLoaded: 0
+--- !u!4 &480539361
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480539359}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &481392764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2595,7 +2626,7 @@ RectTransform:
   - {fileID: 1230699647}
   - {fileID: 1483065093}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4222,8 +4253,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e8f4036067069a428c66010572d6830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EffectsSource: {fileID: 0}
-  MusicSource: {fileID: 0}
+  EffectsSource: {fileID: 1113308913}
+  MusicSource: {fileID: 90859006}
   LowPitchRange: 0.95
   HighPitchRange: 1.05
   _clips:
@@ -4330,7 +4361,7 @@ Transform:
   - {fileID: 90859007}
   - {fileID: 1113308912}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1525587083
 PrefabInstance:

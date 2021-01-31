@@ -312,7 +312,7 @@
 
 "Options"      : [
                 {
-                    "Name" : "Keep looking -1 HP ",
+                    "Name" : "Keep looking ",
                     "Next" : "L10B.A.3"
                 },
                 {

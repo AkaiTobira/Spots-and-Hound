@@ -81,7 +81,6 @@ public class AudioSystem : MonoBehaviour
                 clipSelected = true;
 
                 if( MusicSource.isPlaying ){
-                    Debug.Log("IsPlayung");
                     at.TargetVolume = volume;
                     _musicToPlay2.Add( at );
                 }else{

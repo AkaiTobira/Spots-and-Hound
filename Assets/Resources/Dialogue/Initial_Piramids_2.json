@@ -378,15 +378,8 @@
             "Character" :"None",
            "Location"     : "GameEnd",
             "Text" : "<0i>Thats the end of the game. Thank you for playing.</0i>",
-            "Next" : "R38"
+            "Next" : "MAINMENU"
         }
-
-
-
-
-
-
-
     ]
 }
 

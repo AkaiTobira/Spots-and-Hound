@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 
 
@@ -46,6 +47,10 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         if( string.IsNullOrEmpty(_nextSequenceIndex) ) return;
         if( _nextSequenceIndex == "SKIP" ) return;
         if( _nextSequenceIndex == "OVER" ) return;
+        if( _nextSequenceIndex == "MAINMENU"){
+            SceneManager.LoadScene("MainMenu");
+            return;
+        }
 
         LoadDialog(DialogLoader.Dialogs.GetDialogueInfo(_nextSequenceIndex));
 

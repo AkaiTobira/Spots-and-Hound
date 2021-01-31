@@ -568,7 +568,7 @@
                 "RightID" : "Fox1"
                             },
             "Location"     : "Stairs_Close",
-            "Text"         : "<0i>I ask him about the secret of his attitude<0i>",
+            "Text"         : "<0i>I ask him about the secret of his attitude</0i>",
             "Music":{
                 "Background" :{
                     "Volume" : 1,

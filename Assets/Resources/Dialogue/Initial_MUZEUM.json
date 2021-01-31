@@ -9,8 +9,15 @@
             "Picture"      : {
                 "LeftID" : "None",
                 "RightID" : "None"
+             },
+            "Music":{
+                "Oneshot" :{
+                "Volume" : 1,
+                "Name"   : "museum_steps"
+                                }
                             },
             "Location"     : "Museum",
+
             "Text"         : "<0i>We enter the museum in a hurry. I keep looking at all the amazing sculptures, vessels, and artifacts while trying to catch up with my potential – and fast walking – employers at the same time.</0i>",
             "Next"         : "M2"
         },
@@ -36,12 +43,26 @@
             "Duration" : 1,
             "Magnitude" : 4
         },
+        "Music":{
+            "Background" :{
+                "Volume" : 1,
+                "Name"   : "museum"
+            },
+            "Oneshot" :{
+                "Volume" : 1,
+                "Name"   : "Bear1"
+            }
+        },
             "Text" : "I'm so glad You're here! This situation is un-BEARable!",
             "Next" : "M4"
         },
  {
             "ID"   : "M4",
-                           
+            "Music":{
+            "Background" :{
+                "Volume" : 1,
+                "Name"   : "museum"
+            },
             "Character" :"Gary",
            "Location"     : "Museum",
            "Picture"      : {
@@ -49,10 +70,16 @@
             "RightID" : "Bear1"
                         },
             "Text" : "Hello Bert",
+                    },
             "Next" : "M5"
         },
 {
             "ID"   : "M5",
+            "Music":{
+            "Background" :{
+                "Volume" : 1,
+                "Name"   : "museum"
+            },
             "Picture"      : {
                 "LeftID" : "Cat1",
                 "RightID" : "Bear1"
@@ -62,9 +89,16 @@
         
             "Text" : "<0i>He nods at me.</0i>",
             "Next" : "M6"
+            }
         },
 {
             "ID"   : "M6",
+
+            "Music":{
+            "Background" :{
+                "Volume" : 1,
+                "Name"   : "museum"
+            },
             "Picture"      : {
                 "LeftID" : "Cat1",
                 "RightID" : "Bear1"
@@ -74,9 +108,15 @@
             
             "Text" : "Our new intern.",
             "Next" : "M7"
+                }
         },
 {
             "ID"   : "M7",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                },
             "Picture"      : {
                 "LeftID" : "Cat1",
                 "RightID" : "Bear1"
@@ -85,9 +125,15 @@
            "Location"     : "Museum",
             "Text" : "Um... Dr. Bert Bearson, I'm the curator of the Museum.",
             "Next" : "M8"
+                        }
         },
 {
             "ID"   : "M8",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                },
             "Picture"      : {
                 "LeftID" : "Cat1",
                 "RightID" : "Bear1"
@@ -96,10 +142,16 @@
            "Location"     : "Museum",
             "Text" : "So what exactly happened here?",
             "Next" : "M9"
+                    }
         },
 {
             "ID"   : "M9",
             "Picture"      : {
+            "Music":{
+                    "Background" :{
+                        "Volume" : 1,
+                        "Name"   : "museum"
+                    },
                 "LeftID" : "Cat1",
                 "RightID" : "Bear1"
                             },
@@ -107,14 +159,21 @@
            "Location"     : "Museum",
             "Text" : "Just take a look. It's self-explanatory.",
             "Next" : "M10"
+                        }
         },
 {
  
             "ID"           : "M10",
+            "Music":{
+                "Oneshot" :{
+                "Volume" : 1,
+                "Name"   : "shock"
+                                }
+                            },
             "Character"    : "None",
             "Picture"      : {
-                "LeftID" : "Cat1",
-                "RightID" : "Bear1"
+                "LeftID" : "None",
+                "RightID" : "None"
                             },
 		"Location"     : "Museum",
             
@@ -124,6 +183,11 @@
         },
 {
             "ID"           : "M11",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                },
             "Character"    : "Henry",
             "Picture"      : {
                 "LeftID" : "Dog1",
@@ -135,8 +199,14 @@
             "Text"         : "That's just in-animal!",
             "Next"         : "M12"
         },
+    }
         {
             "ID"           : "M12",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                },
             "Character"    : "Henry",
             "Picture"      : {
                 "LeftID" : "Dog1",
@@ -147,11 +217,18 @@
            
             "Text"         : "Who could've done this and why?",
             "Next"         : "M13"
+                        }
         },
+    
 
 {
     
             "ID"           : "M13",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                },
             "Character"    : "Bergson",
             "Picture"      : {
                 "LeftID" : "Dog1",
@@ -160,10 +237,16 @@
 		"Location"     : "Museum",
            
             "Text"         : "Wish I'd knew! I'm getting nowhere with the police... No footprints, no leads, no ideas. They know NOTHING.",
-		"Next"    : "M14"
+        "Next"    : "M14"
+                        }
         },
 {
             "ID"           : "M14",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                },
             "Character"    : "None",
             "Picture"      : {
                 "LeftID" : "Dog1",
@@ -174,9 +257,15 @@
           
             "Text"         : "<0i>Anything suspicious?</0i>",
             "Next"         : "M15"
+                        }
         },
 {
             "ID"           : "M15",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                },
             "Character"    : "Bergson",
             "Picture"      : {
                 "LeftID" : "Dog1",
@@ -185,12 +274,18 @@
 		"Location"     : "Museum",
             
           
-            "Text"         : "Just a few days ago, all the notes about the items has been stolen! At first, we thought they were just misplaced, but now I can see it's more than that.",
+            "Text"         : "Just a few days ago, all the notes about the items has been stolen!\nAt first, we thought they were just misplaced, but now I can see it's more than that.",
             "Next"         : "M16"
+                        }
         },
 	
 {
             "ID"           : "M16",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                },
             "Character"    : "Bergson",
             "Picture"      : {
                 "LeftID" : "Dog1",
@@ -199,12 +294,28 @@
 		"Location"     : "Museum",
             "Text"         : "I feel so lost! It's being few months of careful preparations, research, and after-hours work. Then “misplacement” of all the materials about the items a few days back, and now THIS!",
            "Next"           :"M17"
+                        }
         },
 
 
 
 {
             "ID"           : "M17",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                }
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                },
+                "Oneshot" :{
+                    "Volume" : 1,
+                    "Name"   : "Bear1"
+                },
             "Location"     : "Museum",
             "Character"    : "None",
             "Picture"      : {
@@ -213,9 +324,15 @@
                             },
             "Text"         : "<0i>He sighs deeply</0i>",
             "Next"         : "M18"
+                        }
         },
 {
             "ID"           : "M18",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                },
             "Location"     : "Museum",
             "Character"    : "Bergson",
             "Picture"      : {
@@ -225,9 +342,15 @@
            
             "Text"         : "Richard already worries I'm overworked and stressed, can You imagine what he's gonna say now?!",
             "Next"         : "M19"
+                        }
         },
         {
             "ID"           : "M19",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                },
             "Location"     : "Museum",
             "Character"    : "Bergson",
             "Picture"      : {
@@ -237,9 +360,15 @@
            
             "Text"         : "That just gives me more anxieties!",
             "Next"         : "M20"
+                        }
         },
         {
             "ID"           : "M20",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                },
             "Location"     : "Museum",
             "Character"    : "Gary",
             "Picture"      : {
@@ -249,9 +378,15 @@
            
             "Text"         : "You and your husband can sleep easy, we've got this.",
             "Next"         : "M21"
+                        }
         },
         {
             "ID"           : "M21",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                },
             "Location"     : "Museum",
             "Character"    : "Gary",
             "Picture"      : {
@@ -261,11 +396,17 @@
            
             "Text"         : "I already see what was lost, do You?",
             "Next"         : "M22"
+                        }
         },
 
 
 {
             "ID"           : "M22",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                },
             "Location"     : "Museum",
             "Character"    : "None",
             "Picture"      : {
@@ -294,11 +435,17 @@
             ],
             "Text"         : "<0i>His ears go up and although he's still talking to dr Bearson, I know the question was meant for me.</0i>",
             "Next"         : "SKIP"
+        }
         },
 
 {
  
             "ID"           : "M23",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                },
             "Location"     : "Museum",
             "Character"    : "Henry",
             "MoreSettings" :{  "HpChange" : -1},
@@ -311,9 +458,15 @@
 		"Text"         : "Woof, You're not paying attention, do You?",
 		"Next"         : "M22"
             },
+        }
 {
  
             "ID"           : "M24",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                },
             "Location"     : "Museum",
             "Character"    : "Gary",
             "Picture"      : {
@@ -324,12 +477,16 @@
 		"Text"         : "The article about the upcoming exhibition mentioned a jewel as a big centerpiece of the event...",
 		"Next"         : "M25"
           
-
+                        }
         },
         {
  
             "ID"           : "M25",
-           
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                },
             "Character"    : "Henry",
             "Picture"      : {
                 "LeftID" : "Dog1",
@@ -338,13 +495,20 @@
 		"Location"     : "Museum",
 
 		"Text"         : "… and that already brought someone's attention. And it seems this “someone” stole the notes. But why?",
-		"Next"         : "M26"
+        "Next"         : "M26"
+                        }
             },
             {
  
                 "ID"           : "M26",
                
                 "Character"    : "Bergson",
+                "Music":{
+                "Oneshot" :{
+                "Volume" : 1,
+                "Name"   : "museum_steps"
+                                }
+                            },
                 "Picture"      : {
                     "LeftID" : "Bear1",
                     "RightID" : "None"
@@ -417,7 +581,7 @@
            
             "Character"    : "Henry",
             "Picture"      : {
-                "LeftID" : "Dog1",
+                "LeftID" : "Dog1_T",
                 "RightID" : "None"
                             },
 		"Location"     : "Museum",
@@ -496,8 +660,8 @@
             "ID"           : "M31.B",
             "Character"    : "Gary",
             "Picture"      : {
-                "LeftID" : "Cat1",
-                "RightID" : "Dog1"
+                "LeftID" : "Cat1_T",
+                "RightID" : "Dog1_T"
                             },
                             "Options"      : [
                                 {

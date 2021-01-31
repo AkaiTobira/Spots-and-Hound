@@ -21,6 +21,9 @@ public class InputListener : MonoBehaviour {
         if( PlayerInput.isMouseKeyPressed() && BlockingSettings.MemoryInputBlock ){
             UpdateUnblock();
         }
+        if( PlayerInput.isExitKeyPressed()){
+            Application.Quit();
+        }
     }
 
     public void UpdateUnblock(){

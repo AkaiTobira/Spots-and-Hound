@@ -1235,10 +1235,9 @@
             "ID"           : "E37",
             "Character"    : "None",
             "Memory" : { 
-                "ShowInterface" : "True",
-                "UnlockMemory"  : "Noe",
+                "ShowInterface" : "Yes",
+                "UnlockMemory"  : "No",
                 "Name" : "None"
-
             },
             "Picture"      : {
                 "LeftID" : "None",

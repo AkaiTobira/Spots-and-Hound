@@ -25,9 +25,8 @@ public class ChoiceHolder : MonoBehaviour
 
     public void SetOptions( OptionInfo[] options ){
         gameObject.SetActive(true);
-        DisableOptions();
-        _optionsResponses = options;
 
+        _optionsResponses = options;
         for( int i = 0; i < _options.Count; i++){
             if( i < options.Length ){
                 _optionsText[i].text = options[i].Name;

@@ -268,7 +268,6 @@ public class DialogueSystem : MonoBehaviour, IBlockable
     }
 
     private void SetupOptions( OptionInfo[] options ){
-        Debug.Log( (options == null) + " " + _currentSquenceIndex + " " + _nextSequenceIndex  );
         if( options == null ) return;
         isOptionSelect = true;
         _choices.SetOptions( options );

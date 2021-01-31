@@ -1,8 +1,6 @@
 {
     "Entries":
     [
-	
-
         {
             "ID"           : "L1",
             "Character"    : "None",
@@ -107,14 +105,9 @@
             "Text" : "It's delightful to see You too, Miss Nake",
             "Next" : "L10"
         },
-
-
-
         {
             "ID"   : "L10",
           "Location"     : "Library",
-            
-
             "Options"      : [
                 {
                     "Name" : "Books on Ancient Egypt ",
@@ -435,122 +428,7 @@
  
             "Text"         : "There's no time for idle talk, we must go NOW!",
             "Next"         : "7"
-        },
-
-
-
-
-
-
-
-
-
-
-
-
-
-        {
-            "ID"   : "7",
-            "Picture"      : {
-                "LeftID" : "Cat1"
-                            },
-            "Music":{
-                "Background" :{
-                    "Volume" : 1,
-                    "Name"   : "Vicerblancka"
-                }
-            },
-            "Memory" :{
-                "ShowInterface" : "Yes",
-                "Name"    : "None"
-            },
-            "Text" : "Shiba inue Nie jest z Ciebie Zadowolony",
-            "Next" : "1"
-        },
-        {
-            "ID"   : "8",
-            "Picture"      : {
-                "LeftID" : "None",
-                "RightID" : "None"
-                            },
-            "Character" :"Gary",
-            "Music":{
-                "Background" :{
-                    "Volume" : 1,
-                    "Name"   : "Vicerblancka"
-                }
-            },
-            "Text" : "Wow, WOW, WoW, wOw, WOWOWOWOW, WOw, wOW WoW oWo W",
-            "Next" : "23"
-        },        
-        {
-            "ID"   : "9",
-            "Picture"      : {
-                "LeftID" : "None",
-                "RightID" : "None"
-                            },
-            "Character" :"Henry",
-            "Text" : "O > O ",
-            "Next" : "1"
-        },
-
-        {
-            "ID"           : "23",
-            "Character"    : "?",
-            "Picture"      : {
-                "LeftID" : "None",
-                "RightID" : "Snake1"
-                            },
-            "Location"     : "Piramids",
-            "Text"         : "<1b><2i>Co to znowu ?</2i></1b>",
-            "Camera":{
-                "Duration" : 0.2,
-                "Magnitude" : 8
-            },
-            "Music":{
-                "Background" :{
-                    "Volume" : 1,
-                    "Name"   : "Monster"
-                },
-                "Oneshot" :{
-                    "Volume" : 1,
-                    "Name"   : "Something"
-                }
-
-            },
-            "Next"         : "24"
-        },
-        {
-            "ID"   : "24",
-            "Character"    : "Gary",
-            "Picture"      : {
-                "LeftID" : "Cat1"
-                            },
-            "Text" : "Chcesz zobaczyć małe <0color=black>kotki</0color=black> ?",
-            "Memory" :{
-                "UnlockMemory" : "No",
-                "Name"    : "Keys"
-            },
-            "Next" : "25"
-        },
-        {
-            "ID"   : "25",
-            "Picture"      : {
-                "LeftID" : "None",
-                "RightID" : "None"
-                            },
-            "Character" :"None",
-            "Location"     : "Basement",
-            "Memory" :{
-                "ShowInterface" : "No",
-                "UnlockMemory"  : "Yes"
-            },
-            "Music":{
-            },
-            "Text" : "<0size=72>CENSORED</0size>",
-            "Next" : "1"
         }
-
 
     ]
 }

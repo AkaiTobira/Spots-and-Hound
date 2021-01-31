@@ -32,12 +32,12 @@ public class AudioSystem : MonoBehaviour
 		if (Instance == null)
 		{
 			Instance = this;
-		}
+	    	DontDestroyOnLoad(gameObject);
+    	}
 		else if (Instance != this)
 		{
 			Destroy(gameObject);
 		}
-	//	DontDestroyOnLoad (gameObject);
 	}
 
     private List<AudioTrack> _musicToPlay = new List<AudioTrack>();
@@ -106,7 +106,7 @@ public class AudioSystem : MonoBehaviour
         if( _musicToPlay2.Count != 0){
             if( MusicSource.isPlaying){
                 if( _musicToPlay2[0]._clip == MusicSource.clip ){
-                    float musicChange = Mathf.Sign(_musicToPlay2[0].TargetVolume - MusicSource.volume) * 1f * Time.deltaTime;
+                    float musicChange = Mathf.Sign(_musicToPlay2[0].TargetVolume - MusicSource.volume) * 2f * Time.deltaTime;
                     if( musicChange < 0){
                         MusicSource.volume = Mathf.Max( _musicToPlay2[0].TargetVolume, MusicSource.volume + musicChange );
                     }else{
@@ -118,7 +118,7 @@ public class AudioSystem : MonoBehaviour
                     }
                 }else{
                     if( MusicSource.volume > 0){
-                        MusicSource.volume = Mathf.Max( 0, MusicSource.volume - (1f* Time.deltaTime) );
+                        MusicSource.volume = Mathf.Max( 0, MusicSource.volume - (2f* Time.deltaTime) );
                     }else{
                         MusicSource.clip   = _musicToPlay2[0]._clip;
                         MusicSource.volume = 0;
@@ -130,11 +130,7 @@ public class AudioSystem : MonoBehaviour
 
     }
 
-
-
     private List<AudioTrack> _musicToPlay2 = new List<AudioTrack>();
-
-
 
 	public void RandomSoundEffect(params AudioClip[] clips)
 	{

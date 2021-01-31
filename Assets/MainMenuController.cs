@@ -7,6 +7,11 @@ using System.Threading.Tasks;
 public class MainMenuController : MonoBehaviour
 {
     [SerializeField] private GameObject LoadingScreen;
+    [SerializeField] private string mainMenuTrack;
+
+    void Start() {
+        AudioSystem.Instance.PlayMusic(mainMenuTrack, 0.7f);
+    }
 
     IEnumerator LoadNextScene ()
     {
@@ -39,11 +44,12 @@ public class MainMenuController : MonoBehaviour
 
 
     public void OnPlay(){
-        
+        AudioSystem.Instance.PlayEffect("button_confirm", 0.7f);
         LoadAsynch();
     }
 
     public void OnExit(){
+        AudioSystem.Instance.PlayEffect("button_confirm", 0.7f);
         Application.Quit();
     }
 

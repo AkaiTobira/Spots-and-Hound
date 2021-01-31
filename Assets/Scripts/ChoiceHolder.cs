@@ -20,6 +20,7 @@ public class ChoiceHolder : MonoBehaviour
         DisableOptions();
         _responseHandler.ForceNextOption( _optionsResponses[i].Next );
         _responseHandler.ProcessNextDialogue();
+        AudioSystem.Instance.PlayEffect( "option_selected", 0.5f );
     }
 
     public void SetOptions( OptionInfo[] options ){

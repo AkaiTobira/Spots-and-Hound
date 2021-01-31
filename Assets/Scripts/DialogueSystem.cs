@@ -24,10 +24,6 @@ public class DialogueSystem : MonoBehaviour, IBlockable
 
 
     public bool ForceSkip = false;
-    private bool ForceEnd = false;
-
-    private bool GameOverInProgress = false;
-
 
     private string _currentSquenceIndex;
     private string _nextSequenceIndex;
@@ -83,7 +79,6 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         //_textMarkers.Add( dialoge.Next );
         _currentSquenceIndex = dialoge.ID;
         _nextSequenceIndex   = dialoge.Next;
-        _inputListener.RequestBlock(BlockerType.Dialogs);
     }
 
     public void GameOver(){

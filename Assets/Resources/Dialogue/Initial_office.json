@@ -8,8 +8,8 @@
             "Text"         : "<0i>Ever since I was a kid, I've dreamt of being a Great Detective...</0i>",
             "Music":{
                 "Background" :{
-                    "Volume" : 1,
-                    "Name"   : "None"
+                    "Volume" : 0,
+                    "Name"   : "ambient_start"
                 }
             },
             "MoreSettings":{
@@ -225,7 +225,7 @@
                 }
             },
             "Character" :"?",
-            "Text" : "<0i>Co But I can see he is distressed.\nAnd looks messy.\nAnd smells like a hot dog.",
+            "Text" : "<0i>But I can see he is distressed.\nAnd looks messy.\nAnd smells like a hot dog.</0i>",
             "Next" : "16"
         },
         {

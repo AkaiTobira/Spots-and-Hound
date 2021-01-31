@@ -212,14 +212,34 @@
             },
 		"Location"     : "Library",
             "Text"         : "This might be tricky. A few days ago, while I was on my break, some prankster decided to mess with the archives! I didn't have time for sorting it out, but since You need them anyway maybe You could take a look?",
-           "Next"           :"Aferminigame.1"
+           "Next"           :"ANIMALSGAME"
         },
+        {
+            "ID"           : "ANIMALSGAME",
+            "Memory" :{
+                "UnlockMemory" : "Yes",
+                "HideInterface" : "True",
+                "Name"    : "Keys"
+            },
 
 
+            "Text"         : "None",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "museum"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "OVER"
+        },
 
 {
             "ID"           : "L10B.1",
             "Location"     : "Library",
+            "Memory" : { "HideInterface" : "No"},
             "Character"    : "None",
             "Picture"      : {
                 "LeftID" : "Cat1",

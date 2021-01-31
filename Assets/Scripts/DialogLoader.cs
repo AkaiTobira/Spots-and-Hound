@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+
 using System.IO;
 using TMPro;
 
@@ -83,7 +84,21 @@ public class DialogLoader : MonoBehaviour
 
     private Dictionary<string, DialogueEntry> _dialogueCatalog = new Dictionary<string, DialogueEntry>();
 
+    public static DialogLoader Dialogs;
+
+    public bool isLoaded;
+
     void Awake() {
+        if( Dialogs == null ){
+            Dialogs = this;
+            DontDestroyOnLoad(this);
+        }else{
+            Destroy(this);
+        }
+    }
+
+    public void LoadDialogs(){
+        if( isLoaded ) return;
 
         foreach (string f in _path)
         {
@@ -102,7 +117,11 @@ public class DialogLoader : MonoBehaviour
 
             Debug.Log("File loaded :" + f);
         }
+        
+        isLoaded = true;
+        Debug.Log("Dialouge loaded");
     }
+
 
     public DialogueEntry GetDialogueInfo( string infoID ){
 

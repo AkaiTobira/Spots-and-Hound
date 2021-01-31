@@ -7,8 +7,6 @@ using TMPro;
 
 public class DialogueSystem : MonoBehaviour, IBlockable
 {
-
-    [SerializeField] private DialogLoader _loader;
     [SerializeField] private GameObject _currentCharacterNameContainer;
     [SerializeField] private TextMeshProUGUI _currentCharacterName;
     [SerializeField] private TextMeshProUGUI _currentText;
@@ -53,13 +51,14 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         if( _nextSequenceIndex == "SKIP" ) return;
         if( _nextSequenceIndex == "OVER" ) return;
 
-        LoadDialog(_loader.GetDialogueInfo(_nextSequenceIndex));
+        LoadDialog(DialogLoader.Dialogs.GetDialogueInfo(_nextSequenceIndex));
     }
 
     private List<string> _textMarkers = new List<string>();
 
     void Start() {
-        LoadDialog( _loader.GetDialogueInfo("1") );
+        DialogLoader.Dialogs.LoadDialogs();
+        LoadDialog( DialogLoader.Dialogs.GetDialogueInfo("1") );
     }
 
     public void ForceNextOption( string id){

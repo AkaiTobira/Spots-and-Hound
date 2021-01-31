@@ -17,9 +17,9 @@ public class ChoiceHolder : MonoBehaviour
 
     public void OnOptionSelect( int i ){
         if( !_responseHandler.ForceSkip ) return;
+        DisableOptions();
         _responseHandler.ForceNextOption( _optionsResponses[i].Next );
         _responseHandler.ProcessNextDialogue();
-        DisableOptions();
     }
 
     public void SetOptions( OptionInfo[] options ){

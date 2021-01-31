@@ -1,0 +1,557 @@
+{
+    "Entries":
+    [
+	
+
+        {
+            "ID"           : "1",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Black",
+            "Text"         : "<0i>I notice a weird look in eyes of Mr. Spots. I ask if everything's fine</0i>",
+            "Camera":{
+                "Duration" : 0,
+                "Magnitude" : 0
+            },
+          
+            "Next"         : "L2"
+        },
+        {
+            "ID"   : "L2",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1"
+                            },
+		"Location"     : "Black",
+            "Text" : "Yes, I just... haven't been here for a long time.",
+            "Next" : "L3"
+        },
+        {
+            "ID"   : "L3",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+            "Character" :"Henry",
+           "Location"     : "Black",
+        
+            "Text" : "is as puzzled as I am about that comment.",
+            "Next" : "L4"
+        },
+ {
+            "ID"   : "L4",
+                           
+            "Character" :"None",
+           "Location"     : "Black",
+            
+            "Text" : "<0i>We step inside the library. The librarian greets us silently, pointing at the “Please behave” sign near the door.</0i>",
+            "Next" : "L5"
+        },
+{
+            "ID"   : "L5",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Character" :"Henry",
+           "Location"     : "Library",
+        
+            "Text" : "Good morning, Miss... Nake. We are wondering if You could help us with the case we are working on",
+            "Next" : "L6"
+        },
+{
+            "ID"   : "L6",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "None"
+                            },
+            "Character" :"None",
+           "Location"     : "Library",
+            
+            "Text" : "<0i>Her cold demeanor changes as she notices Mr. Spots</0i>",
+            "Next" : "L7"
+        },
+{
+            "ID"   : "L7",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Snake1"
+                            },
+            "Character" :"Elsa",
+           "Location"     : "Library",
+            "Text" : "Well, look who came back after all these yearsss! It's nice to see You, Mr. Spots.",
+            "Next" : "L8"
+        },
+{
+            "ID"   : "L8",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Snake1"
+                            },
+            "Character" :"None",
+           "Location"     : "Library",
+            "Text" : "<0i>For a moment I can sense he's surprised she recognized him, but he puts his most charming smile I've seen so far and leans over to her desk.</0i>",
+            "Next" : "L9"
+        },
+{
+            "ID"   : "L9",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Snake1"
+                            },
+            "Character" :"Gary",
+           "Location"     : "Library",
+            "Text" : "It's delightful to see You too, Miss Nake",
+            "Next" : "L10"
+        },
+
+
+
+        {
+            "ID"   : "L10",
+          "Location"     : "Library",
+            
+
+            "Options"      : [
+                {
+                    "Name" : "Books on Ancient Egypt ",
+                    "Next" : "L10A.1"
+                },
+                {
+                    "Name" : "Books on jewelry",
+                    "Next" : "L10B.1"
+                }
+            ],
+            "Text" : "But enough chit-chat, I believe You came here for some work-related reasons?",
+            "Next" : "SKIP"
+        },
+        {
+            "ID"           : "L10A.1",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Snake1"
+                            },
+
+         
+            "Text"         : "Our investigation requires some additional information about Ancient Egypt. Are there any publications on a matter?",
+            "Next"         : "L10A.2"
+        },
+{
+ 
+            "ID"           : "L10A.2",
+            "Character"    : "Elsa",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Snake1"
+                            },
+		"Location"     : "Library",
+            
+         
+            "Text"         : "Usually, yes. However, after a recent article about the upcoming exhibition, Ancient Egypt suddenly became a hot topic! \n You won't find a SINGLE book on the subject, except some atlases and fiction...",
+            "Next"         : "L10A.3"
+        },
+{
+            "ID"           : "L10A.3",
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Snake1"
+                            },
+		"Location"     : "Library",
+           
+           
+            "Text"         : "Wait... not a single one?!",
+            "Next"         : "L10A.4"
+        },
+{
+            "ID"           : "L10A.4",
+            "Character"    : "Elsa",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Snake1"
+                            },
+		"Location"     : "Library",
+           
+            "Text"         : "Yes. Usually, I'd be happy about it, but not this time. It's all about sharing the knowledge, dear.\n But I believe one VERY passionate reader took the most crucial and insightful publications and I don't believe he will ever return them back",
+		"Next"    : "L10A.5"
+        },
+{
+            "ID"           : "L10A.5",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Snake1"
+                            },
+		"Location"     : "Library",
+            
+          
+            "Text"         : "That's interesting...",
+            "Next"         : "L10A.6"
+        },
+{
+            "ID"           : "L10A.6",
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Snake1"
+                            },
+		"Location"     : "Library",
+            
+          
+            "Text"         : "Can we find out who that person is?",
+            "Next"         : "L10A.7"
+        },
+	
+{
+            "ID"           : "L10A.7",
+            "Character"    : "Elsa",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Snake1"
+                            },
+		"Location"     : "Library",
+            "Text"         : "This might be tricky. A few days ago, while I was on my break, some prankster decided to mess with the archives! I didn't have time for sorting it out, but since You need them anyway maybe You could take a look?",
+           "Next"           :"Aferminigame.1"
+        },
+
+
+
+{
+            "ID"           : "L10B.1",
+            "Location"     : "Library",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Snake1"
+                            },
+            "Text"         : "<0i>I ask about any books on jewelry.</0i>",
+            "Next"         : "L10B.2"
+        },
+{
+            "ID"           : "L10B.2",
+            "Location"     : "Library",
+            "Character"    : "Elsa",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Snake1"
+                            },
+           
+            "Text"         : "There's a whole section over there",
+            "Next"         : "L10B.3"
+        },
+{
+            "ID"           : "L10B.3",
+            "Location"     : "Library",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+            },
+
+            "Options"      : [
+                {
+                    "Name" : "Keep looking...",
+                    "Next" : "L10B.A.1"
+                },
+                {
+                    "Name" : "Go back.",
+                    "Next" : "L9"
+                }
+            ],
+            "Text" : "<0i>She points to the bookshelf at the end of the corridor. I find at least 20 books about different kinds of jewelry.</0i> ",
+            "Next" : "SKIP"
+        },
+{
+            "ID"           : "L10B.A.1",
+            "Location"     : "Library",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+
+"Options"      : [
+                {
+                    "Name" : "Keep looking... ",
+                    "Next" : "L10B.A.2"
+                },
+                {
+                    "Name" : "Go back.",
+                    "Next" : "L9"
+                }
+            ],
+            "Text"         : "Jewel of Meerkate wasn't even mentioned once... ",
+            "Next"         : "SKIP"
+        },
+{
+            "ID"           : "L10B.A.2",
+            "Location"     : "Library",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+
+"Options"      : [
+                {
+                    "Name" : "Keep looking -1 HP ",
+                    "Next" : "L10B.A.3"
+                },
+                {
+                    "Name" : "Go back.",
+                    "Next" : "L10"
+                }
+            ],
+            "Text"         : "Jewel of Meerkate wasn't even mentioned once... ",
+            "Next"         : "SKIP"
+        },
+{
+ 
+            "ID"           : "L10B.A.3",
+            "Location"     : "Library",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+		
+    
+		"Text"         : "<0i>After wasting another half an hour, I come back to visibly dissatisfied detectives. </0i>",
+		"Next"         : "L10B.A.4"
+            },
+{
+ 
+            "ID"           : "L10B.A.4",
+            "Location"     : "Library",
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+
+		"Text"         : "You shouldn't keep us waiting like that.",
+		"Next"         : "L10B.A.5"
+          
+
+        },
+        {
+ 
+            "ID"           : "L10B.A.5",
+           
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+		"Location"     : "Library",
+
+		"Text"         : "You shouldn't keep us waiting like that.",
+		"Next"         : "L10B.A.6"
+            },
+{
+ 
+            "ID"           : "L10B.A.6",
+           
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+		"Location"     : "Library",
+
+"Options"      : [
+                {
+                    "Name" : "Books on Ancient Egypt ",
+                    "Next" : "L10A.1"
+                }
+            ],
+		"Text"         : "Good detective values his time and should be aware of others waiting.",
+		"Next"         : "SKIP"
+            },
+
+
+
+
+{
+            "ID"           : "Aferminigame.1",
+            "Character"    : "Elsa",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "Snake1"
+                            },
+		"Location"     : "Library",
+
+            "Text"         : "Looks that Your suspect left part of his library card when HE tried to cover his tracks. \n The photo is a bit blurry though, but there's an address.",
+            "Next"         : "Aferminigame.2"
+        },
+{
+            "ID"           : "Aferminigame.2",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Snake1"
+                            },
+		"Location"     : "Library",
+
+            "Text"         : "Thank You so much, Miss Nake. Now we've got our lead. Let's go.",
+            "Next"         : "Aferminigame.3"
+        },
+{
+            "ID"           : "Aferminigame.3",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+		"Location"     : "Library",
+ 
+            "Text"         : "<0i>As we leave the library, I decide to ask Miss Nake how she knows Mr. Spots.</0i>",
+            "Next"         : "Aferminigame.4"
+        },
+{
+            "ID"           : "Aferminigame.4",
+            "Character"    : "Elsa",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "Snake1"
+                            },
+		"Location"     : "Library",
+
+            "Text"         : "I might not look like it, but I'm old enough to remember little Gary and his younger brother, both avid and passionate readers...",
+            "Next"         : "Aferminigame.5"
+        },
+{
+            "ID"           : "Aferminigame.5",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Snake1"
+                            },
+		"Location"     : "Library",
+ 
+            "Text"         : "There's no time for idle talk, we must go NOW!",
+            "Next"         : "7"
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "ID"   : "7",
+            "Picture"      : {
+                "LeftID" : "Cat1"
+                            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "Vicerblancka"
+                }
+            },
+            "Memory" :{
+                "ShowInterface" : "Yes",
+                "Name"    : "None"
+            },
+            "Text" : "Shiba inue Nie jest z Ciebie Zadowolony",
+            "Next" : "1"
+        },
+        {
+            "ID"   : "8",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Character" :"Gary",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "Vicerblancka"
+                }
+            },
+            "Text" : "Wow, WOW, WoW, wOw, WOWOWOWOW, WOw, wOW WoW oWo W",
+            "Next" : "23"
+        },        
+        {
+            "ID"   : "9",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Character" :"Henry",
+            "Text" : "O > O ",
+            "Next" : "1"
+        },
+
+        {
+            "ID"           : "23",
+            "Character"    : "?",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "Snake1"
+                            },
+            "Location"     : "Piramids",
+            "Text"         : "<1b><2i>Co to znowu ?</2i></1b>",
+            "Camera":{
+                "Duration" : 0.2,
+                "Magnitude" : 8
+            },
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "Monster"
+                },
+                "Oneshot" :{
+                    "Volume" : 1,
+                    "Name"   : "Something"
+                }
+
+            },
+            "Next"         : "24"
+        },
+        {
+            "ID"   : "24",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1"
+                            },
+            "Text" : "Chcesz zobaczyć małe <0color=black>kotki</0color=black> ?",
+            "Memory" :{
+                "UnlockMemory" : "No",
+                "Name"    : "Keys"
+            },
+            "Next" : "25"
+        },
+        {
+            "ID"   : "25",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Character" :"None",
+            "Location"     : "Basement",
+            "Memory" :{
+                "ShowInterface" : "No",
+                "UnlockMemory"  : "Yes"
+            },
+            "Music":{
+            },
+            "Text" : "<0size=72>CENSORED</0size>",
+            "Next" : "1"
+        }
+
+
+    ]
+}
+

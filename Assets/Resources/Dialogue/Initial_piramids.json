@@ -1,0 +1,615 @@
+{
+    "Entries":
+    [
+        {
+            "ID"           : "1",
+            "Character"    : "None",
+            "Location"     : "Piramids",
+            "Text"         : "<0i>I look at the amazing landscape in front of me and shiver excitement. I have never expected how far I can get - LITERALLY – in one day!</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R2"
+        },
+        {
+            "ID"           : "R2",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Piramids",
+            "Text"         : "<0i>At the same time, I can't stop feeling frustration over many times over the years I could've just left the law firm.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R3"
+        },
+
+        {
+            "ID"           : "R3",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Piramids",
+            "Text"         : "<0i>What I could've accomplished, If I'd started sooner... How much time have I wasted?</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R4a"
+        },
+
+        {
+            "ID"           : "R4a",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "None"
+                            },
+            "Location"     : "Piramids",
+            "Text"         : "<0i>Mr. Spots notices my worried expression.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R4"
+        },
+
+        {
+            "ID"           : "R4",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "None"
+                            },
+            "Location"     : "Piramids",
+            "Text"         : "Don't lose Your focus now, we are getting to the bottom of this.",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R5"
+        },
+
+        {
+            "ID"           : "R5",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "None"
+                            },
+            "Location"     : "Piramids",
+            "Options"      : [
+                {
+                    "Name" : "dr Bert Bearson",
+                    "Next" : "R6"
+                },
+                {
+                    "Name" : "dr Bear Bearson",
+                    "Next" : "R5.1"
+                },
+                {
+                    "Name" : "dr Bear Berson",
+                    "Next" : "R5.1"
+                },
+                {
+                    "Name" : "dr Bert Bertson",
+                    "Next" : "R5.1"
+                }
+            ],
+            "Text"         : "Do You remember the museum curator? What was his name?",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "SKIP"
+        },
+
+        {
+            "ID"           : "R5.1",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "None"
+                            },
+            "Location"     : "Piramids",
+            "Text"         : "Well, no, that's not his name.",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : -1
+            },
+            "Next"         : "R5"
+        },
+        {
+            "ID"           : "R6",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "None"
+                            },
+            "Location"     : "Piramids",
+            "Text"         : "That's right. He mentioned that the Jewel was barely researched before and there's no information about it anywhere else apart from some scarce mentions in some rare books.",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R7"
+        },
+
+        {
+            "ID"           : "R7",
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Piramids",
+            "Text"         : "So when someone put their paws on the notes and found out all the Jewels secrets... this person tried to make sure we were cut off from any information.",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R8"
+        },
+
+        {
+            "ID"           : "R8",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Piramids",
+            "Text"         : ": Even going as far as getting rid of the books from the library...",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R9"
+        },
+
+        {
+            "ID"           : "R9",
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Piramids",
+            "Text"         : "Which is quite ironic, since it was the thing that leads us here!",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R10"
+        },
+
+        {
+            "ID"           : "R10",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Piramids",
+            "Options"      : [
+                {
+                    "Name" : "MACAQUE",
+                    "Next" : "R10.1"
+                },
+                {
+                    "Name" : "MANATEE",
+                    "Next" : "R10.1"
+                },
+                {
+                    "Name" : "MEERKATE",
+                    "Next" : "R11"
+                }
+            ],
+            "Text"         : "But before we go any further, I must make sure You've been paying attention. Can You remind me the name of the Queen, owner of the missing Jewel?",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "SKIP"
+        },
+
+        {
+            "ID"           : "R10.1",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Piramids",
+            "Text"         : "No, that's not it",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : -1
+            },
+            "Next"         : "R10"
+        },
+
+        {
+            "ID"           : "R11",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Piramids",
+            "Text"         : "Exactly. \nAccording to the notes, her tomb should be in this pyramid... and possibly hold many amazing treasures.",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R12"
+        },
+        {
+            "ID"           : "R12",
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Piramids",
+            "Text"         : "And traps!",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R13"
+        },
+        {
+            "ID"           : "R13",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Piramids",
+            "Text"         : "Keep that in mind. Getting closer to the pyramid, I start to feel shivers up my spine.\nThat must be the weirdest „training day” ever!",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R14"
+        },
+        {
+            "ID"           : "R14",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Cat1",
+                "RightID" : "Dog1"
+                            },
+            "Location"     : "Piramids",
+            "Text"         : "<0i>The entrance is open - someone has been here not so long ago.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R15"
+        },
+        {
+            "ID"           : "R15",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Black",
+            "Options"      : [
+                {
+                    "Name" : "Keep Walking",
+                    "Next" : "R15.1"
+                },
+                {
+                    "Name" : "Sense Your surroundings",
+                    "Next" : "R16"
+                }
+            ],
+            "Text"         : "<0i>As we enter the pyramid, the strong gush of wind suddenly blows out our torch. We are surrounded by darkness and can hear the gate behind us closing.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "SKIP"
+        },
+        {
+            "ID"           : "R15.1",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Black",
+            "Text"         : "<0i>After few steps, my foot slips down and I can feel myself falling into the void below. I can see the outline of the spikes below as my eyes are getting used to the darkness.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R15.2"
+        },
+        {
+            "ID"           : "R15.2",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Black",
+            "Text"         : "<0i>Luckily, I can feel a strong paw grabbing me before I can even scream.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R15.3"
+        },
+        {
+            "ID"           : "R15.3",
+            "Character"    : "Henry",
+            "Picture"      : {
+                "LeftID" : "Dog1_A",
+                "RightID" : "None"
+                            },
+            "Location"     : "Black",
+            "Text"         : "What were You thinking?!",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : -1
+            },
+            "Next"         : "R18"
+        },
+        {
+            "ID"           : "R16",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "None",
+                "RightID" : "None"
+                            },
+            "Location"     : "Black",
+            "Text"         : "<0i>Slowly and carefully I am exploring my surroundings. Soon my eyes get used to the darkness and I can see that there's a giant void below me! That was close!</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R17"
+        },
+        {
+            "ID"           : "R17",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+            "Location"     : "Black",
+            "Text"         : "<0i>In the darkness, I can see both detectives approaching me.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R18"
+        },
+        {
+            "ID"           : "R18",
+            "Character"    : "Gary",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+            "Location"     : "Black",
+            "Text"         : "This trap is quite wide, but we can jump over it.",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R19"
+        },
+        {
+            "ID"           : "R19",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+            "Location"     : "Black",
+            "Text"         : "<0i>Gathering some unexpected will and suddenly feeling the rush of the adventure, I jump over the gap.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R20"
+        },
+        {
+            "ID"           : "R20",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+            "Location"     : "Black",
+            "Text"         : "<0i>The gap was quite wide – I barely made it! I can see both detectives doing it all effortlessly, landing over a meter away from me.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R21"
+        },
+        {
+            "ID"           : "R21",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+            "Location"     : "Black",
+            "Text"         : "<0i>Further away we can see the glowing light of the Jewel. As we approach it, it's clear that the device is still active.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R22"
+        },
+        {
+            "ID"           : "R22",
+            "Character"    : "None",
+            "Picture"      : {
+                "LeftID" : "Dog1",
+                "RightID" : "Cat1"
+                            },
+            "Location"     : "Black",
+            "Text"         : "<0i>The gates to the tomb slowly open up. For a moment I can't see anything, as my eyes adjust to the lights in the chamber.</0i>",
+            "Music":{
+                "Background" :{
+                    "Volume" : 1,
+                    "Name"   : "ambient_start"
+                }
+            },
+            "MoreSettings":{
+                "HpChange" : 0
+            },
+            "Next"         : "R23"
+        }
+    ]
+}
+

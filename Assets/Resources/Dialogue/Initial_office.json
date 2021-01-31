@@ -9,7 +9,7 @@
             "Music":{
                 "Background" :{
                     "Volume" : 0,
-                    "Name"   : "ambient_start"
+                    "Name"   : "main"
                 }
             },
             "MoreSettings":{
@@ -40,7 +40,7 @@
             "Music":{
                 "Background" :{
                     "Volume" : 1,
-                    "Name"   : "ambient_start"
+                    "Name"   : "main"
                 }
 
             },
@@ -57,7 +57,7 @@
             "Music":{
                 "Background" :{
                     "Volume" : 1,
-                    "Name"   : "ambient_start"
+                    "Name"   : "main"
                 }
 
             },
@@ -70,7 +70,7 @@
             "Music":{
                 "Background" :{
                     "Volume" : 1,
-                    "Name"   : "ambient_start"
+                    "Name"   : "main"
                 }
 
             },
@@ -87,7 +87,7 @@
             "Music":{
                 "Background" :{
                     "Volume" : 1,
-                    "Name"   : "ambient_start"
+                    "Name"   : "main"
                 }
 
             },
@@ -103,7 +103,7 @@
             "Music":{
                 "Background" :{
                     "Volume" : 1,
-                    "Name"   : "ambient_start"
+                    "Name"   : "main"
                 },
                 "Oneshot" :{
                     "Volume" : 1,

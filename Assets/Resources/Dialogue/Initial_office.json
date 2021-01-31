@@ -9,7 +9,7 @@
             "Music":{
                 "Background" :{
                     "Volume" : 0,
-                    "Name"   : "main"
+                    "Name"   : "ambient_start"
                 }
             },
             "MoreSettings":{
@@ -40,7 +40,7 @@
             "Music":{
                 "Background" :{
                     "Volume" : 1,
-                    "Name"   : "main"
+                    "Name"   : "ambient_start"
                 }
 
             },
@@ -57,7 +57,7 @@
             "Music":{
                 "Background" :{
                     "Volume" : 1,
-                    "Name"   : "main"
+                    "Name"   : "ambient_start"
                 }
 
             },
@@ -70,7 +70,7 @@
             "Music":{
                 "Background" :{
                     "Volume" : 1,
-                    "Name"   : "main"
+                    "Name"   : "ambient_start"
                 }
 
             },
@@ -87,7 +87,7 @@
             "Music":{
                 "Background" :{
                     "Volume" : 1,
-                    "Name"   : "main"
+                    "Name"   : "ambient_start"
                 }
 
             },
@@ -219,7 +219,7 @@
         {
             "ID"   : "15",
             "Picture"      : {
-                "LeftID" : "None",
+                "LeftID" : "Dog1",
                 "RightID" : "None"
                             },
             "Music":{
@@ -233,14 +233,14 @@
                 }
             },
             "Character" :"?",
-            "Text" : "<0i>But I can see he is distressed.\nAnd looks messy.\nAnd smells like a hot dog.</0i>",
+            "Text" : "But I can see he is distressed.\nAnd looks messy.\nAnd smells like a hot dog.",
             "Next" : "16"
         },
         {
             "ID"           : "16",
             "Character"    : "?",
             "Picture"      : {
-                "LeftID" : "Dog1",
+                "LeftID" : "Dog1_A",
                 "RightID" : "None"
                             },
             "Location"     : "Office",
@@ -259,9 +259,9 @@
         },
         {
             "ID"           : "17",
-            "Character"    : "?",
+            "Character"    : "None",
             "Picture"      : {
-                "LeftID" : "Dog1",
+                "LeftID" : "None",
                 "RightID" : "None"
                             },
             "Location"     : "Office",
@@ -754,7 +754,7 @@
             "ID"   : "37",
             "Picture"      : {
                 "LeftID" : "Dog1",
-                "RightID" : "Cat1"
+                "RightID" : "Cat2"
                             },
             "Character" :"Henry",
             "Text" : "Enough of the chit-chat, we have job at hand! Crime scene to investigate!",

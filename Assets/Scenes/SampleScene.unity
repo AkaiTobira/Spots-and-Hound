@@ -853,6 +853,7 @@ MonoBehaviour:
   _path:
   - Dialogue/Initial
   - Dialogue/Initial_BIBLIOTEKA
+  - Dialogue/Initial_stairs
   _debug: {fileID: 1365459722}
   isLoaded: 0
 --- !u!4 &480539361

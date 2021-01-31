@@ -282,7 +282,7 @@
                 "RightID" : "None"
                             },
             "Location"     : "Office",
-            "Text"         : "<0i>Another figure appears.\nIt's... a cat!",
+            "Text"         : "<0i>Another figure appears.\nIt's... a cat!</0i>",
             "Camera":{
                 "Duration" : 0,
                 "Magnitude" : 0
@@ -328,7 +328,7 @@
                 "RightID" : "Dog1"
                             },
             "Location"     : "Office",
-            "Text"         : "<0i>I get to my senses and introduce myself, telling I'm here about the ad./nThe cat nods and gives me a confident smile.",
+            "Text"         : "<0i>I get to my senses and introduce myself, telling I'm here about the ad.\nThe cat nods and gives me a confident smile.</0i>",
             "Camera":{
                 "Duration" : 0,
                 "Magnitude" : 0
@@ -474,21 +474,21 @@
                 "Background" :{
                     "Volume" : 1,
                     "Name"   : "main"
-
+                }
+            },
+            "Options"      : [
+                {
+                    "Name" : "Scandalous!",
+                    "Next" : "27a"
                 },
-                "Options"      : [
-                    {
-                        "Name" : "Scandalous!",
-                        "Next" : "27a"
-                    },
-                    {
-                        "Name" : "This ad was odd...",
-                        "Next" : "27b"
-                    }
-                ],
-                "Next" : "SKIP",
-                "Text" : "Czas Wybierać"
-            }
+                {
+                    "Name" : "This ad was odd...",
+                    "Next" : "27b"
+                }
+            ],
+            "Next" : "SKIP",
+            "Text" : "Czas Wybierać"
+            
         },
         {
             "ID"   : "27a",

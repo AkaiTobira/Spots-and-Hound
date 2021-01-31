@@ -206,10 +206,7 @@
                 "LeftID" : "Dog1",
                 "RightID" : "Snake1"
                             },
-            "Memory" :{
-                "UnlockMemory" : "No",
-                "Name"    : "Keys"
-            },
+            
 		"Location"     : "Library",
             "Text"         : "This might be tricky. A few days ago, while I was on my break, some prankster decided to mess with the archives! I didn't have time for sorting it out, but since You need them anyway maybe You could take a look?",
            "Next"           :"ANIMALSGAME"
@@ -218,8 +215,8 @@
             "ID"           : "ANIMALSGAME",
             "Memory" :{
                 "UnlockMemory" : "Yes",
-                "HideInterface" : "True",
-                "Name"    : "Keys"
+                "ShowInterface" : "No",
+                "Name"    : "Animals"
             },
 
 
@@ -239,7 +236,7 @@
 {
             "ID"           : "L10B.1",
             "Location"     : "Library",
-            "Memory" : { "HideInterface" : "No"},
+
             "Character"    : "None",
             "Picture"      : {
                 "LeftID" : "Cat1",
@@ -396,6 +393,11 @@
 {
             "ID"           : "Aferminigame.1",
             "Character"    : "Elsa",
+            "Memory" :{
+                "UnlockMemory" : "No",
+                "ShowInterface" : "Yes",
+                "Name"    : "None"
+            },
             "Picture"      : {
                 "LeftID" : "None",
                 "RightID" : "Snake1"
@@ -451,7 +453,7 @@
 		"Location"     : "Library",
  
             "Text"         : "There's no time for idle talk, we must go NOW!",
-            "Next"         : "7"
+            "Next"         : "E1"
         }
 
     ]

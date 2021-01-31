@@ -99,7 +99,7 @@
             "Background" :{
                 "Volume" : 1,
                 "Name"   : "museum"
-            },
+            }
         },
             "Picture"      : {
                 "LeftID" : "Cat1",
@@ -110,7 +110,7 @@
             
             "Text" : "Our new intern.",
             "Next" : "M7"
-                }
+                },
         
 {
             "ID"   : "M7",
@@ -118,7 +118,7 @@
                 "Background" :{
                     "Volume" : 1,
                     "Name"   : "museum"
-                },
+                }
             },
             "Picture"      : {
                 "LeftID" : "Cat1",
@@ -136,7 +136,7 @@
                 "Background" :{
                     "Volume" : 1,
                     "Name"   : "museum"
-                },
+                }
             },
             "Picture"      : {
                 "LeftID" : "Cat1",
@@ -225,7 +225,7 @@
            
             "Text"         : "Who could've done this and why?",
             "Next"         : "M13"
-                        }
+                        },
         
     
 
@@ -322,7 +322,7 @@
                 "Oneshot" :{
                     "Volume" : 1,
                     "Name"   : "Bear1"
-                },
+                }
             },
             "Location"     : "Museum",
             "Character"    : "None",

@@ -348,7 +348,7 @@
             "Character"    : "Gary",
             "Picture"      : {
                 "LeftID" : "Cat1",
-                "RightID" : "Dog2"
+                "RightID" : "Dog1_H"
                             },
             "Location"     : "Office",
             "Text"         : "It's a pleasure. My name is Gary Spots, Private Investigator.\nAnd this is my dear friend and co-founder of this Agency – Henry Hound!",
@@ -496,7 +496,7 @@
             "Picture"      : {
                 "LeftID" : "Cat1",
                 "RightID" : "Dog1"            },
-            "Text" : "<0i>My anger aimed at the low quality of journalism din't seem to impress Mr Spots.</oi>\nYes, quite. However...",
+            "Text" : "<0i>My anger aimed at the low quality of journalism din't seem to impress Mr Spots.</0i>\nYes, quite. However...",
             "MoreSettings":{
                 "HpChange" : -1
             },
@@ -575,7 +575,7 @@
                             },
             "Character" :"None",
             "Location"     : "Office",
-            "Text" : "<0i>I tell them that I suspect there is more to it then lost letters,\nlike a hidden code.",
+            "Text" : "<0i>I tell them that I suspect there is more to it then lost letters,\nlike a hidden code.</0i>",
             "Next" : "28b1"
         },
         {
@@ -710,10 +710,10 @@
             "ID"   : "34",
             "Picture"      : {
                 "LeftID" : "Cat1",
-                "RightID" : "Dog2"
+                "RightID" : "Dog1_H"
                             },
             "Character" :"Gary",
-            "Text" : "Now it's time to see more of Your skills in practice./nWe've just got the message from Art and History Museum. They need our immediate assistance.",
+            "Text" : "Now it's time to see more of Your skills in practice.\nWe've just got the message from Art and History Museum. They need our immediate assistance.",
             "Location"     : "Office",
             "Next" : "35"
         },
@@ -721,7 +721,7 @@
             "ID"   : "35",
             "Picture"      : {
                 "LeftID" : "Cat1",
-                "RightID" : "Dog2"
+                "RightID" : "Dog1_H"
                             },
             "Character" :"Gary",
             "Text" : "<0i>He nods at the paper on his desk.</0i>",
@@ -732,7 +732,7 @@
             "ID"   : "36",
             "Picture"      : {
                 "LeftID" : "Cat1",
-                "RightID" : "Dog2"
+                "RightID" : "Dog1_H"
                             },
             "Character" :"Gary",
             "Text" : "They were planning an interesting exhibition on Ancient Egypt...\nCould it be...?",

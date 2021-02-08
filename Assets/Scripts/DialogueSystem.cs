@@ -4,8 +4,6 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-
-
 public class DialogueSystem : MonoBehaviour, IBlockable
 {
     [SerializeField] private GameObject _currentCharacterNameContainer;
@@ -76,12 +74,11 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         SetupText( dialoge.Text, dialoge.ID );
         SetupCharacterNamePic( dialoge.Character );
         SetupCharacterPicture( dialoge.Picture );
-        SetupMemory( dialoge.Memory );
+        SetupMoreSettings( dialoge.MoreOptions );
         SetupOptions( dialoge.Options );
         SetupLocation( dialoge.Location);
         SetupCamera( dialoge.Camera );
         SetupSound( dialoge.Music);
-        SetupHpChange( dialoge.MoreSettings );
 
         //_textMarkers.Add( dialoge.Next );
         _currentSquenceIndex = dialoge.ID;
@@ -94,35 +91,32 @@ public class DialogueSystem : MonoBehaviour, IBlockable
         ProcessNextDialogue();
     }
 
-    private void SetupHpChange( AdditionalSetting setting){
+
+
+    private void SetupMoreSettings( AdditionalSetting setting){
         if( setting == null ) return;
 
         _hpSystem.ChangeHp( setting.HpChange );
-    }
 
-    private void SetupMemory( MemoryInfo memoryInfo){
-        if( memoryInfo == null) return;
-
-        if( !string.IsNullOrEmpty(memoryInfo.Name) ){
-            _memory.Show( memoryInfo.Name );
+        if( !string.IsNullOrEmpty(setting.ShowMemory) ){
+            _memory.Show( setting.ShowMemory );
         }
 
-        if( !string.IsNullOrEmpty(memoryInfo.ShowInterface) ){
+        if( !string.IsNullOrEmpty(setting.ShowInterface) ){
             
-            if( memoryInfo.ShowInterface == "Yes"){
+            if( setting.ShowInterface == "Yes"){
                 _choices.gameObject.SetActive(true);
                 gameObject.SetActive(true);
-            }else if( memoryInfo.ShowInterface == "No" ){
+            }else if( setting.ShowInterface == "No" ){
                 _choices.gameObject.SetActive(false);
                 gameObject.SetActive(false);
             }
         }
 
-
-        if( !string.IsNullOrEmpty(memoryInfo.UnlockMemory) ){
-            if( memoryInfo.UnlockMemory == "Yes"){
+        if( !string.IsNullOrEmpty(setting.UnlockMemory) ){
+            if( setting.UnlockMemory == "Yes"){
                 BlockingSettings.MemoryInputBlock = false;
-            }else if( memoryInfo.UnlockMemory == "No" ){
+            }else if( setting.UnlockMemory == "No" ){
                 BlockingSettings.MemoryInputBlock = true;
             }
         }

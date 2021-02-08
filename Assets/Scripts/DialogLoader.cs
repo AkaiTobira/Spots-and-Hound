@@ -45,16 +45,10 @@ public class MusicInfo{
 [System.Serializable]
 public class AdditionalSetting{
     public int HpChange;
-}
-
-
-[System.Serializable]
-public class MemoryInfo{
     public string ShowInterface;
     public string UnlockMemory;
-    public string Name;
+    public string ShowMemory;
 }
-
 
 [System.Serializable]
 public class DialogueEntry{
@@ -66,10 +60,9 @@ public class DialogueEntry{
     public string Shake;
     public MusicInfo Music;
     public PictureInfo Picture;
-    public MemoryInfo Memory;
+    public AdditionalSetting MoreOptions;
     public CameraInfo Camera;
     public OptionInfo[] Options;
-    public AdditionalSetting MoreSettings;
 }
 
 public class DialogLoader : MonoBehaviour

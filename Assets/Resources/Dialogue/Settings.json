@@ -1,0 +1,185 @@
+{
+    "ForcedPanel" : [
+        {
+            "type"  : "SmallInput",
+            "display_name" : "StageID",
+            "save_name" : "ID"
+        },
+        {
+            "type"  : "SmallChoose",
+            "display_name" : "NextID",
+            "save_name" : "Next",
+            "options"   : "ListSystemNextID",
+            "use_as_options" : "ID"
+        } 
+    ],
+    "OptionalPanel": [
+        {
+            "type"  : "SmallChoose",
+            "display_name" : "Character Label",
+            "save_name" : "Character",
+            "options"   : "CharacterLabels",
+            "use_as_options" : "-"
+        },
+        {
+            "type"  : "BigInput",
+            "display_name" : "Stage Text",
+            "save_name" : "Text"
+        },
+        {
+            "type"  : "SubPanel",
+            "save_name" : "Picture",
+            "panels" : 
+            [
+                {
+                    "type"  : "SmallChoose",
+                    "display_name" : "Left Picture",
+                    "save_name" : "LeftID",
+                    "options"   : "CharacterPictureList",
+                    "use_as_options" : "-"  
+                },
+                {
+                    "type"  : "SmallChoose",
+                    "display_name" : "Right Picture",
+                    "save_name" : "RightID",
+                    "options"   : "CharacterPictureList",
+                    "use_as_options" : "-"  
+                }
+            ]
+        },
+        {
+            "type"  : "SmallChoose",
+            "display_name" : "Location",
+            "save_name" : "Location",
+            "options"   : "LocationList",
+            "use_as_options" : "-"
+        },
+        {
+            "type"          : "Choices",
+            "display_name"  : "Choices",
+            "save_name"     : "Options",
+            "option_number" : 4,
+            "option_info"   : [
+                {
+                    "type"      : "S",
+                    "save_name" : "Name"
+                }, 
+                {
+                    "type" : "C",
+                    "save_name" : "Next",
+                    "options"   : "ListSystemNextID",
+                    "use_as_options" : "ID"
+                }
+            ]
+        },
+        {
+            "type"  : "SubPanel",
+            "save_name" : "Music",
+            "panels" : 
+            [
+                {
+                    "type"  : "SubPanel",
+                    "save_name" : "Background",
+                    "panels" : 
+                    [
+                        {
+                            "type"  : "SmallChoose",
+                            "display_name" : "Music BG",
+                            "save_name" : "Name",
+                            "options"   : "BackgroundMusicList",
+                            "use_as_options" : "-"
+                        },
+                        {
+                            "type"  : "SmallInputInt",
+                            "display_name" : "Music BG/Volume",
+                            "range" : [0.0, 1.0],
+                            "save_name" : "Volume"
+                        }
+                    ]
+                },
+                {
+                    "type"  : "SubPanel",
+                    "save_name" : "Oneshot",
+                    "panels" : 
+                    [
+                        {
+                            "type"  : "SmallChoose",
+                            "display_name" : "OneShot",
+                            "save_name" : "Name",
+                            "options"   : "OneShotMusic",
+                            "use_as_options" : "-"
+                        },
+                        {
+                            "type"  : "SmallInputInt",
+                            "range" : [0.0, 1.0],
+                            "display_name" : "OneShot/Volume",
+                            "save_name" : "Volume"
+                        }
+                    ]
+                },
+                {
+                    "type"  : "SubPanel",
+                    "save_name" : "MoreOptions",
+                    "panels" : 
+                    [
+                        {
+                            "type"  : "SmallInputInt",
+                            "display_name" : "Hp change",
+                            "range" : [-5, 5],
+                            "save_name" : "HpChange"  
+                        },
+                        {
+                            "type"  : "SmallCheckbox",
+                            "display_name" : "Unlock Memory",
+                            "default" : false,
+                            "save_name" : "UnlockMemory"  
+                        },
+                        {
+                            "type"  : "SmallCheckbox",
+                            "display_name" : "Show Interface",
+                            "default" : true,
+                            "save_name" : "ShowInterface"
+                        },
+                        {
+                            "type"  : "SmallChoose",
+                            "display_name" : "Show Memory",
+                            "save_name" : "ShowMemory",
+                            "options"   : "MemoryList",
+                            "use_as_options" : "-"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "type"  : "SubPanel",
+            "save_name" : "Camera",
+            "panels" : 
+            [
+                {
+                    "type"  : "SmallInputInt",
+                    "display_name" : "CameraShake(s)",
+                    "range" : [0.0, 5.0],
+                    "save_name" : "Duration"  
+                },
+                {
+                    "type"  : "SmallInputInt",
+                    "display_name" : "CameraShake(f)",
+                    "range" : [0.0, 5.0],
+                    "save_name" : "Magnitude"  
+                }
+            ]
+        }
+    ],
+    "Files" : [ "Initial_BIBLIOTEKA",  "Initial_MUZEUM", "Initial_office", "Initial_piramids", "Initial_Piramids_2"],
+    "IDs_name"    : "ID",
+    "ListSystemNextID" : ["SKIP", "OVER"],
+    "CharacterLabels" : [],
+    "LocationList" : ["Black", "Office"],
+    "BackgroundMusicList" : ["Black", "Office"],
+    "OneShotMusic" : ["Black", "Office"],
+    "CharacterPictureList" : ["Black", "Office"],
+    "MemoryList" : ["Animals", "Keys"]
+}
+

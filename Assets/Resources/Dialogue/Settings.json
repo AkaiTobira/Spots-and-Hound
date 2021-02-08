@@ -175,11 +175,11 @@
     "Files" : [ "Initial_BIBLIOTEKA",  "Initial_MUZEUM", "Initial_office", "Initial_piramids", "Initial_Piramids_2"],
     "IDs_name"    : "ID",
     "ListSystemNextID" : ["SKIP", "OVER"],
-    "CharacterLabels" : [],
-    "LocationList" : ["Black", "Office"],
-    "BackgroundMusicList" : ["Black", "Office"],
-    "OneShotMusic" : ["Black", "Office"],
-    "CharacterPictureList" : ["Black", "Office"],
+    "CharacterLabels" : ["Bergson", "Gary", "Henry", "Lucius", "Elsa", "Saj", "?"],
+    "LocationList" : ["Office", "Museum", "Newspaper", "Piramids", "Basement", "Tomb", "Black", "Focus", "Stairs_Open", "Stairs_Close", "Stairs_Memory", "Library", "Library_Memory", "GameEnd"],
+    "BackgroundMusicList" : ["", "main", "museum", "pyramids", "ambient_start", "rain_ambient", "dark_ambient", "cellar_ambient", "pyramid", ],
+    "OneShotMusic" : ["Something", "fail", "mystery", "shock", "bells", "doorknob", "open_door", "knocking", "stairs", "door_creak", "museum_steps", "button_confirm", "option_selected", "card_hide", "card_clear", "snake1", "cat1_A1", "cat1_A2", "cat1_A3", "cat1_N1", "cat1_N2", "cat1_N3", "cat1_N4", "cat1_H1", "dog1_A1", "dog1_A2", "dog1_A3", "dog1_H1", "dog1_H2", "dog1_H3", "fox1_A", "fox1_B", "fox1_C", "Bear1", "fox2_H3", "fox2_H2", "fox2_H3", "cat1_H2"],
+    "CharacterPictureList" : ["Dog1", "Cat1", "Cat2", "Snake1", "Bear1", "Fox1", "Cat1_A", "Cat1_T", "Dog1_T", "Dog1_H", "Dog1_A"],
     "MemoryList" : ["Animals", "Keys"]
 }
 

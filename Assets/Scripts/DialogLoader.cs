@@ -45,8 +45,8 @@ public class MusicInfo{
 [System.Serializable]
 public class AdditionalSetting{
     public int HpChange;
-    public string ShowInterface;
-    public string UnlockMemory;
+    public bool ShowInterface;
+    public bool UnlockMemory;
     public string ShowMemory;
 }
 

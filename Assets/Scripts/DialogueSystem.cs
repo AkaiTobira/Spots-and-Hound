@@ -102,24 +102,10 @@ public class DialogueSystem : MonoBehaviour, IBlockable
             _memory.Show( setting.ShowMemory );
         }
 
-        if( !string.IsNullOrEmpty(setting.ShowInterface) ){
-            
-            if( setting.ShowInterface == "Yes"){
-                _choices.gameObject.SetActive(true);
-                gameObject.SetActive(true);
-            }else if( setting.ShowInterface == "No" ){
-                _choices.gameObject.SetActive(false);
-                gameObject.SetActive(false);
-            }
-        }
-
-        if( !string.IsNullOrEmpty(setting.UnlockMemory) ){
-            if( setting.UnlockMemory == "Yes"){
-                BlockingSettings.MemoryInputBlock = false;
-            }else if( setting.UnlockMemory == "No" ){
-                BlockingSettings.MemoryInputBlock = true;
-            }
-        }
+        _choices.gameObject.SetActive(setting.ShowInterface);
+        gameObject.SetActive(setting.ShowInterface);
+        BlockingSettings.MemoryInputBlock = setting.UnlockMemory;
+        
     }
 
     struct Marker{

@@ -39,6 +39,18 @@ public class AudioSystem : MonoBehaviour
 		{
 			Destroy(gameObject);
 		}
+
+     //   string ss = "";
+     //   foreach( AudioTrack pos in _clips ){
+     //       ss += '"' + pos._name + '"' + ", " ;
+     //   }
+     //   Debug.Log(ss);
+
+    //     ss = "";
+    //    foreach( AudioTrack pos in _musics ){
+    //        ss += '"' + pos._name + '"' + ", " ;
+    //    }
+    //    Debug.Log(ss);
 	}
 
     private List<AudioTrack> _musicToPlay = new List<AudioTrack>();

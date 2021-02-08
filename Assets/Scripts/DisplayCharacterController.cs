@@ -19,6 +19,12 @@ public class DisplayCharacterController : MonoBehaviour
 
     void Awake() {
         HideAll();
+
+    //    string ss = "";
+    //    foreach( DisplayPosition pos in _characterList ){
+    //        ss += '"' + pos._name + '"' + ", " ;
+    //    }
+    //    Debug.Log(ss);
     }
 
     public void Show( string characterID ){

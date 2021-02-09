@@ -1,151 +1,139 @@
 {
-    "ForcedPanel" : [
+    "ForcedPanel": [
         {
-            "type"  : "SmallInput",
-            "display_name" : "StageID",
-            "save_name" : "ID"
+            "type": "SmallInput",
+            "display_name": "StageID",
+            "save_name": "ID"
         },
         {
-            "type"  : "SmallChoose",
-            "display_name" : "NextID",
-            "save_name" : "Next",
-            "options"   : "ListSystemNextID",
-            "use_as_options" : "ID"
-        } 
+            "type": "SmallChoose",
+            "display_name": "NextID",
+            "save_name": "Next",
+            "options": "ListSystemNextID",
+            "use_as_options": "ID"
+        }
     ],
-    "OptionalPanel": [
-        {
-            "type"  : "SmallChoose",
-            "display_name" : "Character Label",
-            "save_name" : "Character",
-            "options"   : "CharacterLabels",
-            "use_as_options" : "-"
+    "OptionalPanel": [{
+            "type": "SmallChoose",
+            "display_name": "Character Label",
+            "save_name": "Character",
+            "options": "CharacterLabels",
+            "use_as_options": "-"
         },
         {
-            "type"  : "BigInput",
-            "display_name" : "Stage Text",
-            "save_name" : "Text"
+            "type": "BigInput",
+            "display_name": "Stage Text",
+            "save_name": "Text"
         },
         {
-            "type"  : "SubPanel",
-            "save_name" : "Picture",
-            "panels" : 
-            [
-                {
-                    "type"  : "SmallChoose",
-                    "display_name" : "Left Picture",
-                    "save_name" : "LeftID",
-                    "options"   : "CharacterPictureList",
-                    "use_as_options" : "-"  
+            "type": "SubPanel",
+            "save_name": "Picture",
+            "panels": [{
+                    "type": "SmallChoose",
+                    "display_name": "Left Picture",
+                    "save_name": "LeftID",
+                    "options": "CharacterPictureList",
+                    "use_as_options": "-"
                 },
                 {
-                    "type"  : "SmallChoose",
-                    "display_name" : "Right Picture",
-                    "save_name" : "RightID",
-                    "options"   : "CharacterPictureList",
-                    "use_as_options" : "-"  
+                    "type": "SmallChoose",
+                    "display_name": "Right Picture",
+                    "save_name": "RightID",
+                    "options": "CharacterPictureList",
+                    "use_as_options": "-"
                 }
             ]
         },
         {
-            "type"  : "SmallChoose",
-            "display_name" : "Location",
-            "save_name" : "Location",
-            "options"   : "LocationList",
-            "use_as_options" : "-"
+            "type": "SmallChoose",
+            "display_name": "Location",
+            "save_name": "Location",
+            "options": "LocationList",
+            "use_as_options": "-"
         },
         {
-            "type"          : "Choices",
-            "display_name"  : "Choices",
-            "save_name"     : "Options",
-            "option_number" : 4,
-            "option_info"   : [
+            "type": "Choices",
+            "display_name": "Choices",
+            "save_name": "Options",
+            "option_number": 4,
+            "option_info": [{
+                    "type": "S",
+                    "save_name": "Name"
+                },
                 {
-                    "type"      : "S",
-                    "save_name" : "Name"
-                }, 
-                {
-                    "type" : "C",
-                    "save_name" : "Next",
-                    "options"   : "ListSystemNextID",
-                    "use_as_options" : "ID"
+                    "type": "C",
+                    "save_name": "Next",
+                    "options": "ListSystemNextID",
+                    "use_as_options": "ID"
                 }
             ]
         },
         {
-            "type"  : "SubPanel",
-            "save_name" : "Music",
-            "panels" : 
-            [
-                {
-                    "type"  : "SubPanel",
-                    "save_name" : "Background",
-                    "panels" : 
-                    [
-                        {
-                            "type"  : "SmallChoose",
-                            "display_name" : "Music BG",
-                            "save_name" : "Name",
-                            "options"   : "BackgroundMusicList",
-                            "use_as_options" : "-"
+            "type": "SubPanel",
+            "save_name": "Music",
+            "panels": [{
+                    "type": "SubPanel",
+                    "save_name": "Background",
+                    "panels": [{
+                            "type": "SmallChoose",
+                            "display_name": "Music BG",
+                            "save_name": "Name",
+                            "options": "BackgroundMusicList",
+                            "use_as_options": "-"
                         },
                         {
-                            "type"  : "SmallInputInt",
-                            "display_name" : "Music BG/Volume",
-                            "range" : [0.0, 1.0],
-                            "save_name" : "Volume"
+                            "type": "SmallInputFloat",
+                            "display_name": "Music BG/Volume",
+                            "range": [0.0, 1.0],
+                            "save_name": "Volume"
                         }
                     ]
                 },
                 {
-                    "type"  : "SubPanel",
-                    "save_name" : "Oneshot",
-                    "panels" : 
-                    [
-                        {
-                            "type"  : "SmallChoose",
-                            "display_name" : "OneShot",
-                            "save_name" : "Name",
-                            "options"   : "OneShotMusic",
-                            "use_as_options" : "-"
+                    "type": "SubPanel",
+                    "save_name": "Oneshot",
+                    "panels": [{
+                            "type": "SmallChoose",
+                            "display_name": "OneShot",
+                            "save_name": "Name",
+                            "options": "OneShotMusic",
+                            "use_as_options": "-"
                         },
                         {
-                            "type"  : "SmallInputInt",
-                            "range" : [0.0, 1.0],
-                            "display_name" : "OneShot/Volume",
-                            "save_name" : "Volume"
+                            "type": "SmallInputFloat",
+                            "range": [0.0, 1.0],
+                            "display_name": "OneShot/Volume",
+                            "save_name": "Volume"
                         }
                     ]
                 },
                 {
-                    "type"  : "SubPanel",
-                    "save_name" : "MoreOptions",
-                    "panels" : 
-                    [
-                        {
-                            "type"  : "SmallInputInt",
-                            "display_name" : "Hp change",
-                            "range" : [-5, 5],
-                            "save_name" : "HpChange"  
+                    "type": "SubPanel",
+                    "save_name": "MoreOptions",
+                    "panels": [{
+                            "type": "SmallInputInt",
+                            "display_name": "Hp change",
+                            "range": [-5, 5],
+                            "save_name": "HpChange"
                         },
                         {
-                            "type"  : "SmallCheckbox",
-                            "display_name" : "Unlock Memory",
-                            "default" : false,
-                            "save_name" : "UnlockMemory"  
+                            "type": "SmallCheckbox",
+                            "display_name": "Unlock Memory",
+                            "default": false,
+                            "save_name": "UnlockMemory"
                         },
                         {
-                            "type"  : "SmallCheckbox",
-                            "display_name" : "Show Interface",
-                            "default" : true,
-                            "save_name" : "ShowInterface"
+                            "type": "SmallCheckbox",
+                            "display_name": "Show Interface",
+                            "default": true,
+                            "save_name": "ShowInterface"
                         },
                         {
-                            "type"  : "SmallChoose",
-                            "display_name" : "Show Memory",
-                            "save_name" : "ShowMemory",
-                            "options"   : "MemoryList",
-                            "use_as_options" : "-"
+                            "type": "SmallChoose",
+                            "display_name": "Show Memory",
+                            "save_name": "ShowMemory",
+                            "options": "MemoryList",
+                            "use_as_options": "-"
                         }
                     ]
                 }
@@ -153,33 +141,30 @@
         },
 
         {
-            "type"  : "SubPanel",
-            "save_name" : "Camera",
-            "panels" : 
-            [
-                {
-                    "type"  : "SmallInputInt",
-                    "display_name" : "CameraShake(s)",
-                    "range" : [0.0, 5.0],
-                    "save_name" : "Duration"  
+            "type": "SubPanel",
+            "save_name": "Camera",
+            "panels": [{
+                    "type": "SmallInputFloat",
+                    "display_name": "CameraShake(s)",
+                    "range": [0.0, 5.0],
+                    "save_name": "Duration"
                 },
                 {
-                    "type"  : "SmallInputInt",
-                    "display_name" : "CameraShake(f)",
-                    "range" : [0.0, 5.0],
-                    "save_name" : "Magnitude"  
+                    "type": "SmallInputFloat",
+                    "display_name": "CameraShake(f)",
+                    "range": [0.0, 5.0],
+                    "save_name": "Magnitude"
                 }
             ]
         }
     ],
-    "Files" : [ "Initial_BIBLIOTEKA",  "Initial_MUZEUM", "Initial_office", "Initial_piramids", "Initial_Piramids_2"],
-    "IDs_name"    : "ID",
-    "ListSystemNextID" : ["SKIP", "OVER"],
-    "CharacterLabels" : ["Bergson", "Gary", "Henry", "Lucius", "Elsa", "Saj", "?"],
-    "LocationList" : ["Office", "Museum", "Newspaper", "Piramids", "Basement", "Tomb", "Black", "Focus", "Stairs_Open", "Stairs_Close", "Stairs_Memory", "Library", "Library_Memory", "GameEnd"],
-    "BackgroundMusicList" : ["", "main", "museum", "pyramids", "ambient_start", "rain_ambient", "dark_ambient", "cellar_ambient", "pyramid", ],
-    "OneShotMusic" : ["Something", "fail", "mystery", "shock", "bells", "doorknob", "open_door", "knocking", "stairs", "door_creak", "museum_steps", "button_confirm", "option_selected", "card_hide", "card_clear", "snake1", "cat1_A1", "cat1_A2", "cat1_A3", "cat1_N1", "cat1_N2", "cat1_N3", "cat1_N4", "cat1_H1", "dog1_A1", "dog1_A2", "dog1_A3", "dog1_H1", "dog1_H2", "dog1_H3", "fox1_A", "fox1_B", "fox1_C", "Bear1", "fox2_H3", "fox2_H2", "fox2_H3", "cat1_H2"],
-    "CharacterPictureList" : ["Dog1", "Cat1", "Cat2", "Snake1", "Bear1", "Fox1", "Cat1_A", "Cat1_T", "Dog1_T", "Dog1_H", "Dog1_A"],
-    "MemoryList" : ["Animals", "Keys"]
+    "Files": ["Initial_BIBLIOTEKA", "Initial_MUZEUM", "Initial_office", "Initial_piramids", "Initial_Piramids_2"],
+    "IDs_name": "ID",
+    "ListSystemNextID": ["SKIP", "OVER"],
+    "CharacterLabels": ["Bergson", "Gary", "Henry", "Lucius", "Elsa", "Saj", "?"],
+    "LocationList": ["Office", "Museum", "Newspaper", "Piramids", "Basement", "Tomb", "Black", "Focus", "Stairs_Open", "Stairs_Close", "Stairs_Memory", "Library", "Library_Memory", "GameEnd"],
+    "BackgroundMusicList": ["", "main", "museum", "pyramids", "ambient_start", "rain_ambient", "dark_ambient", "cellar_ambient", "pyramid", ],
+    "OneShotMusic": ["Something", "fail", "mystery", "shock", "bells", "doorknob", "open_door", "knocking", "stairs", "door_creak", "museum_steps", "button_confirm", "option_selected", "card_hide", "card_clear", "snake1", "cat1_A1", "cat1_A2", "cat1_A3", "cat1_N1", "cat1_N2", "cat1_N3", "cat1_N4", "cat1_H1", "dog1_A1", "dog1_A2", "dog1_A3", "dog1_H1", "dog1_H2", "dog1_H3", "fox1_A", "fox1_B", "fox1_C", "Bear1", "fox2_H3", "fox2_H2", "fox2_H3", "cat1_H2"],
+    "CharacterPictureList": ["Dog1", "Cat1", "Cat2", "Snake1", "Bear1", "Fox1", "Cat1_A", "Cat1_T", "Dog1_T", "Dog1_H", "Dog1_A"],
+    "MemoryList": ["Animals", "Keys"]
 }
-

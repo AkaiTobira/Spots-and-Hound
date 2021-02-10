@@ -22,15 +22,13 @@ public class AudioSystem : MonoBehaviour
     [Header("Oneshots")]
     [SerializeField] private List<AudioSource> _effectsPLayers = new List<AudioSource>();
     [SerializeField] private List<AudioTrack> _clips;
+    public float LowPitchRange = 0.95f;
+	public float HighPitchRange = 1.05f;
 
     [Header("BG Music")]
     [SerializeField] private List<AudioTrack> _musics;
 	[SerializeField] private AudioSource MusicSource;
 
-
-	public float LowPitchRange = .95f;
-	public float HighPitchRange = 1.05f;
-	
 
 	private void Awake()
 	{
